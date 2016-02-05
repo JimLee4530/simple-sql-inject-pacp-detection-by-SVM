@@ -1,29 +1,35 @@
-from pcapng import FileScanner
+
+              
+import dpkt
+import sys
 import os
+import urllib
 
-# # with open('/home/jimlee/Documents/Git/simple-sql-inject-pacpng-detection-by-SVM/4.pcapng') as fp:
-# fp_r =  open('/home/jimlee/Documents/Git/simple-sql-inject-pacpng-detection-by-SVM/4.pcapng','r')
-# scanner = FileScanner(fp)
-# for block in scanner:
-#     print block
-#     num = raw_input('enter y/n:')
-#     if num = 'y':
-#     	print block
-#     else:
-#     	pass
-# fp.close
+f=open('/home/jimlee/Documents/Git/simple-sql-inject-pacpng-detection-by-SVM/5.pcap',"r")
+f_w=open('/home/jimlee/Documents/Git/simple-sql-inject-pacpng-detection-by-SVM/test.txt',"w")
+pcap=dpkt.pcap.Reader(f)
 
 
+for ts, buf in pcap:
+    # print ts,len(buf)
+    eth = dpkt.ethernet.Ethernet(buf)
+    ip = eth.data
+    tcp = ip.data
 
-fp_w = open('/home/jimlee/Documents/Git/simple-sql-inject-pacpng-detection-by-SVM/test.txt','a')
-fp_r =  open('/home/jimlee/Documents/Git/simple-sql-inject-pacpng-detection-by-SVM/4.pcapng','r')
-scanner = FileScanner(fp_r)
-i = 0
-for block in scanner:
-	# i += 1
-	# if i > 2:
-    fp_w.write("%s%s" % (block ,os.linesep))
-    # else:
-    # 	continue
-fp_w.close
-fp_r.close
+    # print tcp.sport
+    # print tcp.dport
+    try:
+        if tcp.dport == 80 and len(tcp.data) > 0:
+            http = dpkt.http.Request(tcp.data)
+            # print http.method
+            f_w.write('%s%s' % (urllib.unquote(http.uri),os.linesep))
+            # print http.version
+            # print http.headers
+    except:
+        pass
+
+    # raw_input()
+
+
+f.close()
+f_w.close()
