@@ -42,3 +42,6 @@ delay
 dbms_pipe.receive_message
 null
 order
+httpaddr
+imgurl
+login
