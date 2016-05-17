@@ -22,9 +22,11 @@ for each_line in all_lines:
     key_list.append(each_line.strip())
 # print len(key_list)
 
+len_key = len(key_list)
+
 pcap = dpkt.pcap.Reader(f)
 
-X = np.zeros([236,44],int)
+X = np.zeros([236,len_key],int)
 y = np.ones([236],int)
 
 n = 0
@@ -46,11 +48,17 @@ for ts, buf in pcap:
             # print http.method
             uri = http.uri
             uri = uri.lower()
+            print uri
             uri = re.sub(r'[0-9]+', ' number ', uri)  
-            uri = re.sub(r'%', ' ',uri)
-            uri = re.sub(r'\-', ' ',uri)
+            uri = uri.replace('%', ' per_cent ')
+            uri = re.sub(r'\-', ' hyphen ',uri)
+            uri = re.sub(r'\'', ' colon ',uri)
+            uri = re.sub(r'\=', ' equality_sign ', uri)
+            uri = re.sub(r'\(', ' left_bracket ', uri)
+            uri = re.sub(r'\)', ' right_bracket ', uri)
             txt_array = string.split(uri,' ')
-            # raw_input("pause")
+            print uri
+            raw_input("pause")
             for i in range(0, len(txt_array)):
                 # print txt_array[i]
                 # print 
